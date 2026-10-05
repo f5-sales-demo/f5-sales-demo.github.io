@@ -132,12 +132,6 @@
     "category": "product-features"
   },
   {
-    "label": "WAF",
-    "url": "https://f5-sales-demo.github.io/waf/llms.txt",
-    "description": "Web Application Firewall configuration, signature inspection, threat campaigns, and enforcement",
-    "category": "product-features"
-  },
-  {
     "label": "API Protection",
     "url": "https://f5-sales-demo.github.io/api-protection/llms.txt",
     "description": "API security, OpenAPI schema validation, positive security models, and rate limiting",
