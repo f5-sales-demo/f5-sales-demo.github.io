@@ -48,12 +48,6 @@
     "category": "build-platform"
   },
   {
-    "label": "Dev Container",
-    "url": "https://f5-sales-demo.github.io/devcontainer/llms.txt",
-    "description": "Preconfigured development container toolchain with automated linters and AI tooling",
-    "category": "build-platform"
-  },
-  {
     "label": "i18n Core",
     "url": "https://f5-sales-demo.github.io/i18n-core/llms.txt",
     "description": "Canonical locale registry, slug resolution, and i18n utilities for documentation sites",
