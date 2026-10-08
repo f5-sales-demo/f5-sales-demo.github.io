@@ -14,7 +14,7 @@
     "browser_matrix": 42,
     "showcase_browser": 1
   },
-  "status": "installed pilot verified; required CI and immutable publication pending",
+  "status": "immutable image verified; final Pages deployment pending",
   "installed": {
     "builder": "1.5.3",
     "theme": "4.11.6",
@@ -22,5 +22,6 @@
     "browser_matrix": 42,
     "header_widths": 8,
     "showcase_browser_test": "passed"
-  }
+  },
+  "builder_digest": "sha256:1eb69a083da97af2e45093dec1dff2877eb9891b249d9c357cd9d07f00cc0374"
 }
