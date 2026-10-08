@@ -1,0 +1,33 @@
+{
+  "scope": "published unchanged-consumer acceptance",
+  "rootRun": "https://github.com/f5-sales-demo/f5-sales-demo.github.io/actions/runs/37771575724",
+  "results": [
+    {
+      "browser": "chromium",
+      "consumerCommit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+      "builder": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+      "rootOnlyUpdate": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "warmCache": true,
+      "outage": true,
+      "retainedRollback": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade"
+    },
+    {
+      "browser": "firefox",
+      "consumerCommit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+      "builder": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+      "rootOnlyUpdate": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "warmCache": true,
+      "outage": true,
+      "retainedRollback": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade"
+    },
+    {
+      "browser": "webkit",
+      "consumerCommit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+      "builder": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+      "rootOnlyUpdate": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "warmCache": true,
+      "outage": true,
+      "retainedRollback": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade"
+    }
+  ]
+}
