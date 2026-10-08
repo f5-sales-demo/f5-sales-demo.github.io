@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://f5-sales-demo.github.io/en/",
+    "status": 200,
+    "title": "F5 Distributed Cloud sales demos | F5 Distributed Cloud sales demos",
+    "h1": "F5 Distributed Cloud sales demos",
+    "opening": "F5 Distributed Cloud sales demos\nDemonstration guides, environment resources, and technical tools for sales engineers and solution architects.\nDemo catalog\nDemo environment\nDemos\nSection titled \u201cDemos\u201d\nSecurity\nSection titled \u201cSecurity\u201d\nWeb App & API Protection\nDeploy an application security demo with Terraform and follow its protection walkthroughs.\nAPI Protection\nFind guides to API discovery, schema validation, and request controls.\nBot Defense Advanced\nReview behavioral bot detection and miti"
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/en/demos/",
+    "status": 200,
+    "title": "Demo catalog | F5 Distributed Cloud sales demos",
+    "h1": "Demo catalog",
+    "opening": "Demo catalog\n\nChoose a demonstration or capability guide, then check its deployment requirements and verification steps. Demo guides include implementation workflows; capability guides explain a feature and its scenarios.\n\nDemo environment provides supporting infrastructure. Ecosystem directory includes tools and project sources.\n\nSecurity\nSection titled \u201cSecurity\u201d\nWeb App & API Protection \u2014 Deploy an application security demo with Terraform and follow its protection walkthroughs. Demo guide.\nAP"
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/",
+    "status": 200,
+    "title": "Ecosystem directory | F5 Distributed Cloud sales demos",
+    "h1": "Ecosystem directory",
+    "opening": "Ecosystem directory\n\nFind demonstrations, environment resources, operations guides, and developer tools in the F5 sales demo community. These repositories include community projects and independent tools; directory inclusion does not imply official F5 product support. Each entry identifies documentation, a deployment guide, or source.\n\nDemo catalog groups the demonstration guides. Source-only and planned projects appear at the end of this directory.\n\nSecurity\nSection titled \u201cSecurity\u201d\nWeb App & "
+  }
+]
