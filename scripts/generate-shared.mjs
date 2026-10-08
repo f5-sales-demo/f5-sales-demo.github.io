@@ -73,6 +73,7 @@ assets.css = await asset(
     menuCss,
     await readFile(join(theme, 'styles/custom.css')),
     await readFile(join(theme, 'styles/shell.css')),
+    await readFile('ecosystem/shell.css'),
   ]),
   'css',
 );

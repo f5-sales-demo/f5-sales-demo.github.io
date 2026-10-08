@@ -1,0 +1,119 @@
+{
+  "contract": "v1",
+  "assets": {
+    "font:neusaNextProWide-300.woff2": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/d2c43d65a90270a24f54e777a21924b3dcf590dfcfdf4381a6dacd2e7da5bf91.woff2",
+      "sha256": "d2c43d65a90270a24f54e777a21924b3dcf590dfcfdf4381a6dacd2e7da5bf91",
+      "bytes": 24456,
+      "extension": "woff2"
+    },
+    "font:neusaNextProWide-400.woff2": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/3bd89111de3371e1fa9e10bab7ea3d6d35eee837b98731b0ff829cfa3c1cc27e.woff2",
+      "sha256": "3bd89111de3371e1fa9e10bab7ea3d6d35eee837b98731b0ff829cfa3c1cc27e",
+      "bytes": 24308,
+      "extension": "woff2"
+    },
+    "font:neusaNextProWide-500.woff2": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/ec6f53dca2cb0781bf04d8a273a6d64e992dbdab315861b5c3a60b9c275fc3d4.woff2",
+      "sha256": "ec6f53dca2cb0781bf04d8a273a6d64e992dbdab315861b5c3a60b9c275fc3d4",
+      "bytes": 24524,
+      "extension": "woff2"
+    },
+    "font:neusaNextProWide-700.woff2": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/2e7154ec9ccaa5b3d695a81a41000d8f9f8fa3c5a264533e146b9d2359c87f34.woff2",
+      "sha256": "2e7154ec9ccaa5b3d695a81a41000d8f9f8fa3c5a264533e146b9d2359c87f34",
+      "bytes": 23808,
+      "extension": "woff2"
+    },
+    "font:neusaNextProWide-400i.woff2": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/567e1f99d0291a821a5c7e80ae3713488fa204c197343aaf90841beaf52ccb5a.woff2",
+      "sha256": "567e1f99d0291a821a5c7e80ae3713488fa204c197343aaf90841beaf52ccb5a",
+      "bytes": 49192,
+      "extension": "woff2"
+    },
+    "font:neusaNextProWide-700i.woff2": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/2811287f931e3d8bf9c212bb19fb6053d0bbb9c0c857ea01344dae448b51d9b3.woff2",
+      "sha256": "2811287f931e3d8bf9c212bb19fb6053d0bbb9c0c857ea01344dae448b51d9b3",
+      "bytes": 48800,
+      "extension": "woff2"
+    },
+    "font:proximaNova-400.woff2": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/8685e4e04b8e103611c574fe8f2b3abb36e126919d45d5848c4bb06d8edec84a.woff2",
+      "sha256": "8685e4e04b8e103611c574fe8f2b3abb36e126919d45d5848c4bb06d8edec84a",
+      "bytes": 18008,
+      "extension": "woff2"
+    },
+    "font:proximaNova-500.woff2": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/73ac7c0068ab84fcb7caf1e3353c0d50111867194d59570593cec72184f28425.woff2",
+      "sha256": "73ac7c0068ab84fcb7caf1e3353c0d50111867194d59570593cec72184f28425",
+      "bytes": 19068,
+      "extension": "woff2"
+    },
+    "font:proximaNova-600.woff2": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/e3b183771ff499b4d57e07811bb3ea9357c977024d7adc6b39e974f075c52ad8.woff2",
+      "sha256": "e3b183771ff499b4d57e07811bb3ea9357c977024d7adc6b39e974f075c52ad8",
+      "bytes": 18144,
+      "extension": "woff2"
+    },
+    "font:proximaNova-700.woff2": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/352c6c9e74f1c1b00c32d4a902ba867f658855ee33a3e23307bd11048f7c06a1.woff2",
+      "sha256": "352c6c9e74f1c1b00c32d4a902ba867f658855ee33a3e23307bd11048f7c06a1",
+      "bytes": 19040,
+      "extension": "woff2"
+    },
+    "logo": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/487f0f7a70ffaa67c7127b2eef2b094c6eae42d8d6e6ba0a14c784013b2c6d48.svg",
+      "sha256": "487f0f7a70ffaa67c7127b2eef2b094c6eae42d8d6e6ba0a14c784013b2c6d48",
+      "bytes": 2294,
+      "extension": "svg"
+    },
+    "favicon": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/3402d9a74d6a627f098da467fda72cde93ee686ecb1ceba2c96d1f4bd18857b3.svg",
+      "sha256": "3402d9a74d6a627f098da467fda72cde93ee686ecb1ceba2c96d1f4bd18857b3",
+      "bytes": 4282,
+      "extension": "svg"
+    },
+    "canada-flag.svg": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/345ec9dac057e203f1331b2d3f9f473789864edaee1182a26bc261356bcf72f1.svg",
+      "sha256": "345ec9dac057e203f1331b2d3f9f473789864edaee1182a26bc261356bcf72f1",
+      "bytes": 625,
+      "extension": "svg"
+    },
+    "canada-favicon.svg": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/153e9dc696353087b34f99f53c49d730befb165154c74c1a5fa25deb5427ca13.svg",
+      "sha256": "153e9dc696353087b34f99f53c49d730befb165154c74c1a5fa25deb5427ca13",
+      "bytes": 685,
+      "extension": "svg"
+    },
+    "github-avatar.png": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/8b6f310d3ae603da3d5ece8f2a0a9d701866710c65b15c4a16e7a32436940155.png",
+      "sha256": "8b6f310d3ae603da3d5ece8f2a0a9d701866710c65b15c4a16e7a32436940155",
+      "bytes": 14890,
+      "extension": "png"
+    },
+    "flag-icons-LICENSE.txt": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/8f1195d55a2fd315a07d812328470ca9ba2abb78c8d317ff19619d5125e00cea.txt",
+      "sha256": "8f1195d55a2fd315a07d812328470ca9ba2abb78c8d317ff19619d5125e00cea",
+      "bytes": 1087,
+      "extension": "txt"
+    },
+    "css": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/9851ed5aa012eb60ec995c4f224648428c982ea3a298acf5ddc666132479da9c.css",
+      "sha256": "9851ed5aa012eb60ec995c4f224648428c982ea3a298acf5ddc666132479da9c",
+      "bytes": 45325,
+      "extension": "css"
+    },
+    "runtime": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/807aab5e2fa8814559cda2e17684ea5bab6bd4dab1560e3cde829a5ea0416f4b.js",
+      "sha256": "807aab5e2fa8814559cda2e17684ea5bab6bd4dab1560e3cde829a5ea0416f4b",
+      "bytes": 243405,
+      "extension": "js"
+    },
+    "data": {
+      "url": "https://f5-sales-demo.github.io/shared/assets/e034f99d12c75a123efbeaaf1a4e39de4bdaa82371b184887e4cf09ae7b75f5c.json",
+      "sha256": "e034f99d12c75a123efbeaaf1a4e39de4bdaa82371b184887e4cf09ae7b75f5c",
+      "bytes": 169673,
+      "extension": "json"
+    }
+  }
+}
