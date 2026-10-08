@@ -1,0 +1,2467 @@
+{
+  "schemaVersion": 1,
+  "scope": "Published root-hosted shared shell and one-time 34-site migration",
+  "verifiedAt": "2026-10-08T14:16:15.777645+00:00",
+  "status": "acceptance-pending-managed-convergence",
+  "theme": {
+    "version": "4.12.0",
+    "commit": "f318f6868f546b0568230cc581c6f2a3785685f8",
+    "integrity": "sha512-hZO5ENghSbAvRCHHRblorSdpeEHDNEDMF2v/7NKLiXYS6bZPg4gPIOwIF4zCVfoTYxAGvh7N+JG8GbK0+npRzQ=="
+  },
+  "builders": [
+    {
+      "version": "1.6.0",
+      "digest": "sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+      "publicationRun": "https://github.com/f5-sales-demo/docs-builder/actions/runs/37767732671"
+    },
+    {
+      "version": "1.6.1",
+      "digest": "sha256:eaf57b7f92b26ab11e69420564dad4d3ad194ac7203ed7e292a04a230ed83d29",
+      "publicationRun": "https://github.com/f5-sales-demo/docs-builder/actions/runs/37784415589"
+    }
+  ],
+  "publicConsumers": {
+    "active": {
+      "contract": "v1",
+      "release": {
+        "url": "https://f5-sales-demo.github.io/shared/v1/releases/ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a.json",
+        "sha256": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+        "bytes": 5766
+      }
+    },
+    "sharedAssetBytes": 751614,
+    "sites": [
+      {
+        "site": "F5 Docs Corpus",
+        "base": "https://f5-sales-demo.github.io/html-to-markdown/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/html-to-markdown",
+          "pages": 2,
+          "localAssetBytes": 408924,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "8bea0ff9e48925b57cc3d3ce3e520c9ce62e8aa3",
+          "commit": "8bea0ff9e48925b57cc3d3ce3e520c9ce62e8aa3",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "content-20261007T124508Z",
+          "publication_sha256": "f3626d507f0c3ea515b683e6bceecf43cad5793f87922e2d1f80fd353df44f21",
+          "snapshot_source_commit": "bcb19290b4029fe47c11cc01981906021d1b29e2"
+        }
+      },
+      {
+        "site": "xcsh Docs Builder",
+        "base": "https://f5-sales-demo.github.io/docs-builder/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/docs-builder",
+          "pages": 92,
+          "localAssetBytes": 408912,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "4f8805d63124d9954a756b961c91e66eff97c7a2",
+          "commit": "4f8805d63124d9954a756b961c91e66eff97c7a2",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "XC Docs Theme",
+        "base": "https://f5-sales-demo.github.io/docs-theme/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/docs-theme",
+          "pages": 378,
+          "localAssetBytes": 411703,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "053f5bbbcfcb2630e560bf1d0ebb67873bc2d42b",
+          "commit": "053f5bbbcfcb2630e560bf1d0ebb67873bc2d42b",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "F5 XC Docs",
+        "base": "https://f5-sales-demo.github.io/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "publish",
+          "repository": "f5-sales-demo/f5-sales-demo.github.io",
+          "pages": 40,
+          "localAssetBytes": 408235,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "b111a73c6f3a5b1bcc283e5731e77383010ee098",
+          "commit": "b111a73c6f3a5b1bcc283e5731e77383010ee098",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Administration",
+        "base": "https://f5-sales-demo.github.io/administration/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/administration",
+          "pages": 40,
+          "localAssetBytes": 408918,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "47863b16848e14ca57f2063b13458540628b2613",
+          "commit": "47863b16848e14ca57f2063b13458540628b2613",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "NGINX",
+        "base": "https://f5-sales-demo.github.io/nginx/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/nginx",
+          "pages": 14,
+          "localAssetBytes": 408360,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "dfda82886d850363975fde1d360955172ba7b54a",
+          "commit": "dfda82886d850363975fde1d360955172ba7b54a",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Observability",
+        "base": "https://f5-sales-demo.github.io/observability/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/observability",
+          "pages": 27,
+          "localAssetBytes": 408384,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "63cb6b14d4e6926b8809800db4252fc302dd561f",
+          "commit": "63cb6b14d4e6926b8809800db4252fc302dd561f",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Statistics",
+        "base": "https://f5-sales-demo.github.io/statistics/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/statistics",
+          "pages": 15,
+          "localAssetBytes": 435633,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "571199682328d1660fe5f6b0dd92f1f156437094",
+          "commit": "571199682328d1660fe5f6b0dd92f1f156437094",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Certificate Management",
+        "base": "https://f5-sales-demo.github.io/certificate-management/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/certificate-management",
+          "pages": 118,
+          "localAssetBytes": 408942,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "429e009ebebe57bd698bdea9de9e42c90da657c9",
+          "commit": "429e009ebebe57bd698bdea9de9e42c90da657c9",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Web App Scanning",
+        "base": "https://f5-sales-demo.github.io/was/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/was",
+          "pages": 14,
+          "localAssetBytes": 408354,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "1cdbc22080b54e2f4ad7e806bf2d1a279d07e31c",
+          "commit": "1cdbc22080b54e2f4ad7e806bf2d1a279d07e31c",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Multi-Cloud Networking",
+        "base": "https://f5-sales-demo.github.io/multi-cloud-networking/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/multi-cloud-networking",
+          "pages": 781,
+          "localAssetBytes": 405290,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "ee2fe06d6cf03ff97baad9b1cad55fe6ac83ee5d",
+          "commit": "ee2fe06d6cf03ff97baad9b1cad55fe6ac83ee5d",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Canada Topology",
+        "base": "https://f5-sales-demo.github.io/canada/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/canada",
+          "pages": 15,
+          "localAssetBytes": 411409,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+          "commit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "DNS",
+        "base": "https://f5-sales-demo.github.io/dns/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/dns",
+          "pages": 92,
+          "localAssetBytes": 434535,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "87afe68248447f9193330517c537f9f441e39049",
+          "commit": "87afe68248447f9193330517c537f9f441e39049",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "CDN",
+        "base": "https://f5-sales-demo.github.io/cdn/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/cdn",
+          "pages": 14,
+          "localAssetBytes": 408354,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "58483f82b3b3acfa65c3b3cfd28ed092b2533671",
+          "commit": "58483f82b3b3acfa65c3b3cfd28ed092b2533671",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Bot Standard",
+        "base": "https://f5-sales-demo.github.io/bot-standard/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/bot-standard",
+          "pages": 14,
+          "localAssetBytes": 408912,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "37f23ff7b6d9ecb3058b6fb8f878e6922677c6a4",
+          "commit": "37f23ff7b6d9ecb3058b6fb8f878e6922677c6a4",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Bot Advanced",
+        "base": "https://f5-sales-demo.github.io/bot-advanced/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/bot-advanced",
+          "pages": 14,
+          "localAssetBytes": 408381,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "31077c05afa12257a0536d5f8c3d1607bd753614",
+          "commit": "31077c05afa12257a0536d5f8c3d1607bd753614",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "DDoS",
+        "base": "https://f5-sales-demo.github.io/ddos/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/ddos",
+          "pages": 105,
+          "localAssetBytes": 436232,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "2dda2dcf0e0c5e73c86c02f3c0793ead9bb6bd64",
+          "commit": "2dda2dcf0e0c5e73c86c02f3c0793ead9bb6bd64",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "API Security",
+        "base": "https://f5-sales-demo.github.io/api-protection/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/api-protection",
+          "pages": 14,
+          "localAssetBytes": 408387,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "2d1a1af63132098d0d3a78d7a93e579ae6434f99",
+          "commit": "2d1a1af63132098d0d3a78d7a93e579ae6434f99",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Web App & API Protection",
+        "base": "https://f5-sales-demo.github.io/webapp-api-protection/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/webapp-api-protection",
+          "pages": 40,
+          "localAssetBytes": 434648,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "cf2c0b1e0fefdc2f274d6107fc93fec9ba09c073",
+          "commit": "cf2c0b1e0fefdc2f274d6107fc93fec9ba09c073",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "API Specs",
+        "base": "https://f5-sales-demo.github.io/api-specs/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/api-specs",
+          "pages": 118,
+          "localAssetBytes": 408372,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "1ae8054c829bb87870b1666819fda3013fe857b5",
+          "commit": "1ae8054c829bb87870b1666819fda3013fe857b5",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "API Specs Enriched",
+        "base": "https://f5-sales-demo.github.io/api-specs-enriched/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/api-specs-enriched",
+          "pages": 2560,
+          "localAssetBytes": 431915,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "212feeca17cb13fa14d41b24f4834c671a4639e8",
+          "commit": "212feeca17cb13fa14d41b24f4834c671a4639e8",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Client-Side Defense",
+        "base": "https://f5-sales-demo.github.io/csd/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/csd",
+          "pages": 287,
+          "localAssetBytes": 435736,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "fbc7a48875592407bed3a9aa637ea03daa207650",
+          "commit": "fbc7a48875592407bed3a9aa637ea03daa207650",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Docs Icons",
+        "base": "https://f5-sales-demo.github.io/docs-icons/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/docs-icons",
+          "pages": 222,
+          "localAssetBytes": 408797,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "093b4fbdeb337bf613261485cc225554bc47b793",
+          "commit": "093b4fbdeb337bf613261485cc225554bc47b793",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Terraform Provider",
+        "base": "https://f5-sales-demo.github.io/terraform-provider-xcsh/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/terraform-provider-xcsh",
+          "pages": 16373,
+          "localAssetBytes": 417622,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "90ee4dbd9980a6e793b08b499bfd99c2fd067037",
+          "commit": "90ee4dbd9980a6e793b08b499bfd99c2fd067037",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Marketplace",
+        "base": "https://f5-sales-demo.github.io/marketplace/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/marketplace",
+          "pages": 390,
+          "localAssetBytes": 405366,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "ec68a7c61ced048b7c81a3845fe50d6caec2de09",
+          "commit": "ec68a7c61ced048b7c81a3845fe50d6caec2de09",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "xcsh",
+        "base": "https://f5-sales-demo.github.io/xcsh/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/xcsh",
+          "pages": 760,
+          "localAssetBytes": 408779,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "d7c4435d0663c8989ae0ca26b5767568c6001505",
+          "commit": "d7c4435d0663c8989ae0ca26b5767568c6001505",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "xcsh Action",
+        "base": "https://f5-sales-demo.github.io/xcsh-action/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/xcsh-action",
+          "pages": 170,
+          "localAssetBytes": 405257,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "1efafff9836c718ed74368f7338f0f7d38548e91",
+          "commit": "1efafff9836c718ed74368f7338f0f7d38548e91",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "CDN Simulator",
+        "base": "https://f5-sales-demo.github.io/cdn-simulator/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/cdn-simulator",
+          "pages": 105,
+          "localAssetBytes": 408915,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "56fd155ba1bc630e4941e9a815b13cd2839b05a4",
+          "commit": "56fd155ba1bc630e4941e9a815b13cd2839b05a4",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Origin Server",
+        "base": "https://f5-sales-demo.github.io/origin-server/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/origin-server",
+          "pages": 144,
+          "localAssetBytes": 408275,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "63df7293c21b5152076babb540f2f02e72d936e1",
+          "commit": "63df7293c21b5152076babb540f2f02e72d936e1",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Demo Resources",
+        "base": "https://f5-sales-demo.github.io/demo-resources/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/demo-resources",
+          "pages": 66,
+          "localAssetBytes": 408278,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "28cb0ed1a7d56d78a71ea87cfd3cded434f91ab7",
+          "commit": "28cb0ed1a7d56d78a71ea87cfd3cded434f91ab7",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "VS Code Extension",
+        "base": "https://f5-sales-demo.github.io/vscode-xcsh/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/vscode-xcsh",
+          "pages": 233,
+          "localAssetBytes": 408909,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "698a455adf7da73278704dd3232787966979fdb9",
+          "commit": "698a455adf7da73278704dd3232787966979fdb9",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Console Catalog",
+        "base": "https://f5-sales-demo.github.io/console/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/console",
+          "pages": 79,
+          "localAssetBytes": 408897,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "904110fa7373b2b8606d9588e8363c3b3aedcb2f",
+          "commit": "904110fa7373b2b8606d9588e8363c3b3aedcb2f",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "xcsh Chrome Extension",
+        "base": "https://f5-sales-demo.github.io/xcsh-chrome-extension/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/xcsh-chrome-extension",
+          "pages": 40,
+          "localAssetBytes": 408939,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "57dfff1154ddc36fc1b0f36a88cdbcb982fd051c",
+          "commit": "57dfff1154ddc36fc1b0f36a88cdbcb982fd051c",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      },
+      {
+        "site": "Custom Responses",
+        "base": "https://f5-sales-demo.github.io/custom-responses/",
+        "receipt": {
+          "contract": "v1",
+          "mode": "consume",
+          "repository": "f5-sales-demo/custom-responses",
+          "pages": 209,
+          "localAssetBytes": 481551,
+          "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+        },
+        "revision": {
+          "content_ref": "a24bc0e7db1fc7bc3f25d6f8e39d6ab205ccbf1a",
+          "commit": "a24bc0e7db1fc7bc3f25d6f8e39d6ab205ccbf1a",
+          "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:eaf57b7f92b26ab11e69420564dad4d3ad194ac7203ed7e292a04a230ed83d29",
+          "snapshot_tag": "",
+          "publication_sha256": "",
+          "snapshot_source_commit": ""
+        }
+      }
+    ]
+  },
+  "deployments": [
+    {
+      "repository": "f5-sales-demo/html-to-markdown",
+      "deploymentId": 6934525203,
+      "deploymentCommit": "8bea0ff9e48925b57cc3d3ce3e520c9ce62e8aa3",
+      "deploymentCreated": "2026-10-08T11:41:00Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/html-to-markdown/actions/runs/37771355146",
+      "site": "https://f5-sales-demo.github.io/html-to-markdown/",
+      "environmentUrl": "https://f5-sales-demo.github.io/html-to-markdown/",
+      "publicRevision": {
+        "content_ref": "8bea0ff9e48925b57cc3d3ce3e520c9ce62e8aa3",
+        "commit": "8bea0ff9e48925b57cc3d3ce3e520c9ce62e8aa3",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "content-20261007T124508Z",
+        "publication_sha256": "f3626d507f0c3ea515b683e6bceecf43cad5793f87922e2d1f80fd353df44f21",
+        "snapshot_source_commit": "bcb19290b4029fe47c11cc01981906021d1b29e2"
+      }
+    },
+    {
+      "repository": "f5-sales-demo/docs-builder",
+      "deploymentId": 6934976031,
+      "deploymentCommit": "4f8805d63124d9954a756b961c91e66eff97c7a2",
+      "deploymentCreated": "2026-10-08T12:03:54Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/docs-builder/actions/runs/37773999375",
+      "site": "https://f5-sales-demo.github.io/docs-builder/",
+      "environmentUrl": "https://f5-sales-demo.github.io/docs-builder/",
+      "publicRevision": {
+        "content_ref": "4f8805d63124d9954a756b961c91e66eff97c7a2",
+        "commit": "4f8805d63124d9954a756b961c91e66eff97c7a2",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/docs-theme",
+      "deploymentId": 6934985571,
+      "deploymentCommit": "053f5bbbcfcb2630e560bf1d0ebb67873bc2d42b",
+      "deploymentCreated": "2026-10-08T12:04:23Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/docs-theme/actions/runs/37774006076",
+      "site": "https://f5-sales-demo.github.io/docs-theme/",
+      "environmentUrl": "https://f5-sales-demo.github.io/docs-theme/",
+      "publicRevision": {
+        "content_ref": "053f5bbbcfcb2630e560bf1d0ebb67873bc2d42b",
+        "commit": "053f5bbbcfcb2630e560bf1d0ebb67873bc2d42b",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/f5-sales-demo.github.io",
+      "deploymentId": 6937782442,
+      "deploymentCommit": "e415b26da118c8e4a17ccb6e726a0bf49d3c9878",
+      "deploymentCreated": "2026-10-08T14:08:33Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/f5-sales-demo.github.io/actions/runs/37789575671",
+      "site": "https://f5-sales-demo.github.io/",
+      "environmentUrl": "https://f5-sales-demo.github.io/",
+      "publicRevision": {
+        "content_ref": "6ba40f374e2dd98ec781b73ab90666046f5dadfd",
+        "commit": "6ba40f374e2dd98ec781b73ab90666046f5dadfd",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/administration",
+      "deploymentId": 6935068658,
+      "deploymentCommit": "47863b16848e14ca57f2063b13458540628b2613",
+      "deploymentCreated": "2026-10-08T12:08:29Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/administration/actions/runs/37774283888",
+      "site": "https://f5-sales-demo.github.io/administration/",
+      "environmentUrl": "https://f5-sales-demo.github.io/administration/",
+      "publicRevision": {
+        "content_ref": "47863b16848e14ca57f2063b13458540628b2613",
+        "commit": "47863b16848e14ca57f2063b13458540628b2613",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/nginx",
+      "deploymentId": 6935087067,
+      "deploymentCommit": "dfda82886d850363975fde1d360955172ba7b54a",
+      "deploymentCreated": "2026-10-08T12:09:25Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/nginx/actions/runs/37774371636",
+      "site": "https://f5-sales-demo.github.io/nginx/",
+      "environmentUrl": "https://f5-sales-demo.github.io/nginx/",
+      "publicRevision": {
+        "content_ref": "dfda82886d850363975fde1d360955172ba7b54a",
+        "commit": "dfda82886d850363975fde1d360955172ba7b54a",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/observability",
+      "deploymentId": 6935132720,
+      "deploymentCommit": "63cb6b14d4e6926b8809800db4252fc302dd561f",
+      "deploymentCreated": "2026-10-08T12:11:39Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/observability/actions/runs/37774714056",
+      "site": "https://f5-sales-demo.github.io/observability/",
+      "environmentUrl": "https://f5-sales-demo.github.io/observability/",
+      "publicRevision": {
+        "content_ref": "63cb6b14d4e6926b8809800db4252fc302dd561f",
+        "commit": "63cb6b14d4e6926b8809800db4252fc302dd561f",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/statistics",
+      "deploymentId": 6934415772,
+      "deploymentCommit": "571199682328d1660fe5f6b0dd92f1f156437094",
+      "deploymentCreated": "2026-10-08T11:35:22Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/statistics/actions/runs/37770400497",
+      "site": "https://f5-sales-demo.github.io/statistics/",
+      "environmentUrl": "https://f5-sales-demo.github.io/statistics/",
+      "publicRevision": {
+        "content_ref": "571199682328d1660fe5f6b0dd92f1f156437094",
+        "commit": "571199682328d1660fe5f6b0dd92f1f156437094",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/certificate-management",
+      "deploymentId": 6936143276,
+      "deploymentCommit": "429e009ebebe57bd698bdea9de9e42c90da657c9",
+      "deploymentCreated": "2026-10-08T12:58:09Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/certificate-management/actions/runs/37780464163",
+      "site": "https://f5-sales-demo.github.io/certificate-management/",
+      "environmentUrl": "https://f5-sales-demo.github.io/certificate-management/",
+      "publicRevision": {
+        "content_ref": "429e009ebebe57bd698bdea9de9e42c90da657c9",
+        "commit": "429e009ebebe57bd698bdea9de9e42c90da657c9",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/was",
+      "deploymentId": 6935215823,
+      "deploymentCommit": "1cdbc22080b54e2f4ad7e806bf2d1a279d07e31c",
+      "deploymentCreated": "2026-10-08T12:15:45Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/was/actions/runs/37775388536",
+      "site": "https://f5-sales-demo.github.io/was/",
+      "environmentUrl": "https://f5-sales-demo.github.io/was/",
+      "publicRevision": {
+        "content_ref": "1cdbc22080b54e2f4ad7e806bf2d1a279d07e31c",
+        "commit": "1cdbc22080b54e2f4ad7e806bf2d1a279d07e31c",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/multi-cloud-networking",
+      "deploymentId": 6935314709,
+      "deploymentCommit": "ee2fe06d6cf03ff97baad9b1cad55fe6ac83ee5d",
+      "deploymentCreated": "2026-10-08T12:20:16Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/multi-cloud-networking/actions/runs/37775731782",
+      "site": "https://f5-sales-demo.github.io/multi-cloud-networking/",
+      "environmentUrl": "https://f5-sales-demo.github.io/multi-cloud-networking/",
+      "publicRevision": {
+        "content_ref": "ee2fe06d6cf03ff97baad9b1cad55fe6ac83ee5d",
+        "commit": "ee2fe06d6cf03ff97baad9b1cad55fe6ac83ee5d",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/canada",
+      "deploymentId": 6934370322,
+      "deploymentCommit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+      "deploymentCreated": "2026-10-08T11:32:59Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/canada/actions/runs/37770394537",
+      "site": "https://f5-sales-demo.github.io/canada/",
+      "environmentUrl": "https://f5-sales-demo.github.io/canada/",
+      "publicRevision": {
+        "content_ref": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+        "commit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/dns",
+      "deploymentId": 6935339695,
+      "deploymentCommit": "87afe68248447f9193330517c537f9f441e39049",
+      "deploymentCreated": "2026-10-08T12:21:29Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/dns/actions/runs/37776069553",
+      "site": "https://f5-sales-demo.github.io/dns/",
+      "environmentUrl": "https://f5-sales-demo.github.io/dns/",
+      "publicRevision": {
+        "content_ref": "87afe68248447f9193330517c537f9f441e39049",
+        "commit": "87afe68248447f9193330517c537f9f441e39049",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/cdn",
+      "deploymentId": 6935914945,
+      "deploymentCommit": "58483f82b3b3acfa65c3b3cfd28ed092b2533671",
+      "deploymentCreated": "2026-10-08T12:47:38Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/cdn/actions/runs/37779177294",
+      "site": "https://f5-sales-demo.github.io/cdn/",
+      "environmentUrl": "https://f5-sales-demo.github.io/cdn/",
+      "publicRevision": {
+        "content_ref": "58483f82b3b3acfa65c3b3cfd28ed092b2533671",
+        "commit": "58483f82b3b3acfa65c3b3cfd28ed092b2533671",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/bot-standard",
+      "deploymentId": 6935447522,
+      "deploymentCommit": "37f23ff7b6d9ecb3058b6fb8f878e6922677c6a4",
+      "deploymentCreated": "2026-10-08T12:26:44Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/bot-standard/actions/runs/37776656137",
+      "site": "https://f5-sales-demo.github.io/bot-standard/",
+      "environmentUrl": "https://f5-sales-demo.github.io/bot-standard/",
+      "publicRevision": {
+        "content_ref": "37f23ff7b6d9ecb3058b6fb8f878e6922677c6a4",
+        "commit": "37f23ff7b6d9ecb3058b6fb8f878e6922677c6a4",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/bot-advanced",
+      "deploymentId": 6935480856,
+      "deploymentCommit": "31077c05afa12257a0536d5f8c3d1607bd753614",
+      "deploymentCreated": "2026-10-08T12:28:19Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/bot-advanced/actions/runs/37776847504",
+      "site": "https://f5-sales-demo.github.io/bot-advanced/",
+      "environmentUrl": "https://f5-sales-demo.github.io/bot-advanced/",
+      "publicRevision": {
+        "content_ref": "31077c05afa12257a0536d5f8c3d1607bd753614",
+        "commit": "31077c05afa12257a0536d5f8c3d1607bd753614",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/ddos",
+      "deploymentId": 6935583875,
+      "deploymentCommit": "2dda2dcf0e0c5e73c86c02f3c0793ead9bb6bd64",
+      "deploymentCreated": "2026-10-08T12:33:04Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/ddos/actions/runs/37777402823",
+      "site": "https://f5-sales-demo.github.io/ddos/",
+      "environmentUrl": "https://f5-sales-demo.github.io/ddos/",
+      "publicRevision": {
+        "content_ref": "2dda2dcf0e0c5e73c86c02f3c0793ead9bb6bd64",
+        "commit": "2dda2dcf0e0c5e73c86c02f3c0793ead9bb6bd64",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/api-protection",
+      "deploymentId": 6935616504,
+      "deploymentCommit": "2d1a1af63132098d0d3a78d7a93e579ae6434f99",
+      "deploymentCreated": "2026-10-08T12:34:33Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/api-protection/actions/runs/37777606076",
+      "site": "https://f5-sales-demo.github.io/api-protection/",
+      "environmentUrl": "https://f5-sales-demo.github.io/api-protection/",
+      "publicRevision": {
+        "content_ref": "2d1a1af63132098d0d3a78d7a93e579ae6434f99",
+        "commit": "2d1a1af63132098d0d3a78d7a93e579ae6434f99",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/webapp-api-protection",
+      "deploymentId": 6934655509,
+      "deploymentCommit": "cf2c0b1e0fefdc2f274d6107fc93fec9ba09c073",
+      "deploymentCreated": "2026-10-08T11:47:34Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/webapp-api-protection/actions/runs/37772172854",
+      "site": "https://f5-sales-demo.github.io/webapp-api-protection/",
+      "environmentUrl": "https://f5-sales-demo.github.io/webapp-api-protection/",
+      "publicRevision": {
+        "content_ref": "cf2c0b1e0fefdc2f274d6107fc93fec9ba09c073",
+        "commit": "cf2c0b1e0fefdc2f274d6107fc93fec9ba09c073",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/api-specs",
+      "deploymentId": 6934650471,
+      "deploymentCommit": "1ae8054c829bb87870b1666819fda3013fe857b5",
+      "deploymentCreated": "2026-10-08T11:47:18Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/api-specs/actions/runs/37772125691",
+      "site": "https://f5-sales-demo.github.io/api-specs/",
+      "environmentUrl": "https://f5-sales-demo.github.io/api-specs/",
+      "publicRevision": {
+        "content_ref": "1ae8054c829bb87870b1666819fda3013fe857b5",
+        "commit": "1ae8054c829bb87870b1666819fda3013fe857b5",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/api-specs-enriched",
+      "deploymentId": 6934763690,
+      "deploymentCommit": "212feeca17cb13fa14d41b24f4834c671a4639e8",
+      "deploymentCreated": "2026-10-08T11:53:04Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/api-specs-enriched/actions/runs/37771964585",
+      "site": "https://f5-sales-demo.github.io/api-specs-enriched/",
+      "environmentUrl": "https://f5-sales-demo.github.io/api-specs-enriched/",
+      "publicRevision": {
+        "content_ref": "212feeca17cb13fa14d41b24f4834c671a4639e8",
+        "commit": "212feeca17cb13fa14d41b24f4834c671a4639e8",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/csd",
+      "deploymentId": 6935988134,
+      "deploymentCommit": "fbc7a48875592407bed3a9aa637ea03daa207650",
+      "deploymentCreated": "2026-10-08T12:51:01Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/csd/actions/runs/37779455774",
+      "site": "https://f5-sales-demo.github.io/csd/",
+      "environmentUrl": "https://f5-sales-demo.github.io/csd/",
+      "publicRevision": {
+        "content_ref": "fbc7a48875592407bed3a9aa637ea03daa207650",
+        "commit": "fbc7a48875592407bed3a9aa637ea03daa207650",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/docs-icons",
+      "deploymentId": 6934747503,
+      "deploymentCommit": "093b4fbdeb337bf613261485cc225554bc47b793",
+      "deploymentCreated": "2026-10-08T11:52:13Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/docs-icons/actions/runs/37770897063",
+      "site": "https://f5-sales-demo.github.io/docs-icons/",
+      "environmentUrl": "https://f5-sales-demo.github.io/docs-icons/",
+      "publicRevision": {
+        "content_ref": "093b4fbdeb337bf613261485cc225554bc47b793",
+        "commit": "093b4fbdeb337bf613261485cc225554bc47b793",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/terraform-provider-xcsh",
+      "deploymentId": 6935162658,
+      "deploymentCommit": "90ee4dbd9980a6e793b08b499bfd99c2fd067037",
+      "deploymentCreated": "2026-10-08T12:13:08Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/terraform-provider-xcsh/actions/runs/37773804117",
+      "site": "https://f5-sales-demo.github.io/terraform-provider-xcsh/",
+      "environmentUrl": "https://f5-sales-demo.github.io/terraform-provider-xcsh/",
+      "publicRevision": {
+        "content_ref": "90ee4dbd9980a6e793b08b499bfd99c2fd067037",
+        "commit": "90ee4dbd9980a6e793b08b499bfd99c2fd067037",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/marketplace",
+      "deploymentId": 6936049688,
+      "deploymentCommit": "ec68a7c61ced048b7c81a3845fe50d6caec2de09",
+      "deploymentCreated": "2026-10-08T12:53:50Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/marketplace/actions/runs/37779905810",
+      "site": "https://f5-sales-demo.github.io/marketplace/",
+      "environmentUrl": "https://f5-sales-demo.github.io/marketplace/",
+      "publicRevision": {
+        "content_ref": "ec68a7c61ced048b7c81a3845fe50d6caec2de09",
+        "commit": "ec68a7c61ced048b7c81a3845fe50d6caec2de09",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/xcsh",
+      "deploymentId": 6934513999,
+      "deploymentCommit": "d7c4435d0663c8989ae0ca26b5767568c6001505",
+      "deploymentCreated": "2026-10-08T11:40:28Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/xcsh/actions/runs/37771398271",
+      "site": "https://f5-sales-demo.github.io/xcsh/",
+      "environmentUrl": "https://f5-sales-demo.github.io/xcsh/",
+      "publicRevision": {
+        "content_ref": "d7c4435d0663c8989ae0ca26b5767568c6001505",
+        "commit": "d7c4435d0663c8989ae0ca26b5767568c6001505",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/xcsh-action",
+      "deploymentId": 6936070628,
+      "deploymentCommit": "1efafff9836c718ed74368f7338f0f7d38548e91",
+      "deploymentCreated": "2026-10-08T12:54:49Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/xcsh-action/actions/runs/37780110558",
+      "site": "https://f5-sales-demo.github.io/xcsh-action/",
+      "environmentUrl": "https://f5-sales-demo.github.io/xcsh-action/",
+      "publicRevision": {
+        "content_ref": "1efafff9836c718ed74368f7338f0f7d38548e91",
+        "commit": "1efafff9836c718ed74368f7338f0f7d38548e91",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/cdn-simulator",
+      "deploymentId": 6936198304,
+      "deploymentCommit": "56fd155ba1bc630e4941e9a815b13cd2839b05a4",
+      "deploymentCreated": "2026-10-08T13:00:32Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/cdn-simulator/actions/runs/37780730659",
+      "site": "https://f5-sales-demo.github.io/cdn-simulator/",
+      "environmentUrl": "https://f5-sales-demo.github.io/cdn-simulator/",
+      "publicRevision": {
+        "content_ref": "56fd155ba1bc630e4941e9a815b13cd2839b05a4",
+        "commit": "56fd155ba1bc630e4941e9a815b13cd2839b05a4",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/origin-server",
+      "deploymentId": 6936238316,
+      "deploymentCommit": "63df7293c21b5152076babb540f2f02e72d936e1",
+      "deploymentCreated": "2026-10-08T13:02:17Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/origin-server/actions/runs/37780927479",
+      "site": "https://f5-sales-demo.github.io/origin-server/",
+      "environmentUrl": "https://f5-sales-demo.github.io/origin-server/",
+      "publicRevision": {
+        "content_ref": "63df7293c21b5152076babb540f2f02e72d936e1",
+        "commit": "63df7293c21b5152076babb540f2f02e72d936e1",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/demo-resources",
+      "deploymentId": 6936388245,
+      "deploymentCommit": "28cb0ed1a7d56d78a71ea87cfd3cded434f91ab7",
+      "deploymentCreated": "2026-10-08T13:09:02Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/demo-resources/actions/runs/37781842589",
+      "site": "https://f5-sales-demo.github.io/demo-resources/",
+      "environmentUrl": "https://f5-sales-demo.github.io/demo-resources/",
+      "publicRevision": {
+        "content_ref": "28cb0ed1a7d56d78a71ea87cfd3cded434f91ab7",
+        "commit": "28cb0ed1a7d56d78a71ea87cfd3cded434f91ab7",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/vscode-xcsh",
+      "deploymentId": 6936481507,
+      "deploymentCommit": "698a455adf7da73278704dd3232787966979fdb9",
+      "deploymentCreated": "2026-10-08T13:13:06Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/vscode-xcsh/actions/runs/37782053273",
+      "site": "https://f5-sales-demo.github.io/vscode-xcsh/",
+      "environmentUrl": "https://f5-sales-demo.github.io/vscode-xcsh/",
+      "publicRevision": {
+        "content_ref": "698a455adf7da73278704dd3232787966979fdb9",
+        "commit": "698a455adf7da73278704dd3232787966979fdb9",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/console",
+      "deploymentId": 6936465558,
+      "deploymentCommit": "904110fa7373b2b8606d9588e8363c3b3aedcb2f",
+      "deploymentCreated": "2026-10-08T13:12:25Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/console/actions/runs/37782268958",
+      "site": "https://f5-sales-demo.github.io/console/",
+      "environmentUrl": "https://f5-sales-demo.github.io/console/",
+      "publicRevision": {
+        "content_ref": "904110fa7373b2b8606d9588e8363c3b3aedcb2f",
+        "commit": "904110fa7373b2b8606d9588e8363c3b3aedcb2f",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/xcsh-chrome-extension",
+      "deploymentId": 6936618433,
+      "deploymentCommit": "57dfff1154ddc36fc1b0f36a88cdbcb982fd051c",
+      "deploymentCreated": "2026-10-08T13:19:08Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/xcsh-chrome-extension/actions/runs/37782814886",
+      "site": "https://f5-sales-demo.github.io/xcsh-chrome-extension/",
+      "environmentUrl": "https://f5-sales-demo.github.io/xcsh-chrome-extension/",
+      "publicRevision": {
+        "content_ref": "57dfff1154ddc36fc1b0f36a88cdbcb982fd051c",
+        "commit": "57dfff1154ddc36fc1b0f36a88cdbcb982fd051c",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    },
+    {
+      "repository": "f5-sales-demo/custom-responses",
+      "deploymentId": 6937449931,
+      "deploymentCommit": "a24bc0e7db1fc7bc3f25d6f8e39d6ab205ccbf1a",
+      "deploymentCreated": "2026-10-08T13:54:43Z",
+      "state": "success",
+      "runUrl": "https://github.com/f5-sales-demo/custom-responses/actions/runs/37787829378",
+      "site": "https://f5-sales-demo.github.io/custom-responses/",
+      "environmentUrl": "https://f5-sales-demo.github.io/custom-responses/",
+      "publicRevision": {
+        "content_ref": "a24bc0e7db1fc7bc3f25d6f8e39d6ab205ccbf1a",
+        "commit": "a24bc0e7db1fc7bc3f25d6f8e39d6ab205ccbf1a",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:eaf57b7f92b26ab11e69420564dad4d3ad194ac7203ed7e292a04a230ed83d29",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      }
+    }
+  ],
+  "browserMatrix": [
+    {
+      "repo": "html-to-markdown",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "docs-builder",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "docs-theme",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "f5-sales-demo.github.io",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "administration",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "nginx",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "observability",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "statistics",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "certificate-management",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "was",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "multi-cloud-networking",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "canada",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "dns",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "cdn",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "bot-standard",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "bot-advanced",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "ddos",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "api-protection",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "webapp-api-protection",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "api-specs",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "api-specs-enriched",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "csd",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "docs-icons",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "terraform-provider-xcsh",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "marketplace",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "xcsh",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "xcsh-action",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "cdn-simulator",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "origin-server",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "demo-resources",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "vscode-xcsh",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "console",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "xcsh-chrome-extension",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "custom-responses",
+      "browser": "chromium",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "html-to-markdown",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "docs-builder",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "docs-theme",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "f5-sales-demo.github.io",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "administration",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "nginx",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "observability",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "statistics",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "certificate-management",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "was",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "multi-cloud-networking",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "canada",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "dns",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "cdn",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "bot-standard",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "bot-advanced",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "ddos",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "api-protection",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "webapp-api-protection",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "api-specs",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "api-specs-enriched",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "csd",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "docs-icons",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "terraform-provider-xcsh",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "marketplace",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "xcsh",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "xcsh-action",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "cdn-simulator",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "origin-server",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "demo-resources",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "vscode-xcsh",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "console",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "xcsh-chrome-extension",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "custom-responses",
+      "browser": "firefox",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "html-to-markdown",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "docs-builder",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "docs-theme",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "f5-sales-demo.github.io",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "administration",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "nginx",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "observability",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "statistics",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "certificate-management",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "was",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "multi-cloud-networking",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "canada",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "dns",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "cdn",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "bot-standard",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "bot-advanced",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "ddos",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "api-protection",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "webapp-api-protection",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "api-specs",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "api-specs-enriched",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "csd",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "docs-icons",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "terraform-provider-xcsh",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "marketplace",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "xcsh",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "xcsh-action",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "cdn-simulator",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "origin-server",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "demo-resources",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "vscode-xcsh",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "console",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "xcsh-chrome-extension",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    },
+    {
+      "repo": "custom-responses",
+      "browser": "webkit",
+      "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "overflow": false,
+      "focused": "smm-mobile-button"
+    }
+  ],
+  "liveSearch": [
+    {
+      "browser": "chromium",
+      "federationSources": 29,
+      "results": [
+        {
+          "title": "Azure Route ServerMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/customer-edge/smsv2/azure-route-server/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Two application paths and Site ConsoleMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/customer-edge/smsv2/azure-route-server/#two-application-paths-and-site-console",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "CleanupMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/customer-edge/smsv2/azure-route-server/#cleanup",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Present the demoMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/present/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Demonstration orderMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/present/#demonstration-order",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Compare the Azure application pathsMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/ha-comparison/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Compare the Azure application pathsMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/ha-comparison/#_top",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Verify the deployed showcaseMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/verify/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "KVM physical LANMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/verify/#kvm-physical-lan",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Multi-cloud networking CE-HA demoMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Where to go nextMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/#where-to-go-next",
+          "source": "Multi-Cloud Networking"
+        }
+      ],
+      "escapeFocus": true
+    },
+    {
+      "browser": "firefox",
+      "federationSources": 29,
+      "results": [
+        {
+          "title": "Azure Route ServerMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/customer-edge/smsv2/azure-route-server/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Two application paths and Site ConsoleMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/customer-edge/smsv2/azure-route-server/#two-application-paths-and-site-console",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "CleanupMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/customer-edge/smsv2/azure-route-server/#cleanup",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Present the demoMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/present/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Demonstration orderMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/present/#demonstration-order",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Compare the Azure application pathsMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/ha-comparison/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Compare the Azure application pathsMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/ha-comparison/#_top",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Verify the deployed showcaseMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/verify/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "KVM physical LANMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/verify/#kvm-physical-lan",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Multi-cloud networking CE-HA demoMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Where to go nextMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/#where-to-go-next",
+          "source": "Multi-Cloud Networking"
+        }
+      ],
+      "escapeFocus": true
+    },
+    {
+      "browser": "webkit",
+      "federationSources": 29,
+      "results": [
+        {
+          "title": "Azure Route ServerMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/customer-edge/smsv2/azure-route-server/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Two application paths and Site ConsoleMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/customer-edge/smsv2/azure-route-server/#two-application-paths-and-site-console",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "CleanupMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/customer-edge/smsv2/azure-route-server/#cleanup",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Present the demoMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/present/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Demonstration orderMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/present/#demonstration-order",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Compare the Azure application pathsMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/ha-comparison/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Compare the Azure application pathsMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/ha-comparison/#_top",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Verify the deployed showcaseMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/verify/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "KVM physical LANMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/verify/#kvm-physical-lan",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Multi-cloud networking CE-HA demoMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/",
+          "source": "Multi-Cloud Networking"
+        },
+        {
+          "title": "Where to go nextMulti-Cloud Networking",
+          "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/demo/#where-to-go-next",
+          "source": "Multi-Cloud Networking"
+        }
+      ],
+      "escapeFocus": true
+    }
+  ],
+  "rootOnlyIndependence": [
+    {
+      "browser": "chromium",
+      "consumerCommit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+      "builder": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+      "rootOnlyUpdate": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "warmCache": true,
+      "outage": true,
+      "retainedRollback": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade"
+    },
+    {
+      "browser": "firefox",
+      "consumerCommit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+      "builder": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+      "rootOnlyUpdate": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "warmCache": true,
+      "outage": true,
+      "retainedRollback": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade"
+    },
+    {
+      "browser": "webkit",
+      "consumerCommit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+      "builder": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+      "rootOnlyUpdate": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+      "warmCache": true,
+      "outage": true,
+      "retainedRollback": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade"
+    }
+  ],
+  "deployedRollback": {
+    "commit": "e415b26da118c8e4a17ccb6e726a0bf49d3c9878",
+    "run": "https://github.com/f5-sales-demo/f5-sales-demo.github.io/actions/runs/37789575671",
+    "result": {
+      "phase": "rollback",
+      "pointer": {
+        "contract": "v1",
+        "release": {
+          "url": "https://f5-sales-demo.github.io/shared/v1/releases/6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade.json",
+          "sha256": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+          "bytes": 5766
+        }
+      },
+      "consumerRevision": {
+        "content_ref": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+        "commit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      },
+      "reports": [
+        {
+          "browser": "chromium",
+          "warmCache": false,
+          "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        },
+        {
+          "browser": "chromium",
+          "warmCache": true,
+          "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        },
+        {
+          "browser": "firefox",
+          "warmCache": false,
+          "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        },
+        {
+          "browser": "firefox",
+          "warmCache": true,
+          "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        },
+        {
+          "browser": "webkit",
+          "warmCache": false,
+          "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        },
+        {
+          "browser": "webkit",
+          "warmCache": true,
+          "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        }
+      ]
+    }
+  },
+  "deployedRestoration": {
+    "commit": "b111a73c6f3a5b1bcc283e5731e77383010ee098",
+    "run": "https://github.com/f5-sales-demo/f5-sales-demo.github.io/actions/runs/37790551306",
+    "result": {
+      "phase": "restoration",
+      "pointer": {
+        "contract": "v1",
+        "release": {
+          "url": "https://f5-sales-demo.github.io/shared/v1/releases/ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a.json",
+          "sha256": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+          "bytes": 5766
+        }
+      },
+      "consumerRevision": {
+        "content_ref": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+        "commit": "e5a81ebd7f33b0723e4faaa4d04a109a9681439d",
+        "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+        "snapshot_tag": "",
+        "publication_sha256": "",
+        "snapshot_source_commit": ""
+      },
+      "reports": [
+        {
+          "browser": "chromium",
+          "warmCache": false,
+          "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        },
+        {
+          "browser": "chromium",
+          "warmCache": true,
+          "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        },
+        {
+          "browser": "firefox",
+          "warmCache": false,
+          "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        },
+        {
+          "browser": "firefox",
+          "warmCache": true,
+          "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        },
+        {
+          "browser": "webkit",
+          "warmCache": false,
+          "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        },
+        {
+          "browser": "webkit",
+          "warmCache": true,
+          "release": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+          "overflow": false,
+          "focused": "smm-mobile-button"
+        }
+      ]
+    }
+  },
+  "measurements": {
+    "sample": "Canada with identical staged English content",
+    "baselineImage": "sha256:2e58c48b933359e21aba9678d8219463f13bb791526b07f46dd780fb90f4709b",
+    "baseline": {
+      "totalBytes": 917612,
+      "files": 27,
+      "fontBytes": 269348,
+      "fontFiles": 10,
+      "cssBytes": 130585,
+      "jsBytes": 514135
+    },
+    "consumer": {
+      "totalBytes": 411409,
+      "files": 12,
+      "fontBytes": 0,
+      "fontFiles": 0,
+      "cssBytes": 97891,
+      "jsBytes": 312268
+    },
+    "localAssetBytesEliminated": 506203,
+    "contentDigest": "c79ce53c2865fadff54fb99ac5cb2591ba83c25ddcdd252dd54350cc632d17c9",
+    "scope": "Measured local _astro assets for identical Canada content in the pre-migration builder and qualified 4.12.0 consumer. This includes any version delta; no fleet-wide transfer extrapolation.",
+    "baselineTheme": "4.11.6",
+    "consumerTheme": "4.12.0",
+    "sharedReleaseBytes": 751614
+  },
+  "tests": {
+    "themeUnit": 94,
+    "bootstrapFailure": 12,
+    "sharedShellBrowserChecks": 21,
+    "fleetMenuTraversals": 102,
+    "pilotClosedHeaderAccessibilityTraversals": 15,
+    "coverage": [
+      "desktop/mobile",
+      "Escape and focus restoration",
+      "warm cache and manifest outage",
+      "unavailable storage and partial asset rejection",
+      "unsupported contract rejection",
+      "theme/preferences",
+      "real Search attribution",
+      "Arabic RTL",
+      "English-only destinations",
+      "text enlargement",
+      "reduced motion",
+      "no-JavaScript directory navigation",
+      "provider-local sections"
+    ]
+  },
+  "providerPublished": {
+    "receipt": {
+      "contract": "v1",
+      "mode": "consume",
+      "repository": "f5-sales-demo/terraform-provider-xcsh",
+      "pages": 16373,
+      "localAssetBytes": 417622,
+      "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+    },
+    "revision": {
+      "content_ref": "90ee4dbd9980a6e793b08b499bfd99c2fd067037",
+      "commit": "90ee4dbd9980a6e793b08b499bfd99c2fd067037",
+      "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
+      "snapshot_tag": "",
+      "publication_sha256": "",
+      "snapshot_source_commit": ""
+    }
+  },
+  "xcshFidelityRepair": "https://github.com/f5-sales-demo/xcsh/pull/4824",
+  "managedConvergence": {
+    "status": "pending"
+  }
+}
