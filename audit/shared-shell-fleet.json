@@ -2463,5 +2463,66 @@
   "xcshFidelityRepair": "https://github.com/f5-sales-demo/xcsh/pull/4824",
   "managedConvergence": {
     "status": "pending"
-  }
+  },
+  "cleanup": [
+    {
+      "path": "xcsh-migration",
+      "branch": "fix/4823-workflow-fidelity",
+      "mergedPR": "https://github.com/f5-sales-demo/xcsh/pull/4824",
+      "ignoredReviewed": [
+        "!! .ruff_cache/",
+        "!! node_modules/",
+        "!! packages/agent/node_modules/",
+        "!! packages/ai/node_modules/",
+        "!! packages/chat-ui/node_modules/",
+        "!! packages/coding-agent/node_modules/",
+        "!! packages/coding-agent/src/internal-urls/build-info.generated.ts",
+        "!! packages/coding-agent/src/internal-urls/docs-index.generated.ts",
+        "!! packages/natives/node_modules/",
+        "!! packages/office-pane/node_modules/",
+        "!! packages/resource-management/node_modules/",
+        "!! packages/stats/node_modules/",
+        "!! packages/tui/node_modules/",
+        "!! packages/typescript-edit-benchmark/node_modules/",
+        "!! packages/utils/node_modules/",
+        "!! scripts/__pycache__/",
+        "!! tests/__pycache__/",
+        "!! tsconfig.tools.tsbuildinfo"
+      ],
+      "removed": true
+    },
+    {
+      "path": "api-specs-enriched-migration",
+      "branch": "feature/1904-shared-shell-pages",
+      "mergedPR": "https://github.com/f5-sales-demo/api-specs-enriched/pull/1905",
+      "ignoredReviewed": [
+        "!! .ruff_cache/"
+      ],
+      "removed": true
+    },
+    {
+      "path": "html-to-markdown-migration",
+      "branch": "feature/102-qualified-pages-route",
+      "mergedPR": "https://github.com/f5-sales-demo/html-to-markdown/pull/104",
+      "ignoredReviewed": [],
+      "removed": true
+    },
+    {
+      "path": "docs-icons-migration",
+      "branch": "feature/1048-qualified-pages-route",
+      "mergedPR": "https://github.com/f5-sales-demo/docs-icons/pull/1050",
+      "ignoredReviewed": [],
+      "removed": true
+    },
+    {
+      "path": "docs-control",
+      "branch": "feature/2426-root-shared-shell",
+      "mergedPR": "https://github.com/f5-sales-demo/docs-control/pull/2427",
+      "ignoredReviewed": [
+        "!! .ruff_cache/",
+        "!! tests/__pycache__/"
+      ],
+      "removed": true
+    }
+  ]
 }

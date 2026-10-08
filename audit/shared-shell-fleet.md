@@ -1,9 +1,9 @@
 # Shared-shell fleet acceptance
 
 The root publishes the coordinated v1 shell at
-https://f5-sales-demo.github.io/shared/v1/current.json.
+[the active manifest](https://f5-sales-demo.github.io/shared/v1/current.json).
 All 34 active documentation sites use the shared consumer. Their content,
-framework assets, local navigation and Search indexes remain local.
+framework assets, local navigation and Search indices remain local.
 
 The [receipt](shared-shell-fleet.json) records exact public revisions, builder
 digests, snapshot provenance and successful Pages deployments. The complete
