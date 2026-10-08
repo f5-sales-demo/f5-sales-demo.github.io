@@ -770,16 +770,16 @@
     },
     {
       "repository": "f5-sales-demo/f5-sales-demo.github.io",
-      "deploymentId": 6937782442,
-      "deploymentCommit": "e415b26da118c8e4a17ccb6e726a0bf49d3c9878",
-      "deploymentCreated": "2026-10-08T14:08:33Z",
+      "deploymentId": 6937923872,
+      "deploymentCommit": "b111a73c6f3a5b1bcc283e5731e77383010ee098",
+      "deploymentCreated": "2026-10-08T14:14:29Z",
       "state": "success",
-      "runUrl": "https://github.com/f5-sales-demo/f5-sales-demo.github.io/actions/runs/37789575671",
+      "runUrl": "https://github.com/f5-sales-demo/f5-sales-demo.github.io/actions/runs/37790551306",
       "site": "https://f5-sales-demo.github.io/",
       "environmentUrl": "https://f5-sales-demo.github.io/",
       "publicRevision": {
-        "content_ref": "6ba40f374e2dd98ec781b73ab90666046f5dadfd",
-        "commit": "6ba40f374e2dd98ec781b73ab90666046f5dadfd",
+        "content_ref": "b111a73c6f3a5b1bcc283e5731e77383010ee098",
+        "commit": "b111a73c6f3a5b1bcc283e5731e77383010ee098",
         "builder_image": "ghcr.io/f5-sales-demo/docs-builder@sha256:049219671eb53fb884af5a529ab638ba01894492ac6918da76bc17a069607e72",
         "snapshot_tag": "",
         "publication_sha256": "",
@@ -2495,9 +2495,7 @@
       "path": "api-specs-enriched-migration",
       "branch": "feature/1904-shared-shell-pages",
       "mergedPR": "https://github.com/f5-sales-demo/api-specs-enriched/pull/1905",
-      "ignoredReviewed": [
-        "!! .ruff_cache/"
-      ],
+      "ignoredReviewed": ["!! .ruff_cache/"],
       "removed": true
     },
     {
@@ -2518,10 +2516,14 @@
       "path": "docs-control",
       "branch": "feature/2426-root-shared-shell",
       "mergedPR": "https://github.com/f5-sales-demo/docs-control/pull/2427",
-      "ignoredReviewed": [
-        "!! .ruff_cache/",
-        "!! tests/__pycache__/"
-      ],
+      "ignoredReviewed": ["!! .ruff_cache/", "!! tests/__pycache__/"],
+      "removed": true
+    },
+    {
+      "path": "docs-builder",
+      "branch": "fix/1532-standalone-html-shell",
+      "mergedPR": "https://github.com/f5-sales-demo/docs-builder/pull/1533",
+      "ignoredReviewed": ["!! node_modules/"],
       "removed": true
     }
   ]
