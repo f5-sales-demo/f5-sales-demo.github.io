@@ -6,7 +6,7 @@
   "theme_release_run": "https://github.com/f5-sales-demo/docs-theme/actions/runs/37719795811",
   "builder_branch": "fix/1519-audited-showcase-theme",
   "builder_pr": "https://github.com/f5-sales-demo/docs-builder/pull/1520",
-  "builder_candidate": "b2a9e30",
+  "builder_candidate": "5986213",
   "tests": {
     "cache": 1,
     "security": 7,
@@ -14,5 +14,13 @@
     "browser_matrix": 42,
     "showcase_browser": 1
   },
-  "status": "installed pilot and immutable publication pending"
+  "status": "installed pilot verified; required CI and immutable publication pending",
+  "installed": {
+    "builder": "1.5.3",
+    "theme": "4.11.6",
+    "portal_pages": 40,
+    "browser_matrix": 42,
+    "header_widths": 8,
+    "showcase_browser_test": "passed"
+  }
 }

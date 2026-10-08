@@ -88,3 +88,5 @@ These are local cold-load measurements, not a production performance score.
 Final link inventory: 133 content links, 64 unique destinations, all returned the expected public page. `all-content-links.json` records labels and locations; `link-status-results.json` records final URLs and HTTP redirects. Meta-refresh locale roots were resolved before assessing content.
 
 Pilot screenshots in `screenshots/` show the root at 375 and 1440 CSS pixels in light and dark themes. `screenshot-receipts.json` records SHA-256, browser versions, candidate source and baseline image. Screenshots contain only public portal content and were visually inspected.
+
+Installed builder acceptance: pilot image contains builder 1.5.3 and theme 4.11.6, builds 40 portal pages, and passes the 42-case browser matrix, eight-width header controls, keyboard/locale checks and reusable showcase browser test. Immutable publication and final Pages inspection remain active.
