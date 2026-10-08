@@ -1,0 +1,466 @@
+[
+  {
+    "repo": "webapp-api-protection",
+    "label": "Web App & API Protection",
+    "description": "Deploy an application security demo with Terraform and follow its protection walkthroughs.",
+    "group": "Security",
+    "kind": "Demo guide",
+    "url": "https://f5-sales-demo.github.io/webapp-api-protection/en/"
+  },
+  {
+    "repo": "api-protection",
+    "label": "API Protection",
+    "description": "Find guides to API discovery, schema validation, and request controls.",
+    "group": "Security",
+    "kind": "Capability guide",
+    "url": "https://f5-sales-demo.github.io/api-protection/en/"
+  },
+  {
+    "repo": "bot-advanced",
+    "label": "Bot Defense Advanced",
+    "description": "Review behavioral bot detection and mitigation scenarios.",
+    "group": "Security",
+    "kind": "Capability guide",
+    "url": "https://f5-sales-demo.github.io/bot-advanced/en/"
+  },
+  {
+    "repo": "bot-standard",
+    "label": "Bot Defense Standard",
+    "description": "Review bot classification, verified crawlers, and blocking policies.",
+    "group": "Security",
+    "kind": "Capability guide",
+    "url": "https://f5-sales-demo.github.io/bot-standard/en/"
+  },
+  {
+    "repo": "csd",
+    "label": "Client-Side Defense",
+    "description": "Deploy browser script monitoring with an API or Terraform workflow.",
+    "group": "Security",
+    "kind": "Demo guide",
+    "url": "https://f5-sales-demo.github.io/csd/en/"
+  },
+  {
+    "repo": "ddos",
+    "label": "DDoS Mitigation",
+    "description": "Review distributed denial-of-service defenses and demo scenarios.",
+    "group": "Security",
+    "kind": "Capability guide",
+    "url": "https://f5-sales-demo.github.io/ddos/en/"
+  },
+  {
+    "repo": "was",
+    "label": "Web App Scanning",
+    "description": "Find web application vulnerability scanning guides.",
+    "group": "Security",
+    "kind": "Capability guide",
+    "url": "https://f5-sales-demo.github.io/was/en/"
+  },
+  {
+    "repo": "custom-responses",
+    "label": "Custom responses",
+    "description": "Configure application replies, redirects, and security response pages.",
+    "group": "Security",
+    "kind": "Demo guide",
+    "url": "https://f5-sales-demo.github.io/custom-responses/en/"
+  },
+  {
+    "repo": "multi-cloud-networking",
+    "label": "Multi-Cloud Networking",
+    "description": "Find site deployment and cross-cloud connectivity guides.",
+    "group": "Networking and performance",
+    "kind": "Demo guide",
+    "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/"
+  },
+  {
+    "repo": "cdn",
+    "label": "Content Delivery Network",
+    "description": "Review content delivery network (CDN) caching and origin configuration.",
+    "group": "Networking and performance",
+    "kind": "Capability guide",
+    "url": "https://f5-sales-demo.github.io/cdn/en/"
+  },
+  {
+    "repo": "dns",
+    "label": "DNS Management",
+    "description": "Find Domain Name System (DNS) zone and load balancing guides.",
+    "group": "Networking and performance",
+    "kind": "Capability guide",
+    "url": "https://f5-sales-demo.github.io/dns/en/"
+  },
+  {
+    "repo": "nginx",
+    "label": "NGINX One",
+    "description": "Review NGINX instance visibility and configuration management.",
+    "group": "Networking and performance",
+    "kind": "Capability guide",
+    "url": "https://f5-sales-demo.github.io/nginx/en/"
+  },
+  {
+    "repo": "canada",
+    "label": "Canada topology",
+    "description": "Deploy Canadian application hosting and demonstrate regional access controls.",
+    "group": "Networking and performance",
+    "kind": "Demo guide",
+    "url": "https://f5-sales-demo.github.io/canada/en/"
+  },
+  {
+    "repo": "demo-resources",
+    "label": "Demo resource catalog",
+    "description": "Choose origin, traffic, and CDN simulation resources for a demo environment.",
+    "group": "Demo environment",
+    "kind": "Deployment guide",
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/"
+  },
+  {
+    "repo": "origin-server",
+    "label": "Origin server",
+    "description": "Compare the Azure full-origin stack with the separate AWS Juice Shop deployment.",
+    "group": "Demo environment",
+    "kind": "Deployment guide",
+    "url": "https://f5-sales-demo.github.io/origin-server/en/"
+  },
+  {
+    "repo": "traffic-generator",
+    "label": "Traffic generator",
+    "description": "Choose Azure or AWS deployment guides for controlled security traffic and browser scenarios.",
+    "group": "Demo environment",
+    "kind": "Deployment guide",
+    "url": "https://f5-sales-demo.github.io/traffic-generator/en/"
+  },
+  {
+    "repo": "cdn-simulator",
+    "label": "CDN simulator",
+    "description": "Deploy an Azure proxy that adds CDN headers to origin requests.",
+    "group": "Demo environment",
+    "kind": "Deployment guide",
+    "url": "https://f5-sales-demo.github.io/cdn-simulator/en/"
+  },
+  {
+    "repo": "statistics",
+    "label": "Statistics",
+    "description": "Query access logs, application metrics, and security telemetry through the API.",
+    "group": "Operations",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/statistics/en/"
+  },
+  {
+    "repo": "observability",
+    "label": "Observability",
+    "description": "Find monitoring, metrics, tracing, and alerting guides.",
+    "group": "Operations",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/observability/en/"
+  },
+  {
+    "repo": "administration",
+    "label": "Administration",
+    "description": "Find tenant, namespace, and role management guides.",
+    "group": "Operations",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/administration/en/"
+  },
+  {
+    "repo": "xcsh",
+    "label": "xcsh",
+    "description": "Install the independent terminal assistant for engineering and F5 Distributed Cloud workflows.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/xcsh/en/"
+  },
+  {
+    "repo": "terraform-provider-xcsh",
+    "label": "Terraform provider",
+    "description": "Configure F5 Distributed Cloud resources with Terraform.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/terraform-provider-xcsh/"
+  },
+  {
+    "repo": "xcsh-action",
+    "label": "xcsh GitHub Action",
+    "description": "Run pinned xcsh manifest operations in GitHub Actions.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/xcsh-action/en/"
+  },
+  {
+    "repo": "vscode-xcsh",
+    "label": "VS Code extension",
+    "description": "Author manifests and manage F5 Distributed Cloud resources in Visual Studio Code.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/vscode-xcsh/en/"
+  },
+  {
+    "repo": "xcsh-chrome-extension",
+    "label": "xcsh Chrome extension",
+    "description": "Connect xcsh to the F5 Distributed Cloud console through a local browser bridge.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/xcsh-chrome-extension/en/"
+  },
+  {
+    "repo": "marketplace",
+    "label": "xcsh marketplace",
+    "description": "Find xcsh plugins for documentation, sales, cloud, security, and desktop work.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/marketplace/en/"
+  },
+  {
+    "repo": "marketplace-claude-code",
+    "label": "Marketplace for Claude Code",
+    "description": "Find Language Server Protocol integrations and developer tools for Claude Code.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/marketplace-claude-code/en/"
+  },
+  {
+    "repo": "console",
+    "label": "Console catalog",
+    "description": "Browse documented console routes and browser automation workflows.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/console/en/"
+  },
+  {
+    "repo": "api-specs",
+    "label": "API specifications",
+    "description": "Find validated OpenAPI specifications and the specification update pipeline.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/api-specs/en/"
+  },
+  {
+    "repo": "api-specs-enriched",
+    "label": "Enriched API specifications",
+    "description": "Browse OpenAPI schemas with additional constraints and examples.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/api-specs-enriched/en/"
+  },
+  {
+    "repo": "apt-repo",
+    "label": "APT repository",
+    "description": "Install signed Debian and Ubuntu packages for xcsh and supporting tools.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/apt-repo/en/"
+  },
+  {
+    "repo": "claude-code-proxy",
+    "label": "Claude Code proxy",
+    "description": "Find documentation for adapting Claude Code requests to other model providers.",
+    "group": "Developer tools",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/claude-code-proxy/"
+  },
+  {
+    "repo": "html-to-markdown",
+    "label": "F5 documentation corpus",
+    "description": "Browse curated F5 documentation and its Markdown sources.",
+    "group": "Documentation platform",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/html-to-markdown/"
+  },
+  {
+    "repo": "docs-builder",
+    "label": "Documentation builder",
+    "description": "Build documentation sites with the shared Astro and Starlight container.",
+    "group": "Documentation platform",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/docs-builder/en/"
+  },
+  {
+    "repo": "docs-theme",
+    "label": "Shared documentation theme",
+    "description": "Find the shared branding, layout, and navigation components.",
+    "group": "Documentation platform",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/docs-theme/en/"
+  },
+  {
+    "repo": "docs-icons",
+    "label": "Icon packages",
+    "description": "Find icon packages for documentation and cloud diagrams.",
+    "group": "Documentation platform",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/docs-icons/en/"
+  },
+  {
+    "repo": "starlight-llms-txt",
+    "label": "Starlight llms.txt",
+    "description": "Generate Markdown feeds and navigation for documentation readers and tools.",
+    "group": "Documentation platform",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/starlight-llms-txt/en/"
+  },
+  {
+    "repo": "starlight-mega-menu",
+    "label": "Starlight mega menu",
+    "description": "Add desktop and mobile dropdown navigation to Starlight sites.",
+    "group": "Documentation platform",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/starlight-mega-menu/en/"
+  },
+  {
+    "repo": "i18n-core",
+    "label": "Localization utilities",
+    "description": "Find locale definitions and path resolution utilities.",
+    "group": "Documentation platform",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/i18n-core/en/"
+  },
+  {
+    "repo": "docs-control",
+    "label": "Documentation governance",
+    "description": "Find shared workflows and managed documentation guidance.",
+    "group": "Documentation platform",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/docs-control/en/"
+  },
+  {
+    "repo": "f5-sales-demo.github.io",
+    "label": "Sales demo portal",
+    "description": "Source for this showcase, demo catalog, and ecosystem directory.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/f5-sales-demo.github.io"
+  },
+  {
+    "repo": "demo-resource-template",
+    "label": "Demo resource template",
+    "description": "Source template for new demo components; replace placeholders before publication.",
+    "group": "Project sources",
+    "kind": "Template repository",
+    "url": "https://github.com/f5-sales-demo/demo-resource-template"
+  },
+  {
+    "repo": "certificate-management",
+    "label": "Certificate management",
+    "description": "Planned documentation; the current published page is a placeholder.",
+    "group": "Project sources",
+    "kind": "Planned documentation",
+    "url": "https://github.com/f5-sales-demo/certificate-management"
+  },
+  {
+    "repo": "self-hosted-runner",
+    "label": "self-hosted-runner",
+    "description": "Build Docker images for self-hosted GitHub Actions runners.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/self-hosted-runner"
+  },
+  {
+    "repo": "homebrew-tap",
+    "label": "Homebrew tap",
+    "description": "Homebrew formulae for f5-sales-demo tools.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/homebrew-tap"
+  },
+  {
+    "repo": "herdr",
+    "label": "Herdr",
+    "description": "Find source for the terminal multiplexer and coding agent host.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/herdr"
+  },
+  {
+    "repo": ".github",
+    "label": "Organization profile",
+    "description": "Pre-packaged F5 Distributed Cloud sales demos and supporting collateral.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/.github"
+  },
+  {
+    "repo": "xcsh-office-pane",
+    "label": "xcsh-office-pane",
+    "description": "Find source for the xcsh Office task pane.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/xcsh-office-pane"
+  },
+  {
+    "repo": "codex-plugin-cc",
+    "label": "codex-plugin-cc",
+    "description": "Find source for a Claude Code plugin that delegates reviews and tasks to Codex.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/codex-plugin-cc"
+  },
+  {
+    "repo": "claude-office",
+    "label": "claude-office",
+    "description": "Find source for a local proxy used by the Claude Office add-in.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/claude-office"
+  },
+  {
+    "repo": "xc-cc-exercise",
+    "label": "xc-cc-exercise",
+    "description": "Find source for F5 Distributed Cloud workshop exercises.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/xc-cc-exercise"
+  },
+  {
+    "repo": "mvp",
+    "label": "mvp",
+    "description": "Find the project proposal and executive briefing sources.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/mvp"
+  },
+  {
+    "repo": "f5-voice-assistant",
+    "label": "f5-voice-assistant",
+    "description": "Find source for a voice assistant and its F5 Distributed Cloud knowledge collection.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/f5-voice-assistant"
+  },
+  {
+    "repo": "azure-llm",
+    "label": "azure-llm",
+    "description": "Find Terraform source for an Azure virtual machine used for model inference.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/azure-llm"
+  },
+  {
+    "repo": "xcsh-subagent",
+    "label": "xcsh-subagent",
+    "description": "Find source for a coding agent subagent extension.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/xcsh-subagent"
+  },
+  {
+    "repo": "open-responses-server",
+    "label": "open-responses-server",
+    "description": "Find source for a model API adapter and its server setup.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/open-responses-server"
+  },
+  {
+    "repo": "ghostty-web",
+    "label": "ghostty-web",
+    "description": "Find source for the browser terminal component.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/ghostty-web"
+  },
+  {
+    "repo": "docs-template",
+    "label": "Documentation template",
+    "description": "Find source for the shared documentation template.",
+    "group": "Project sources",
+    "kind": "Repository",
+    "url": "https://github.com/f5-sales-demo/docs-template"
+  }
+]

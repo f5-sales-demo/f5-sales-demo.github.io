@@ -1,8 +1,8 @@
 [
   {
     "id": "lab-infrastructure",
-    "label": "Lab Infrastructure",
-    "description": "Deployable Azure VM components for demo environments. Terraform-based, deterministic, pre-configured."
+    "label": "Demo environment",
+    "description": "Deployment guides for Azure and AWS demo resources; offerings differ by component."
   },
   {
     "id": "product-features",
