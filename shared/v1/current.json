@@ -1,8 +1,8 @@
 {
   "contract": "v1",
   "release": {
-    "url": "https://f5-sales-demo.github.io/shared/v1/releases/ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a.json",
-    "sha256": "ee476a6c33f90ed2ba9a4aa83fff501616576b018bde8d354087026cd2c33c4a",
+    "url": "https://f5-sales-demo.github.io/shared/v1/releases/6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade.json",
+    "sha256": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
     "bytes": 5766
   }
 }
