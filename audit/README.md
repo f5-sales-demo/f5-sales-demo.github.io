@@ -84,3 +84,5 @@ The final candidate browser regression passed (`BASE_URL=http://127.0.0.1:8766/e
 Initial page load used 17 local resources totaling 707,162 decoded bytes; no remote dependency
 request was observed before opening search. Federated search loads remote indices on demand.
 These are local cold-load measurements, not a production performance score.
+
+Final link inventory: 133 content links, 64 unique destinations, all returned the expected public page. `all-content-links.json` records labels and locations; `link-status-results.json` records final URLs and HTTP redirects. Meta-refresh locale roots were resolved before assessing content.
