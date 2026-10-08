@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Origin serverCompare the Azure full-origin stack with the separate AWS Juice Shop deployment.",
+    "url": "https://f5-sales-demo.github.io/origin-server/en/"
+  },
+  {
+    "label": "Traffic generatorChoose Azure or AWS deployment guides for controlled security traffic and browser scenarios.",
+    "url": "https://f5-sales-demo.github.io/traffic-generator/en/"
+  },
+  {
+    "label": "CDN simulatorDeploy an Azure proxy that adds CDN headers to origin requests.",
+    "url": "https://f5-sales-demo.github.io/cdn-simulator/en/"
+  },
+  {
+    "label": "Demo resource catalogAzure and AWS offerings vary by component",
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/"
+  }
+]

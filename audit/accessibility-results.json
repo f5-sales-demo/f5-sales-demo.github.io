@@ -1,0 +1,38 @@
+[
+  {
+    "route": "/en/",
+    "theme": "light",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "route": "/en/",
+    "theme": "dark",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "route": "/en/demos/",
+    "theme": "light",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "route": "/en/demos/",
+    "theme": "dark",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "route": "/en/ecosystem/",
+    "theme": "light",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "route": "/en/ecosystem/",
+    "theme": "dark",
+    "violations": [],
+    "incomplete": []
+  }
+]

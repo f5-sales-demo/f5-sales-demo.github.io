@@ -1,303 +1,82 @@
 ---
-title: F5 Distributed Cloud Sales Demos
-description: Live demo environments, attack simulators, runbooks, and automation tools for F5 Distributed Cloud sales engineers.
+title: F5 Distributed Cloud sales demos
+description: Demonstration guides, environment resources, and technical tools for F5 Distributed Cloud sales engineers and solution architects.
 template: splash
 hero:
-  title: F5 Distributed Cloud Sales Demos
-  tagline: Live environments, attack simulators, runbooks, and automation tools for F5 Distributed Cloud sales engineering.
-  image:
-    html: '<img src="/images/hero-platform.svg" alt="F5 Distributed Cloud platform" />'
+  title: F5 Distributed Cloud sales demos
+  tagline: Demonstration guides, environment resources, and technical tools for sales engineers and solution architects.
   actions:
-    - text: Explore solutions
-      link: '#demo-solutions'
+    - text: Demo catalog
+      link: /en/demos/
       variant: primary
     - text: Demo environment
-      link: '#demo-environment'
+      link: https://f5-sales-demo.github.io/demo-resources/en/
       variant: secondary
 ---
 
 import { CardGrid } from '@astrojs/starlight/components';
 import LinkCard from '@f5-sales-demo/docs-theme/components/LinkCard.astro';
 
-> Pre-built lab environments, attack simulations, and automation assets for F5 Distributed Cloud sales engineers, solutions architects, and technical practitioners.
+<div className="sales-showcase">
 
-## Demo solutions
+## Demos
 
-### Security solutions
+### Security
 
 <CardGrid>
-  <LinkCard
-    icon="f5xc:web-app-and-api-protection"
-    title="Custom Responses"
-    description="Terraform showcase of branded errors, direct responses, security pages, redirects, metadata, and masking."
-    href="https://f5-sales-demo.github.io/custom-responses/"
-  />
-  <LinkCard
-    icon="f5xc:web-app-and-api-protection"
-    title="Web App & API Protection"
-    description="Web application and API protection demonstrations."
-    href="https://f5-sales-demo.github.io/webapp-api-protection/"
-  />
-  <LinkCard
-    icon="f5xc:web-app-and-api-protection"
-    title="API Protection"
-    description="API discovery, OpenAPI schema validation, positive security models, and rate limiting."
-    href="https://f5-sales-demo.github.io/api-protection/"
-  />
-  <LinkCard
-    icon="f5xc:bot-defense"
-    title="Bot Defense Advanced"
-    description="Behavioral AI telemetry, client fingerprinting, and automated mitigation against sophisticated bot attacks."
-    href="https://f5-sales-demo.github.io/bot-advanced/"
-  />
-  <LinkCard
-    icon="f5xc:bot-defense"
-    title="Bot Defense Standard"
-    description="Signature-based detection, scrapers, search engine verification, and bad bot blocking."
-    href="https://f5-sales-demo.github.io/bot-standard/"
-  />
-  <LinkCard
-    icon="f5xc:client-side-defense"
-    title="Client-Side Defense"
-    description="Continuous monitoring and mitigation for Magecart, formjacking, and unauthorized client-side JavaScript execution."
-    href="https://f5-sales-demo.github.io/csd/"
-  />
-  <LinkCard
-    icon="f5xc:ddos-and-transit-services"
-    title="DDoS Mitigation"
-    description="Network and application layer DDoS protection with global scrubbing infrastructure."
-    href="https://f5-sales-demo.github.io/ddos/"
-  />
-  <LinkCard
-    icon="f5xc:web-app-scanning"
-    title="Web App Scanning"
-    description="Automated dynamic vulnerability assessment and security posture scanning for web applications."
-    href="https://f5-sales-demo.github.io/was/"
-  />
+  <LinkCard icon="f5xc:web-app-and-api-protection" title="Web App & API Protection" description="Deploy an application security demo with Terraform and follow its protection walkthroughs." href="https://f5-sales-demo.github.io/webapp-api-protection/en/" />
+  <LinkCard icon="f5xc:application-traffic-insight" title="API Protection" description="Find guides to API discovery, schema validation, and request controls." href="https://f5-sales-demo.github.io/api-protection/en/" />
+  <LinkCard icon="f5xc:bot-defense" title="Bot Defense Advanced" description="Review behavioral bot detection and mitigation scenarios." href="https://f5-sales-demo.github.io/bot-advanced/en/" />
+  <LinkCard icon="f5xc:client-side-defense" title="Client-Side Defense" description="Deploy browser script monitoring with an API or Terraform workflow." href="https://f5-sales-demo.github.io/csd/en/" />
 </CardGrid>
 
 ### Networking and performance
 
 <CardGrid>
-  <LinkCard
-    icon="f5xc:multi-cloud-network-connect"
-    title="Multi-Cloud Networking"
-    description="Secure Layer 3 and Layer 7 transit, site-to-site tunnels, and cross-cloud service meshes."
-    href="https://f5-sales-demo.github.io/multi-cloud-networking/"
-  />
-  <LinkCard
-    icon="f5xc:content-delivery-network"
-    title="CDN"
-    description="Global edge caching, content optimization, origin shielding, and custom cache rules."
-    href="https://f5-sales-demo.github.io/cdn/"
-  />
-  <LinkCard
-    icon="f5xc:dns-management"
-    title="DNS Management"
-    description="Primary and secondary authoritative DNS, DNSSEC, and global server load balancing."
-    href="https://f5-sales-demo.github.io/dns/"
-  />
-  <LinkCard
-    icon="f5xc:nginx-one"
-    title="NGINX One"
-    description="NGINX One console integration, instance fleet visibility, and configuration management."
-    href="https://f5-sales-demo.github.io/nginx/"
-  />
+  <LinkCard icon="f5xc:multi-cloud-network-connect" title="Multi-Cloud Networking" description="Find site deployment and cross-cloud connectivity guides." href="https://f5-sales-demo.github.io/multi-cloud-networking/en/" />
+  <LinkCard icon="f5xc:content-delivery-network" title="Content Delivery Network" description="Review content delivery network (CDN) caching and origin configuration." href="https://f5-sales-demo.github.io/cdn/en/" />
+  <LinkCard icon="f5xc:multi-cloud-network-connect" title="Canada topology" description="Deploy Canadian application hosting and demonstrate regional access controls." href="https://f5-sales-demo.github.io/canada/en/" />
 </CardGrid>
 
-## Build and operate the demo environment
+[Demo catalog](/en/demos/) includes bot classification, distributed denial-of-service (DDoS) mitigation, web scanning, Domain Name System (DNS) management, NGINX One, and custom response guides.
 
-### Live demo resources
+## Demo environment
+
+Choose the deployment that fits your demonstration. Azure and Amazon Web Services (AWS) offerings have different workloads and runtimes; check each guide before provisioning.
+
+- [Demo resource catalog](https://f5-sales-demo.github.io/demo-resources/en/) — Choose origin, traffic, and CDN simulation resources for a demo environment.
+- [Origin server](https://f5-sales-demo.github.io/origin-server/en/) — Compare the Azure full-origin stack with the separate AWS Juice Shop deployment.
+- [Traffic generator](https://f5-sales-demo.github.io/traffic-generator/en/) — Choose Azure or AWS deployment guides for controlled security traffic and browser scenarios.
+- [CDN simulator](https://f5-sales-demo.github.io/cdn-simulator/en/) — Deploy an Azure proxy that adds CDN headers to origin requests.
+
+## Operations
+
+Find the queries and administration tasks you need during a demonstration.
+
+- [Statistics](https://f5-sales-demo.github.io/statistics/en/) — Query access logs, application metrics, and security telemetry through the API.
+- [Observability](https://f5-sales-demo.github.io/observability/en/) — Find monitoring, metrics, tracing, and alerting guides.
+- [Administration](https://f5-sales-demo.github.io/administration/en/) — Find tenant, namespace, and role management guides.
+
+## Developer tools
+
+Install a tool or choose an automation workflow. These community projects have their own installation and support guidance.
 
 <CardGrid>
-  <LinkCard
-    icon="f5xc:distributed-apps"
-    title="Origin Server"
-    description="Ubuntu VM hosting 9 vulnerable web applications for WAF, API, and bot defense validation."
-    href="https://f5-sales-demo.github.io/origin-server/"
-  />
-  <LinkCard
-    icon="f5xc:application-traffic-insight"
-    title="Traffic Generator"
-    description="Attack generation host with 50+ security tools and 7 automated traffic simulation suites."
-    href="https://f5-sales-demo.github.io/traffic-generator/"
-  />
-  <LinkCard
-    icon="f5xc:content-delivery-network"
-    title="CDN Simulator"
-    description="Edge proxy simulator injecting 67+ vendor-specific CDN headers for upstream verification."
-    href="https://f5-sales-demo.github.io/cdn-simulator/"
-  />
-  <LinkCard
-    icon="f5xc:platform"
-    title="Demo Resource Catalog"
-    description="Complete inventory of lab environments, infrastructure templates, and target workloads."
-    href="https://f5-sales-demo.github.io/demo-resources/"
-  />
+  <LinkCard icon="carbon:terminal" title="xcsh" description="Install the independent terminal assistant for engineering and F5 Distributed Cloud workflows." href="https://f5-sales-demo.github.io/xcsh/en/" />
+  <LinkCard icon="hashicorp-flight:terraform-color" title="Terraform provider" description="Configure F5 Distributed Cloud resources with Terraform." href="https://f5-sales-demo.github.io/terraform-provider-xcsh/" />
+  <LinkCard icon="carbon:code" title="VS Code extension" description="Author manifests and manage F5 Distributed Cloud resources in Visual Studio Code." href="https://f5-sales-demo.github.io/vscode-xcsh/en/" />
 </CardGrid>
 
-### Operations and administration
+- [xcsh GitHub Action](https://f5-sales-demo.github.io/xcsh-action/en/) — Run pinned xcsh manifest operations in GitHub Actions.
+- [Enriched API specifications](https://f5-sales-demo.github.io/api-specs-enriched/en/) — Browse OpenAPI schemas with additional constraints and examples.
+- [xcsh marketplace](https://f5-sales-demo.github.io/marketplace/en/) — Find xcsh plugins for documentation, sales, cloud, security, and desktop work.
 
-<CardGrid>
-  <LinkCard
-    icon="f5xc:data-intelligence"
-    title="Statistics"
-    description="Query HTTP access logs, API metrics, and security events."
-    href="https://f5-sales-demo.github.io/statistics/en/"
-  />
-  <LinkCard
-    icon="f5xc:observability"
-    title="Observability"
-    description="Real-time analytics, distributed request tracing, and security event dashboard monitoring."
-    href="https://f5-sales-demo.github.io/observability/"
-  />
+## Ecosystem directory
 
-  <LinkCard
-    icon="f5xc:administration"
-    title="Administration"
-    description="Tenant provisioning, role-based access control, audit logging, and platform administration."
-    href="https://f5-sales-demo.github.io/administration/"
-  />
-</CardGrid>
+The public directory includes every active community project, with documentation builders, themes, icons, localization utilities, governance, and source-only projects grouped separately.
 
-## Automate and extend
+<LinkCard title="Ecosystem directory" description="Find all public projects, including supporting tools and documentation sources." href="/en/ecosystem/" />
 
-### Infrastructure as code and CI/CD
+Community demos and tools complement [official F5 documentation](https://docs.cloud.f5.com/). Review each project's support guidance before using it.
 
-<CardGrid>
-  <LinkCard
-    icon="hashicorp-flight:terraform-color"
-    title="Terraform Provider"
-    description="Terraform provider for declarative provisioning and management of F5 Distributed Cloud resources."
-    href="https://f5-sales-demo.github.io/terraform-provider-xcsh/"
-  />
-  <LinkCard
-    icon="f5xc:ai_assistant_logo"
-    title="xcsh GitHub Action"
-    description="Apply and reconcile F5 Distributed Cloud manifests in CI/CD workflows without interactive turns."
-    href="https://f5-sales-demo.github.io/xcsh-action/"
-  />
-  <LinkCard
-    icon="f5xc:shared-configuration"
-    title="APT Repository"
-    description="Debian and Ubuntu APT package repository distributing xcsh and related native binaries."
-    href="https://f5-sales-demo.github.io/apt-repo/"
-  />
-</CardGrid>
-
-### API specifications
-
-<CardGrid>
-  <LinkCard
-    icon="f5xc:data-intelligence"
-    title="API Specifications"
-    description="OpenAPI specification validation, drift detection, and automated endpoint cataloging."
-    href="https://f5-sales-demo.github.io/api-specs/"
-  />
-  <LinkCard
-    icon="f5xc:data-intelligence"
-    title="API Specs Enriched"
-    description="Enriched OpenAPI specifications with detailed schemas, parameter guides, and payload examples."
-    href="https://f5-sales-demo.github.io/api-specs-enriched/"
-  />
-</CardGrid>
-
-### Developer tooling and AI assistants
-
-<CardGrid>
-  <LinkCard
-    icon="f5xc:distributed-apps"
-    title="VS Code Extension"
-    description="Manage F5 Distributed Cloud resources directly from VS Code with schema IntelliSense and assistant support."
-    href="https://f5-sales-demo.github.io/vscode-xcsh/"
-  />
-  <LinkCard
-    icon="f5xc:ai_assistant_logo"
-    title="xcsh CLI"
-    description="Interactive terminal shell with AI assistance for managing and querying F5 Distributed Cloud APIs."
-    href="https://f5-sales-demo.github.io/xcsh/"
-  />
-  <LinkCard
-    icon="f5xc:ai_assistant_logo"
-    title="xcsh Chrome Extension"
-    description="Browser extension integrating AI assistance and guided workflows into the F5 Distributed Cloud console."
-    href="https://f5-sales-demo.github.io/xcsh-chrome-extension/"
-  />
-  <LinkCard
-    icon="f5xc:ai_assistant_logo"
-    title="Marketplace"
-    description="Integration catalog and deployment repository for F5 Distributed Cloud partner solutions."
-    href="https://f5-sales-demo.github.io/marketplace/"
-  />
-  <LinkCard
-    icon="f5xc:ai_assistant_logo"
-    title="Claude Code Marketplace"
-    description="Curated LSP tooling plugins and marketplace registry for Claude Code developer workflows."
-    href="https://f5-sales-demo.github.io/marketplace-claude-code/"
-  />
-  <LinkCard
-    icon="f5xc:ai_assistant_logo"
-    title="Console Route Catalog"
-    description="Schema-driven directory of console routes, views, and browser automation flows for AI agents."
-    href="https://f5-sales-demo.github.io/console/"
-  />
-</CardGrid>
-
-### Documentation platform
-
-<CardGrid>
-  <LinkCard
-    icon="f5xc:doc"
-    title="F5 Docs Corpus"
-    description="Machine-readable F5 product documentation with progressive indexes, complete document leaves, provenance, and source assets."
-    href="https://f5-sales-demo.github.io/html-to-markdown/"
-  />
-  <LinkCard
-    icon="f5xc:doc"
-    title="Documentation Builder"
-    description="Containerized Astro and Starlight build engine for compiling fleet documentation sites."
-    href="https://f5-sales-demo.github.io/docs-builder/"
-  />
-  <LinkCard
-    icon="f5xc:shared-configuration"
-    title="Shared Documentation Theme"
-    description="Shared branding, responsive typography, and navigation components across the documentation fleet."
-    href="https://f5-sales-demo.github.io/docs-theme/"
-  />
-  <LinkCard
-    icon="f5xc:distributed-apps"
-    title="Icon Packages"
-    description="Custom Iconify packages and Starlight plugins providing F5 Distributed Cloud iconography."
-    href="https://f5-sales-demo.github.io/docs-icons/"
-  />
-  <LinkCard
-    icon="f5xc:doc"
-    title="Starlight LLMs Txt"
-    description="Astro Starlight plugin generating standard-compliant llms.txt and llms-full.txt feeds."
-    href="https://f5-sales-demo.github.io/starlight-llms-txt/"
-  />
-  <LinkCard
-    icon="f5xc:shared-configuration"
-    title="Starlight Mega Menu"
-    description="Mega-menu dropdown navigation plugin for Astro Starlight documentation sites."
-    href="https://f5-sales-demo.github.io/starlight-mega-menu/"
-  />
-  <LinkCard
-    icon="f5xc:shared-configuration"
-    title="i18n Core"
-    description="Canonical locale registry, slug resolution, and i18n utilities for documentation sites."
-    href="https://f5-sales-demo.github.io/i18n-core/"
-  />
-  <LinkCard
-    icon="f5xc:shared-configuration"
-    title="Governance and Control"
-    description="Central repository for CI workflows, automated governance rules, and managed file distribution."
-    href="https://f5-sales-demo.github.io/docs-control/"
-  />
-  <LinkCard
-    icon="f5xc:platform"
-    title="Demo Resource Template"
-    description="Standard blueprint and scaffolding template for creating new demo resource modules."
-    href="https://f5-sales-demo.github.io/demo-resource-template/"
-  />
-</CardGrid>
+</div>

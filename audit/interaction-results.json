@@ -1,0 +1,30 @@
+[
+  {
+    "check": "desktop menus and Escape focus restoration",
+    "status": "pass"
+  },
+  {
+    "check": "mobile open and Escape focus restoration",
+    "status": "pass"
+  },
+  {
+    "check": "320 CSS px reflow and 200% text",
+    "status": "pass"
+  },
+  {
+    "check": "JavaScript disabled destination links",
+    "status": "pass"
+  },
+  {
+    "check": "13 locale roots at 375 px including Arabic RTL",
+    "status": "pass"
+  },
+  {
+    "check": "JavaScript errors",
+    "observed": []
+  },
+  {
+    "check": "failed requests",
+    "observed": []
+  }
+]

@@ -1,0 +1,877 @@
+[
+  {
+    "repo": "api-protection",
+    "requested_url": "https://f5-sales-demo.github.io/api-protection/en/",
+    "final_url": "https://f5-sales-demo.github.io/api-protection/en/",
+    "status": 200,
+    "title": "F5 Distributed Cloud API Protection | F5 Distributed Cloud API Protection",
+    "headings": ["F5 Distributed Cloud API Protection", "API Inspection Engine", "Core Capabilities"],
+    "opening": "F5 Distributed Cloud API Protection\n\nF5 Distributed Cloud API Protection secures REST and GraphQL APIs by enforcing positive security models, validating payloads against OpenAPI (Swagger) specifications, and discovering shadow or undocumented endpoints.\n\nAPI Inspection Engine\nSection titled \u201cAPI Inspection Engine\u201d\n+-------------------------------------------------------------------------+\n|                     API Security Inspection Pipeline                    |\n|                                                                         |\n|  API Client Request                                                     |\n|        |                                                                |\n|        v                                                                |\n|  +-------------------------------------------------------------------+  |\n|  | Authentication & Token Inspection (JWT / OAuth2 / API Key)        |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|                                    v                                    |\n|  +-------------------------------------------------------------------+  |\n|  | OpenAPI Schema Conformance: Path, Query, Header, Body Validation  |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|                                    v                                    |\n|  +----------------------------------------------------------------",
+    "errors": []
+  },
+  {
+    "repo": "bot-advanced",
+    "requested_url": "https://f5-sales-demo.github.io/bot-advanced/en/",
+    "final_url": "https://f5-sales-demo.github.io/bot-advanced/en/",
+    "status": 200,
+    "title": "F5 Distributed Cloud Bot Defense Advanced | F5 Distributed Cloud Bot Defense Advanced",
+    "headings": [
+      "F5 Distributed Cloud Bot Defense Advanced",
+      "Telemetry & Behavioral Pipeline",
+      "Attack Coverage",
+      "Mitigation Actions"
+    ],
+    "opening": "F5 Distributed Cloud Bot Defense Advanced\n\nF5 Distributed Cloud Bot Defense Advanced delivers real-time protection against sophisticated automated attacks. Powered by Shape Security artificial intelligence (AI) and telemetry engine, it differentiates between legitimate human interactions and automated tooling attempting credential stuffing, account takeover, inventory hoarding, and API scraping.\n\nTelemetry & Behavioral Pipeline\nSection titled \u201cTelemetry & Behavioral Pipeline\u201d\n+-------------------------------------------------------------------------+\n|                  Advanced Behavioral AI Telemetry Flow                  |\n|                                                                         |\n|  1. HTML Request --> Inject Dynamic Telemetry JavaScript                |\n|  2. Browser Execution --> Collect DOM, Hardware, Canvas, Mouse Signals  |\n|  3. Protected POST/API --> Interrogate Telemetry Beacon Payload         |\n|  4. Cloud AI Analysis --> Score Client Authenticity (Human vs Bot)      |\n|  5. Mitigation Decision --> Allow, Challenge (CAPTCHA), Block, Flag     |\n+-------------------------------------------------------------------------+\nAttack Coverage\nSection titled \u201cAttack Coverage\u201d\n\nCredential Stuffing\n\nStops automated credential testing against login endpoints using compromised password databases.\n\nAccount Takeover (ATO)\n\nProtects user profile management, password resets, and high-value transactions.\n\nInventory Hoarding\n\nPrevents checkout bots from depleting limited inventory or ticket allocations.\n\nAPI Reverse Engineering\n\nIdentifies headless browser framewor",
+    "errors": []
+  },
+  {
+    "repo": "webapp-api-protection",
+    "requested_url": "https://f5-sales-demo.github.io/webapp-api-protection/en/",
+    "final_url": "https://f5-sales-demo.github.io/webapp-api-protection/en/",
+    "status": 200,
+    "title": "Web App & API Protection | Web App & API Protection",
+    "headings": ["Web App & API Protection", "Architecture", "Key Capabilities"],
+    "opening": "Web App & API Protection\nCustomize examples\n\nThe Web Application & API Protection (WAAP) demonstration illustrates how to secure modern web applications and APIs against multi-vector threats using F5 Distributed Cloud and Terraform automation.\n\nArchitecture\nSection titled \u201cArchitecture\u201d\nClient traffic enters the public VIP of the F5 Distributed Cloud HTTP load balancer.\nLayer 7 inspection applies Web Application Firewall signatures and staged enforcement. Bot Defense and Client-Side Defense provide their respective detection and client telemetry.\nOrigin pool forwards traffic to backend microservices and API endpoints.\nKey Capabilities\nSection titled \u201cKey Capabilities\u201d\n\nDeclarative HTTP LB\n\nFull Terraform provisioning of HTTP load balancer VIPs and origin pool routing.\n\nWAF Staging Enforcement\n\nSafe policy iteration with validated WAF staging periods prior to active blocking.\n\nClient-Side Defense\n\nTelemetry beacon injection for real-time detection of unauthorized JavaScript exfiltration.\n\nNext\nOverview",
+    "errors": []
+  },
+  {
+    "repo": "bot-standard",
+    "requested_url": "https://f5-sales-demo.github.io/bot-standard/en/",
+    "final_url": "https://f5-sales-demo.github.io/bot-standard/en/",
+    "status": 200,
+    "title": "F5 Distributed Cloud Bot Defense Standard | F5 Distributed Cloud Bot Defense Standard",
+    "headings": ["F5 Distributed Cloud Bot Defense Standard", "Classification Flow", "Bot Categories & Actions"],
+    "opening": "F5 Distributed Cloud Bot Defense Standard\n\nF5 Distributed Cloud Bot Defense Standard provides foundational automated threat mitigation at the edge. It inspects incoming client requests against known bot signatures, verifies legitimate search engine web crawlers, and blocks automated scrapers, vulnerability scanners, and malicious bots.\n\nClassification Flow\nSection titled \u201cClassification Flow\u201d\n+-------------------------------------------------------------------------+\n|                   Standard Bot Classification Pipeline                  |\n|                                                                         |\n|  Incoming Client Request                                                |\n|        |                                                                |\n|        v                                                                |\n|  +-------------------------------------------------------------------+  |\n|  | Signature & User-Agent Verification                               |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|         +--------------------------+--------------------------+         |\n|         | Known Good Bot                                      | Unknown |\n|         v                                                     v         |\n|  +-----------------------------+               +---------------------+  |\n|  | Reverse DNS & ASN Lookup:   |               | Malicious Signature |  |\n|  | Verified Googlebot/Bingbot  |               | Matching & Sc",
+    "errors": []
+  },
+  {
+    "repo": "ddos",
+    "requested_url": "https://f5-sales-demo.github.io/ddos/en/",
+    "final_url": "https://f5-sales-demo.github.io/ddos/en/",
+    "status": 200,
+    "title": "DDoS Mitigation Architecture & Demo | DDoS Mitigation Architecture & Demo",
+    "headings": ["DDoS Mitigation Architecture & Demo", "Defense Architecture", "Key Topics", "Documentation Roadmap"],
+    "opening": "DDoS Mitigation Architecture & Demo\nCustomize examples\n\nF5 Distributed Cloud DDoS Mitigation defends enterprise networks and applications against massive volumetric, protocol-based, and complex application-layer distributed denial of service (DDoS) attacks.\n\nDefense Architecture\nSection titled \u201cDefense Architecture\u201d\n+-------------------------------------------------------------------------+\n|                  F5 Distributed Cloud Global Scrubbing                  |\n|                                                                         |\n|  Volumetric DDoS Attack (SYN Flood, UDP Amp, NTP, DNS Amplification)    |\n|        |                                                                |\n|        v                                                                |\n|  +-------------------------------------------------------------------+  |\n|  | Global Anycast Tier: 20+ Tbps Global Ingestion Capacity           |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|                                    v                                    |\n|  +-------------------------------------------------------------------+  |\n|  | Hardware Acceleration & BGP Flowspec Real-time Mitigation Filters |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|                                    v                                    |\n|  +--------------------------------------------------------------",
+    "errors": []
+  },
+  {
+    "repo": "csd",
+    "requested_url": "https://f5-sales-demo.github.io/csd/en/",
+    "final_url": "https://f5-sales-demo.github.io/csd/en/",
+    "status": 200,
+    "title": "Client-Side Defense | Client-Side Defense",
+    "headings": ["Client-Side Defense", "Choose a deployment mode"],
+    "opening": "Client-Side Defense\nClient-side defense for browser-based threats.\nCustomize examples\nChoose a deployment mode\nSection titled \u201cChoose a deployment mode\u201d\n\nBoth deployment modes create the same logical architecture in namespace demo-app: one origin pool and one demo-app HTTP load balancer for app.example.com. The load balancer uses HTTPS automatic certificates, redirects HTTP to HTTPS, advertises on the public default VIP, routes to the origin pool, and inserts Client-Side Defense JavaScript on all pages.\n\nAPI build \u2014 create and operate the F5 Distributed Cloud resources directly.\nTerraform \u2014 deploy the AWS origin and F5 Distributed Cloud resources as one state-managed stack.\n\nThe AWS reference uses the Application Load Balancer hostname as a public_name origin. An Azure origin uses its public_ip address instead.\n\nChoose one ownership mode. Never run the API create/update/delete workflow against resources present in Terraform state.\n\nNext\nOverview",
+    "errors": []
+  },
+  {
+    "repo": "custom-responses",
+    "requested_url": "https://f5-sales-demo.github.io/custom-responses/en/",
+    "final_url": "https://f5-sales-demo.github.io/custom-responses/en/",
+    "status": 200,
+    "title": "Custom Responses | Custom Responses",
+    "headings": [
+      "Custom Responses",
+      "Application responses",
+      "Routing and response data",
+      "Security checks and blocks"
+    ],
+    "opening": "Custom Responses\n\nChoose the response behavior that fits your problem. F5 Distributed Cloud can return a direct reply without contacting the application, change routing or response data, or explain a security decision. Each guide helps you choose a behavior, configure the resource that produces it, and confirm the result.\n\nDirect responses deliberately answer matching requests. Error mappings customize eligible failures generated by the edge. Transformations change a destination, metadata, or selected values; security controls decide whether traffic can continue.\n\nQualified examples demonstrate the measured status, body or browser behavior with a matching control and evidence of which component produced it. Qualification applies to those examples, not every setting on a page. CAPTCHA completion remains un-verified, DDoS is un-verified and deferred, and Bot Defense is configuration-only.\n\nApplication responses\nSection titled \u201cApplication responses\u201d\nMaintenance\nTell visitors when an application is temporarily unavailable.\nMissing and retired resources\nExplain missing addresses and permanent retirement.\nStatic acknowledgement\nReturn a fixed receipt on a selected path.\nError responses\nCustomize eligible failures generated by the edge.\nRouting and response data\nSection titled \u201cRouting and response data\u201d\nRedirects\nSend a selected path to its new location.\nHeaders and cookies\nAdd or remove response metadata.\nCross-origin access (CORS)\nAllow browser access from the documentation origin.\nData masking\nHide selected fields or recognized sensitive values.\nSecurity checks and blocks\nSec",
+    "errors": []
+  },
+  {
+    "repo": "was",
+    "requested_url": "https://f5-sales-demo.github.io/was/en/",
+    "final_url": "https://f5-sales-demo.github.io/was/en/",
+    "status": 200,
+    "title": "F5 Distributed Cloud Web Application Scanning | F5 Distributed Cloud Web Application Scanning",
+    "headings": [
+      "F5 Distributed Cloud Web Application Scanning",
+      "Scanning Lifecycle",
+      "Core Capabilities",
+      "Risk Classification Levels"
+    ],
+    "opening": "F5 Distributed Cloud Web Application Scanning\n\nF5 Distributed Cloud Web Application Scanning (WAS) provides automated dynamic application security testing (DAST) across public web applications, APIs, and microservices. WAS discovers exposed attack surfaces, audits for software vulnerabilities, and validates security posture compliance.\n\nScanning Lifecycle\nSection titled \u201cScanning Lifecycle\u201d\n+-------------------------------------------------------------------------+\n|                        WAS Automated Scan Workflow                      |\n|                                                                         |\n|  +--------------------+     +-------------------+     +--------------+  |\n|  | Asset Discovery    | --> | Crawl & Map Target| --> | Active DAST  |  |\n|  | & DNS Verification |     | Endpoints & Forms |     | Security Test|  |\n|  +--------------------+     +-------------------+     +-------+------+  |\n|                                                               |         |\n|                                                               v         |\n|  +--------------------+     +-------------------+     +--------------+  |\n|  | Remediation Export | <-- | Vulnerability Risk| <-- | Response &   |  |\n|  | (Jira, PDF, JSON)  |     | Classification    |     | Exploit Audit|  |\n|  +--------------------+     +-------------------+     +--------------+  |\n+-------------------------------------------------------------------------+\nCore Capabilities\nSection titled \u201cCore Capabilities\u201d\n\nOWASP Top 10 Coverage\n\nAudits for injection flaws, broken access controls, security misc",
+    "errors": []
+  },
+  {
+    "repo": "multi-cloud-networking",
+    "requested_url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/",
+    "final_url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/",
+    "status": 200,
+    "title": "Multi-Cloud Networking (MCN) | Multi-Cloud Networking (MCN)",
+    "headings": ["Multi-Cloud Networking (MCN)"],
+    "opening": "Multi-Cloud Networking (MCN)\nMulti-cloud networking and site connectivity.\nNext\nOverview",
+    "errors": []
+  },
+  {
+    "repo": "cdn",
+    "requested_url": "https://f5-sales-demo.github.io/cdn/en/",
+    "final_url": "https://f5-sales-demo.github.io/cdn/en/",
+    "status": 200,
+    "title": "F5 Distributed Cloud Content Delivery Network | F5 Distributed Cloud Content Delivery Network",
+    "headings": ["F5 Distributed Cloud Content Delivery Network", "Edge Caching Architecture", "Core Features"],
+    "opening": "F5 Distributed Cloud Content Delivery Network\n\nF5 Distributed Cloud Content Delivery Network (CDN) delivers ultra-low-latency web content and static asset distribution through F5\u2019s globally distributed Edge Points of Presence (PoPs).\n\nEdge Caching Architecture\nSection titled \u201cEdge Caching Architecture\u201d\n+-------------------------------------------------------------------------+\n|                         CDN Caching Architecture                        |\n|                                                                         |\n|  End User Client                                                        |\n|        |                                                                |\n|        v                                                                |\n|  +-------------------------------------------------------------------+  |\n|  | Anycast Edge PoP: TCP Termination, TLS Offload, HTTP/2 & HTTP/3   |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|         +--------------------------+--------------------------+         |\n|         | Cache Hit                                           | Cache   |\n|         |                                                     | Miss    |\n|         v                                                     v         |\n|  +-----------------------------+               +---------------------+  |\n|  | Immediate Edge Delivery     |               | Origin Shield PoP   |  |\n|  | (X-Cache: HIT)              |               +----------+----------+  |\n|  +",
+    "errors": []
+  },
+  {
+    "repo": "dns",
+    "requested_url": "https://f5-sales-demo.github.io/dns/en/",
+    "final_url": "https://f5-sales-demo.github.io/dns/en/",
+    "status": 200,
+    "title": "F5 Distributed Cloud DNS Management | F5 Distributed Cloud DNS Management",
+    "headings": [
+      "F5 Distributed Cloud DNS Management",
+      "Resolution & Routing Architecture",
+      "Key Topics",
+      "Documentation Roadmap"
+    ],
+    "opening": "F5 Distributed Cloud DNS Management\nCustomize examples\n\nF5 Distributed Cloud DNS delivers high-performance, resilient, and globally distributed authoritative Domain Name System (DNS) services with built-in DNS load balancing and automated health-based failover.\n\nResolution & Routing Architecture\nSection titled \u201cResolution & Routing Architecture\u201d\n+-------------------------------------------------------------------------+\n|                    Global Anycast DNS Resolution Flow                   |\n|                                                                         |\n|  DNS Client Query (e.g. app.example.com)                                |\n|        |                                                                |\n|        v                                                                |\n|  +-------------------------------------------------------------------+  |\n|  | Globally Distributed Anycast DNS Edge PoPs                         |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|                                    v                                    |\n|  +-------------------------------------------------------------------+  |\n|  | Health Check Engine: Continuous Origin Availability Monitoring     |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|         +--------------------------+--------------------------+         |\n|         | Primary Healthy       ",
+    "errors": []
+  },
+  {
+    "repo": "nginx",
+    "requested_url": "https://f5-sales-demo.github.io/nginx/en/",
+    "final_url": "https://f5-sales-demo.github.io/nginx/en/",
+    "status": 200,
+    "title": "NGINX One Console Integration | NGINX One Console Integration",
+    "headings": ["NGINX One Console Integration", "Architecture", "Key Capabilities"],
+    "opening": "NGINX One Console Integration\n\nThe NGINX One integration connects distributed NGINX Plus and NGINX Open Source instances to the F5 Distributed Cloud console, providing centralized fleet visibility, certificate management, and configuration synchronization.\n\nArchitecture\nSection titled \u201cArchitecture\u201d\n+-------------------------------------------------------------------------+\n|                     NGINX One Control Plane Hierarchy                   |\n|                                                                         |\n|  +-------------------------------------------------------------------+  |\n|  | F5 Distributed Cloud Console: Fleet Overview & Analytics          |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|              gRPC / TLS Telemetry & Management Channel                  |\n|                                    |                                    |\n|         +--------------------------+--------------------------+         |\n|         |                                                     |         |\n|         v                                                     v         |\n|  +-----------------------------+               +---------------------+  |\n|  | NGINX Plus Instance A       |               | NGINX Plus Instance |  |\n|  | (NGINX Agent Subprocess)    |               | (App Protect WAF)   |  |\n|  +-----------------------------+               +---------------------+  |\n+-------------------------------------------------------------------------+\nKey Cap",
+    "errors": []
+  },
+  {
+    "repo": "origin-server",
+    "requested_url": "https://f5-sales-demo.github.io/origin-server/en/",
+    "final_url": "https://f5-sales-demo.github.io/origin-server/en/",
+    "status": 200,
+    "title": "Origin Server | Origin Server",
+    "headings": ["Origin Server", "What This Provides"],
+    "opening": "\ud83d\udda5\nOrigin Server\nChoose the Azure full-origin stack or the separate AWS Juice Shop deployment for authorized F5 Distributed Cloud demos.\nCompare Deployments\nDeploy Azure Full-Origin\nWhat This Provides\nSection titled \u201cWhat This Provides\u201d\n\nThese are sibling deployments, not equivalent cloud implementations of the same stack.\n\nOffering\tApplications\tRuntime and ingress\tSource\nAzure full-origin\tNine applications in 42 container services\tnginx on an Ubuntu 24.04 Azure VM\tterraform/\nAWS Juice Shop\tJuice Shop only\tPrivate Fargate tasks behind an internal-by-default ALB\tterraform/modules/aws-juice-shop/\nAzure Full-Origin\nNine applications across 42 container services on one Ubuntu 24.04 Azure VM, with nginx path routing and the complete Azure infrastructure in terraform/.\nAWS Juice Shop\nJuice Shop only on private AWS Fargate tasks behind a CIDR-restricted ALB. This module is not the Azure nine-application stack.\nAzure Vulnerable Applications\nThe nine applications in the Azure full-origin stack: Juice Shop, DVWA, VAmPI, httpbin, whoami, CSD Demo, DVGA, RESTaurant, and crAPI.\nF5 XC Integration\nUse as the origin pool member behind an F5 XC HTTP load balancer with WAF, Bot Defense, and API Security.\nAPI Testing Guide\nComprehensive endpoint catalog, vulnerability mapping, and attack payloads for DVGA (GraphQL), RESTaurant (OWASP 2023), and crAPI (microservices) \u2014 for traffic generation and API protection profile development.\nNext\nArchitecture",
+    "errors": []
+  },
+  {
+    "repo": "canada",
+    "requested_url": "https://f5-sales-demo.github.io/canada/en/",
+    "final_url": "https://f5-sales-demo.github.io/canada/en/",
+    "status": 200,
+    "title": "Canada Topology | Canada Topology",
+    "headings": ["Canada Topology", "What the tenant configures"],
+    "opening": "Canada Topology\nSee how an F5 Distributed Cloud tenant connects a Canadian origin, serves an application through Toronto and Montreal Regional Edges, and controls access by source country.\nFollow the traffic path\nExplore verification\n\nStart with the design overview for the request path and controls, then use deployment, verification, and operations for the demonstration lifecycle.\n\nWhat the tenant configures\nSection titled \u201cWhat the tenant configures\u201d\n\nHost the application in Canada\n\nPlace the origin in Canada. The tenant\u2019s origin pool discovers it through owned Canadian Customer Edges, so accepted requests reach the intended application backend.\n\nView the origin configuration\nMap the origin settings\n\nServe through Canadian Regional Edges\n\nUse the reserved public allocation to advertise the application from Toronto and Montreal Regional Edges. Check the allocation and serving edges to confirm where clients enter.\n\nView Regional Edge advertisement\nCheck Regional Edge placement\n\nControl access by source country\n\nApply a service policy to the actual client source address. Permit sources classified as Canadian and deny other or unknown classifications. Client-supplied forwarding headers don\u2019t change the result.\n\nView the source-country policy\nSee the traffic checks\n\nThese checks confirm the configured entry points, origin and source-country decision. They don\u2019t trace every packet between a client and Canada or identify the person behind a source IP address.\n\nNext\nDesign overview",
+    "errors": []
+  },
+  {
+    "repo": "demo-resources",
+    "requested_url": "https://f5-sales-demo.github.io/demo-resources/en/",
+    "final_url": "https://f5-sales-demo.github.io/demo-resources/en/",
+    "status": 200,
+    "title": "Demo Resources | Demo Resources",
+    "headings": ["Demo Resources", "Components"],
+    "opening": "Demo Resources\nPre-configured Azure VM components for F5 Distributed Cloud demo environments.\nComponents\nSection titled \u201cComponents\u201d\nOrigin Server\nAzure VM hosting vulnerable web applications for WAF, API security, bot defense, and client-side defense testing.\nTraffic Generator\nAzure VM generating attack traffic, reconnaissance, and bot simulation against F5 XC protected applications.\nCDN Simulator\nAzure VM simulating CDN edge behavior with multi-vendor header injection for CDN integration demos.\nNext\nOverview",
+    "errors": []
+  },
+  {
+    "repo": "traffic-generator",
+    "requested_url": "https://f5-sales-demo.github.io/traffic-generator/en/",
+    "final_url": "https://f5-sales-demo.github.io/traffic-generator/en/",
+    "status": 200,
+    "title": "Traffic Generator | Traffic Generator",
+    "headings": ["Traffic Generator", "What This Provides", "Traffic Suite Categories"],
+    "opening": "Traffic Generator\nChoose an independent Azure or AWS deployment to generate controlled security traffic and collect demo evidence against F5 Distributed Cloud.\nChoose an Architecture\nDeploy\nCustomize examples\nWhat This Provides\nSection titled \u201cWhat This Provides\u201d\n\nThe Traffic Generator produces controlled attack traffic, reconnaissance scans, bot simulations, API abuse patterns, and browser-driven Client-Side Defense scenarios against an F5 Distributed Cloud HTTP load balancer. Choose either the existing Azure deployment or the independent AWS deployment. They share suite intent, but they do not imply cloud, runtime, or detection parity.\n\nThe Azure path provisions its established toolset with cloud-init. The AWS path uses a public-subnet worker with an explicit Elastic IP, SSH restricted to the operator jumpbox\u2019s current public /32, Systems Manager recovery, immutable source and runtime inputs, and sanitized browser evidence. A completed browser scenario proves execution and evidence capture; it does not guarantee a corresponding F5 Distributed Cloud detection.\n\nFor AWS Client-Side Defense, csd-violations is the only maintained suite. Other suite entries below describe the existing Azure deployment.\n\nTraffic Suite Categories\nSection titled \u201cTraffic Suite Categories\u201d\nSuite\tDescription\tF5 XC Feature Validated\napi-attacks\tOWASP API Top 10, SQLMap API mode, parameter discovery, endpoint fuzzing\tAPI Security\nbot-simulation\tHeadless Chrome, Puppeteer stealth, Playwright automation, rapid crawling\tBot Defense\ncdn-load-testing\tCache behavior, thundering herd, connection pool, HTTP/",
+    "errors": []
+  },
+  {
+    "repo": "cdn-simulator",
+    "requested_url": "https://f5-sales-demo.github.io/cdn-simulator/en/",
+    "final_url": "https://f5-sales-demo.github.io/cdn-simulator/en/",
+    "status": 200,
+    "title": "CDN Simulator | CDN Simulator",
+    "headings": ["CDN Simulator", "What This Provides", "Quick Reference", "Documentation Guide"],
+    "opening": "\ud83c\udf10\nCDN Simulator\nDeploy a functional CDN edge node in Azure for integration testing with F5 Distributed Cloud.\nGet Started\nDeploy Now\nWhat This Provides\nSection titled \u201cWhat This Provides\u201d\nSingle Edge Node \u2014 One Ubuntu 24.04 VM running NGINX as a caching reverse proxy, the minimum viable CDN edge\nTerraform Deployment \u2014 Complete Azure infrastructure as code: VNet, PIP, NSG, and VM with cloud-init provisioning\n67+ CDN Vendor Headers \u2014 Simulates Akamai, Cloudflare, CloudFront, Fastly, and Azure Front Door request headers including True-Client-IP, CF-Connecting-IP, geolocation, device detection, JA3/JA4 fingerprints, and bot scores\nOrigin Integration \u2014 Configure the edge to forward cache misses to an F5 XC HTTP load balancer as the origin\nCache Verification \u2014 Validate HIT/MISS behavior with X-Cache-Status headers and NGINX cache inspection\nQuick Reference\nSection titled \u201cQuick Reference\u201d\n\nAfter deployment, the CDN edge node exposes:\n\nEndpoint\tMethod\tPurpose\nhttp://<PUBLIC_IP>/health\tGET\tHealth check \u2014 returns JSON with component status and vendor profiles\nhttp://<PUBLIC_IP>/\tGET\tCDN proxy \u2014 caches and forwards requests to the origin server\nhttp://<PUBLIC_IP>/<any-path>\tGET\tCDN proxy \u2014 all paths are proxied with caching and vendor headers\n\nResponse headers added to every proxied response:\n\nHeader\tExample\tPurpose\nX-Cache-Status\tHIT or MISS\tWhether response was served from cache\nX-CDN-Edge\tcdn-simulator\tIdentifies this edge node\nX-CDN-POP\tSJC\tSimulated Point of Presence code\nX-Served-By\tcache-sjc3120-SJC\tSimulated cache node identifier\nX-Request-ID\tUUID\tUnique per-request identifie",
+    "errors": []
+  },
+  {
+    "repo": "statistics",
+    "requested_url": "https://f5-sales-demo.github.io/statistics/en/",
+    "final_url": "https://f5-sales-demo.github.io/statistics/en/",
+    "status": 200,
+    "title": "Statistics | Statistics",
+    "headings": ["Statistics", "Set up cURL", "Running demo"],
+    "opening": "Statistics\nCustomize examples\n\nStatistics retrieves statistics from the F5 Distributed Cloud API across resource types. The current HTTP deployment demonstrates access logs, load balancer and origin metrics, application health, API activity, and security telemetry. Choose a resource guide, then set up cURL below before running its query.\n\nQuestion\tGuide\tWhat you can learn\nHow much traffic arrived?\tLoad balancer metrics\tRequest rate, throughput, ingress/egress, requests to origin, and client/server round-trip time (RTT)\nWhich requests failed?\tHTTP access logs\tResponse codes, classes, and methods from a first page or a complete paginated window\nIs the origin slow?\tOrigin performance\tRates, errors, latency, throughput, server RTT, and transfer time on the matched origin node and edge\nIs the application healthy?\tApplication health\tCalculated graph health scores with their returned timestamps\nWhich APIs are busiest?\tAPI activity\tCalls by response class, top active endpoints, and discovery inventory\nDid the web application firewall (WAF) act?\tWAF metrics and security events\tMeasured counters and authoritative block events\nSet up cURL\nSection titled \u201cSet up cURL\u201d\n\nUse Bash, cURL 7.76 or later, and jq 1.7 or later. Obtain an F5 Distributed Cloud API token with read access to the selected namespace. Tenant-wide system queries need separate access and are outside this guide.\n\nCustomize the form above, then copy this complete setup into a Bash session. Keep credentials in the environment and private browser session. Static Markdown shows sanitized templates.\n\nTerminal window\nexport XC",
+    "errors": []
+  },
+  {
+    "repo": "administration",
+    "requested_url": "https://f5-sales-demo.github.io/administration/en/",
+    "final_url": "https://f5-sales-demo.github.io/administration/en/",
+    "status": 200,
+    "title": "Administration | Administration",
+    "headings": ["Administration"],
+    "opening": "Administration\nTenant management, RBAC, and platform settings.\nNext\nCustom Role - API",
+    "errors": []
+  },
+  {
+    "repo": "observability",
+    "requested_url": "https://f5-sales-demo.github.io/observability/en/",
+    "final_url": "https://f5-sales-demo.github.io/observability/en/",
+    "status": 200,
+    "title": "F5 Distributed Cloud Observability & Telemetry | F5 Distributed Cloud Observability & Telemetry",
+    "headings": ["F5 Distributed Cloud Observability & Telemetry", "Telemetry Pipeline", "Core Capabilities"],
+    "opening": "F5 Distributed Cloud Observability & Telemetry\n\nF5 Distributed Cloud Observability provides unified end-to-end visibility across global application traffic, infrastructure health, and security events.\n\nTelemetry Pipeline\nSection titled \u201cTelemetry Pipeline\u201d\n+-------------------------------------------------------------------------+\n|                     Distributed Telemetry Data Pipeline                 |\n|                                                                         |\n|  Data Planes (Edge PoPs, Customer Edges, Load Balancers)                |\n|        |                                                                |\n|        v                                                                |\n|  +-------------------------------------------------------------------+  |\n|  | Telemetry Collector: Access Logs, Metrics (Prometheus), Spans    |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|                                    v                                    |\n|  +-------------------------------------------------------------------+  |\n|  | Stream Processing & Anomaly Analytics                             |  |\n|  +---------------------------------+---------------------------------+  |\n|                                    |                                    |\n|         +--------------------------+--------------------------+         |\n|         | Dashboards & Logs                                   | Alerts  |\n|         v                                         ",
+    "errors": []
+  },
+  {
+    "repo": "xcsh",
+    "requested_url": "https://f5-sales-demo.github.io/xcsh/en/",
+    "final_url": "https://f5-sales-demo.github.io/xcsh/en/",
+    "status": 200,
+    "title": "xcsh | xcsh",
+    "headings": [
+      "xcsh",
+      "Install xcsh",
+      "What xcsh helps you do",
+      "Installation options",
+      "Verify installation",
+      "Authenticate a provider",
+      "Quickstart",
+      "Explore by goal"
+    ],
+    "opening": "xcsh\n\nAn AI-native terminal assistant for engineering, automation, and reviewable F5 Distributed Cloud workflows.\n\nxcsh is an independent open-source project derived from pi/pi-mono, specialized for F5 Distributed Cloud workflows; it is not an F5 product.\n\nInstall xcsh\nSection titled \u201cInstall xcsh\u201d\n\nUniversal installer for macOS and Linux.\n\nTerminal window\ncurl -fsSL https://raw.githubusercontent.com/f5-sales-demo/xcsh/main/scripts/install.sh | sh\n\nIt installs the latest prebuilt release and a schema-v2 provenance receipt into ~/.local/bin. The native addons are embedded in the executable.\n\nOn Linux, the installer also retains the published SHA-256 checksums and build provenance, and verifies them before running or replacing the binary. A failed download, validation, or replacement restores the previous installation.\n\nThe binary installer requires cURL, jq, and sha256sum or shasum. This is the only channel that xcsh self-update replaces in process. Need a managed or platform-specific channel? Compare the installation options.\n\nWhat xcsh helps you do\nSection titled \u201cWhat xcsh helps you do\u201d\n\nAgentic terminal work\n\nRun interactive or print-mode prompts, inspect files, use tools, and keep durable session history when the task needs it. Learn the agent loop.\n\nReviewable F5 Distributed Cloud workflows\n\nDiscover schemas, validate manifests, and inspect proposed differences before an authorized resource change. Use resource workflows.\n\nExtensible automation\n\nAdd headless workflows, custom tools, skills, or plugins when built-in commands are not enough. Automate and extend.\n\nThese w",
+    "errors": []
+  },
+  {
+    "repo": "vscode-xcsh",
+    "requested_url": "https://f5-sales-demo.github.io/vscode-xcsh/en/",
+    "final_url": "https://f5-sales-demo.github.io/vscode-xcsh/en/",
+    "status": 200,
+    "title": "F5 Distributed Cloud Tools for Visual Studio Code | F5 Distributed Cloud Tools for Visual Studio Code",
+    "headings": [
+      "F5 Distributed Cloud Tools for Visual Studio Code",
+      "Architecture Overview",
+      "Core Capabilities",
+      "Documentation Roadmap"
+    ],
+    "opening": "F5 Distributed Cloud Tools for Visual Studio Code\n\nThe F5 Distributed Cloud Tools (vscode-xcsh) extension integrates F5 Distributed Cloud (XC) platform capabilities directly into Visual Studio Code. The extension provides a unified control plane to author declarative configuration manifests, manage live cloud resources through a virtual file system, inspect telemetry streams, and collaborate with an embedded agentic artificial intelligence (AI) assistant.\n\nArchitecture Overview\nSection titled \u201cArchitecture Overview\u201d\n\nThe extension bridges your local developer environment and the F5 Distributed Cloud APIs through three architectural subsystems:\n\n+-------------------------------------------------------------------------+\n|                       Visual Studio Code Workspace                      |\n|                                                                         |\n|  +--------------------+  +--------------------+  +-------------------+  |\n|  |  Resource Explorer |  | Virtual FileSystem |  | Schema Engine &   |  |\n|  |   & Cloud Status   |  |     (xcsh://)      |  | Conflict Analyzer |  |\n|  +---------+----------+  +---------+----------+  +---------+---------+  |\n|            |                       |                       |            |\n|  +---------+-----------------------+-----------------------+---------+  |\n|  |                       Context Manager                             |  |\n|  |       3-Tier Resolution: Environment -> Workspace -> Global       |  |\n|  +---------------------------------+---------------------------------+  |\n|                                  ",
+    "errors": []
+  },
+  {
+    "repo": "terraform-provider-xcsh",
+    "requested_url": "https://f5-sales-demo.github.io/terraform-provider-xcsh/",
+    "final_url": "https://f5-sales-demo.github.io/terraform-provider-xcsh/",
+    "status": 200,
+    "title": "xcsh provider documentation | Terraform Provider",
+    "headings": ["On this page", "xcsh provider documentation"],
+    "opening": "xcsh provider documentation\n\nProvider setup and authentication\n\nnetwork-allowlists\n\nresources\n\ndata-sources\n\nactions\n\nephemeral-resources\n\nSchema path: root \u00b7 Complete Markdown\n\nxcsh-docs:provider:xcsh:navigation \u00b7 sha256:65af3bd344e0aaa4d3cab8e861cdfc6c0fc6a93e749a2070799d18c6b25fc8f3",
+    "errors": []
+  },
+  {
+    "repo": "xcsh-action",
+    "requested_url": "https://f5-sales-demo.github.io/xcsh-action/en/",
+    "final_url": "https://f5-sales-demo.github.io/xcsh-action/en/",
+    "status": 200,
+    "title": "xcsh Manifest Automation | xcsh Manifest Automation",
+    "headings": ["xcsh Manifest Automation", "From commit to F5 XC", "Choose your next step"],
+    "opening": "xcsh Manifest Automation\nValidate, compare, apply, and remove F5 Distributed Cloud resources from version-controlled JSON and YAML\u2014without an LLM turn.\nNo LLM turn SHA-256 verified Cross-platform\n\nThe xcsh Action turns a manifest commit into a direct F5 Distributed Cloud API operation. GitHub Actions checks out your repository, the Action installs a pinned and verified xcsh release, and xcsh executes the requested operation against your tenant.\n\nDeclarative workflows\n\nKeep desired resources in Git and use apply to create missing resources, update changed resources, and preserve identical resources.\n\nSafe pull requests\n\nRun local validate jobs without XC credentials, then reserve authenticated mutation for protected branches and environments.\n\nAutomation outputs\n\nGate later steps with stable counts for created, updated, unchanged, deleted, different, valid, and failed resources.\n\nVerified tooling\n\nInstall an exact xcsh build and verify both its release archive and executable before every run, including cache hits.\n\nFrom commit to F5 XC\nSection titled \u201cFrom commit to F5 XC\u201d\nCommit a manifest. Store one or more JSON or YAML resource declarations in the repository.\nTrigger a workflow. Use a path filter so validation or deployment runs only when manifests change.\nRun xcsh. The Action resolves the files, validates the full batch, and invokes xcsh directly with shell: false.\nInspect the result. Read typed Action outputs or the aggregate JSON report without parsing terminal text.\n.github/workflows/apply.yml\nname: Apply XC manifests\n\n\non:\n  push:\n    branches: [main]\n    paths: [\"ma",
+    "errors": []
+  },
+  {
+    "repo": "marketplace",
+    "requested_url": "https://f5-sales-demo.github.io/marketplace/en/",
+    "final_url": "https://f5-sales-demo.github.io/marketplace/en/",
+    "status": 200,
+    "title": "Marketplace | Marketplace",
+    "headings": ["Marketplace"],
+    "opening": "Marketplace\nPlugins for documentation, sales, cloud, security, and desktop work in xcsh.\nGet started\nBrowse plugins\nNext\nOverview",
+    "errors": []
+  },
+  {
+    "repo": "xcsh-chrome-extension",
+    "requested_url": "https://f5-sales-demo.github.io/xcsh-chrome-extension/en/",
+    "final_url": "https://f5-sales-demo.github.io/xcsh-chrome-extension/en/",
+    "status": 200,
+    "title": "xcsh Chrome Extension | xcsh Chrome Extension",
+    "headings": ["xcsh Chrome Extension", "What it does", "How it works", "Privacy", "Getting started"],
+    "opening": "xcsh Chrome Extension\nLet the xcsh AI assistant drive your F5 Distributed Cloud console \u2014 deterministically, in your real browser.\n\nThe xcsh Chrome Extension is a purpose-built Manifest V3 extension that lets the xcsh AI assistant drive the F5 Distributed Cloud admin console directly in your browser \u2014 deterministically, in headed mode, while you watch.\n\nWhat it does\nSection titled \u201cWhat it does\u201d\n\nThe extension connects to the xcsh CLI through a local native-messaging bridge and exposes a surface of browser-automation tools scoped exclusively to the F5 XC console:\n\nSession-safe navigation \u2014 drives scoped console tabs after you authenticate directly in Chrome\nAccessibility-tree navigation \u2014 reads the console\u2019s structure via role/name/text selectors\nForm automation \u2014 fills fields with Angular model commitment (handles the XC console\u2019s vsui-input framework)\nDeterministic interaction \u2014 clicks, selects, scrolls, and types via the Chrome DevTools Protocol\nDiagnostics \u2014 reads console logs and network requests for troubleshooting\nHow it works\nSection titled \u201cHow it works\u201d\n\nxcsh (the CLI AI assistant) connects to this extension over a local native-messaging bridge. The extension drives your real Chrome \u2014 no separate browser, no debug port, no headless mode. Every action is visible, and the extension only operates on F5 Distributed Cloud console domains.\n\nPrivacy\nSection titled \u201cPrivacy\u201d\nThe extension never accepts or stores login credentials; you authenticate directly in Chrome\nChat content and tenant routing stay in memory for the active side-panel lifetime\nPersisted diagnostics con",
+    "errors": []
+  },
+  {
+    "repo": "marketplace-claude-code",
+    "requested_url": "https://f5-sales-demo.github.io/marketplace-claude-code/en/",
+    "final_url": "https://f5-sales-demo.github.io/marketplace-claude-code/en/",
+    "status": 200,
+    "title": "Marketplace for Claude Code | Marketplace for Claude Code",
+    "headings": ["Marketplace for Claude Code", "Plugin Catalog"],
+    "opening": "Marketplace for Claude Code\n\nThe Marketplace for Claude Code repository provides verified, modular Language Server Protocol (LSP) integrations and command-line developer tools designed specifically for Claude Code agent workflows.\n\nPlugin Catalog\nSection titled \u201cPlugin Catalog\u201d\nPlugin\tLanguage / Format\tCapabilities\nbash-lsp\tBash / Shell Scripts\tShellcheck diagnostics, syntax validation, script linting.\nterraform-lsp\tHCL / Terraform\tProvider schema autocomplete, syntax verification, variable validation.\njson-lsp\tJSON / JSON-Schema\tSchema validation against F5 Distributed Cloud OpenAPI models.\nyaml-lsp\tYAML Manifests\tKubernetes & F5 XC declarative manifest IntelliSense.\nmdx-lsp\tMDX / Astro\tMarkdownlint and textlint terminology validation.\ntsgo-lsp\tTypeScript & Go\tCross-language symbol resolution and type-checking.\ncss-lsp\tCSS / Tailwind\tTheme token autocomplete and style linting.\neslint-lsp\tJavaScript / TypeScript\tESLint rule enforcement and auto-fixes.\nhtml-lsp\tHTML Templates\tTag matching and accessibility diagnostics.\nmarkdown-lsp\tCommonMark / GFM\tFormatting rules, header hierarchy checks, link verification.\ntoml-lsp\tTOML Configurations\tSchema verification for Cargo and tool settings.",
+    "errors": []
+  },
+  {
+    "repo": "console",
+    "requested_url": "https://f5-sales-demo.github.io/console/en/",
+    "final_url": "https://f5-sales-demo.github.io/console/en/",
+    "status": 200,
+    "title": "Console Catalog | Console Catalog",
+    "headings": ["Console Catalog"],
+    "opening": "Console Catalog\nSchema-driven catalog of F5 Distributed Cloud console routes, resources, and browser automation workflows.\nArchitecture\nSchema Guide\nNext\nArchitecture",
+    "errors": []
+  },
+  {
+    "repo": "api-specs",
+    "requested_url": "https://f5-sales-demo.github.io/api-specs/en/",
+    "final_url": "https://f5-sales-demo.github.io/api-specs/en/",
+    "status": 200,
+    "title": "F5 XC API Specs | F5 XC API Specs",
+    "headings": ["F5 XC API Specs"],
+    "opening": "F5 XC API Specs\nProduction-ready OpenAPI specs for F5 Distributed Cloud \u2014 validated against the live API, auto-repaired, and enriched with security metadata, server definitions, and operation tags.\nPipeline Overview\nView Latest Report\n\nPipeline Overview\n\nSix-stage automated pipeline: download, validate, lint, reconcile, gate, release. Read more\n\nFixes Applied\n\nConstraint repairs, Spectral enrichments, security metadata, and JSON formatting. Read more\n\nSpectral Rules\n\nTwo-config linting architecture with a custom f5-path-params function. Read more\n\nConfiguration\n\nReference for validation.yaml and endpoints.yaml. Read more\n\nValidation Report\n\nAuto-generated report of all fixes applied in the latest pipeline run. Read more\n\nContributing\n\nDevelopment setup, local pipeline, tests, and PR workflow. Read more\n\nNext\nValidation Report",
+    "errors": []
+  },
+  {
+    "repo": "api-specs-enriched",
+    "requested_url": "https://f5-sales-demo.github.io/api-specs-enriched/en/",
+    "final_url": "https://f5-sales-demo.github.io/api-specs-enriched/en/",
+    "status": 200,
+    "title": "API Enriched | API Enriched",
+    "headings": ["API Enriched"],
+    "opening": "API Enriched\nEnriched OpenAPI specifications\nNext\nOverview",
+    "errors": []
+  },
+  {
+    "repo": "apt-repo",
+    "requested_url": "https://f5-sales-demo.github.io/apt-repo/en/",
+    "final_url": "https://f5-sales-demo.github.io/apt-repo/en/",
+    "status": 200,
+    "title": "F5 Sales Demo APT Repository | F5 Sales Demo APT Repository",
+    "headings": ["F5 Sales Demo APT Repository", "Architecture", "Quick Installation", "Supported Distributions"],
+    "opening": "F5 Sales Demo APT Repository\n\nThe F5 Sales Demo APT Repository hosts cryptographically signed Debian (.deb) packages for the xcsh AI development assistant and supporting utilities across both amd64 and arm64 architectures.\n\nArchitecture\nSection titled \u201cArchitecture\u201d\n+-------------------------------------------------------------------------+\n|                        APT Repository Architecture                      |\n|                                                                         |\n|  +-------------------------------------------------------------------+  |\n|  | Base URI: https://f5-sales-demo.github.io/apt-repo/               |  |\n|  | GPG Key:  /f5xc-archive-keyring.gpg (4096-bit RSA)               |  |\n|  +-------------------------------------------------------------------+  |\n|                                    |                                    |\n|         +--------------------------+--------------------------+         |\n|         |                                                     |         |\n|         v                                                     v         |\n|  +-----------------------------+               +---------------------+  |\n|  | dists/stable/main/          |               | pool/main/x/xcsh/   |  |\n|  |   binary-amd64/Packages.gz  | ------------> |   xcsh_amd64.deb    |  |\n|  |   binary-arm64/Packages.gz  | ------------> |   xcsh_arm64.deb    |  |\n|  |   InRelease / Release.gpg   |               +---------------------+  |\n|  +-----------------------------+                                        |\n+-----------------------------------------",
+    "errors": []
+  },
+  {
+    "repo": "html-to-markdown",
+    "requested_url": "https://f5-sales-demo.github.io/html-to-markdown/",
+    "final_url": "https://f5-sales-demo.github.io/html-to-markdown/",
+    "status": 200,
+    "title": "F5 Docs Corpus | F5 Docs Corpus",
+    "headings": [
+      "Curated F5 documentation in Markdown",
+      "From sources to topics to documents",
+      "Content filters",
+      "Markdown navigation and snapshot details"
+    ],
+    "opening": "Curated F5 documentation in Markdown\nProduct documentation, support articles, community guides, and solution pages converted to linked Markdown. Browse the collection or use it with your documentation tools.\nBrowse documentation\nOpen Markdown index\n\nCuration policies select relevant content and remove material outside the collection\u2019s scope. Retained documents keep useful headings, examples, links, and reviewed images. See the active content filters.\n\nBROWSE THE COLLECTION\n\nFrom sources to topics to documents\n\n712 curated documents from 4 sources. Choose a source, narrow the topic, then open a Markdown document.\n\nAll sources\nFind a document\nOpen collection index \u2192\n\n4 sources to explore.\n\nSOURCE\n\nF5 Community Articles\n\nPractical guides and examples from the F5 community.\n\nBrowse topics and documents \u2192\n\nSOURCE\n\nF5 Distributed Cloud Documentation\n\nOfficial product guides, configuration references, and troubleshooting.\n\nBrowse topics and documents \u2192\n\nSOURCE\n\nMyF5 Knowledge\n\nSupport articles, answers, and recommended actions.\n\nBrowse topics and documents \u2192\n\nSOURCE\n\nF5 Product and Solution Pages\n\nProduct overviews, capabilities, and solution guides.\n\nBrowse topics and documents \u2192\nContent filters\nSection titled \u201cContent filters\u201d\n\nThis collection is a reviewed subset of four public sources. It includes F5 Distributed Cloud product documentation and MyF5 support articles; F5.com is limited to the Distributed Cloud product family and three reviewed solution pages. Community articles come only from reviewed first posts in F5 Technical Articles, Community CodeShare, and F5 Security Ins",
+    "errors": []
+  },
+  {
+    "repo": "claude-code-proxy",
+    "requested_url": "https://f5-sales-demo.github.io/claude-code-proxy/",
+    "final_url": "https://f5-sales-demo.github.io/claude-code-proxy/",
+    "status": 200,
+    "title": "Claude Code Proxy | Claude Code Proxy",
+    "headings": ["Claude Code Proxy", "Why Claude Code Proxy?"],
+    "opening": "Claude Code Proxy\nUse Claude Code with any OpenAI-compatible provider\nGet Started\nView on GitHub\nWhy Claude Code Proxy?\nSection titled \u201cWhy Claude Code Proxy?\u201d\n\nClaude Code is a powerful AI coding assistant, but it only connects to Anthropic\u2019s API. This proxy translates Claude API requests into OpenAI-compatible calls so you can use any provider you want.\n\nAny Provider\n\nConnect to OpenAI, Azure OpenAI, Ollama, or any OpenAI-compatible API.\n\nDrop-in Replacement\n\nSet one environment variable and Claude Code works exactly as before.\n\nModel Mapping\n\nMap Claude model tiers (haiku, sonnet, opus) to any upstream model.\n\nFull Feature Support\n\nStreaming, function calling, image inputs, and web search all work out of the box.",
+    "errors": []
+  },
+  {
+    "repo": "docs-builder",
+    "requested_url": "https://f5-sales-demo.github.io/docs-builder/en/",
+    "final_url": "https://f5-sales-demo.github.io/docs-builder/en/",
+    "status": 200,
+    "title": "Docs Builder | Docs Builder",
+    "headings": ["Docs Builder"],
+    "opening": "Docs Builder\nA containerized Astro + Starlight build system that turns any content repo into a branded documentation site.\nNext\nPersonalized examples",
+    "errors": []
+  },
+  {
+    "repo": "docs-theme",
+    "requested_url": "https://f5-sales-demo.github.io/docs-theme/en/",
+    "final_url": "https://f5-sales-demo.github.io/docs-theme/en/",
+    "status": 200,
+    "title": "Theme | Theme",
+    "headings": ["Theme"],
+    "opening": "Theme\nShared branding, fonts, and styling for every Cloud documentation site\nPrevious\nZero Trust\nNext\nEnvironment Variables",
+    "errors": []
+  },
+  {
+    "repo": "docs-icons",
+    "requested_url": "https://f5-sales-demo.github.io/docs-icons/en/",
+    "final_url": "https://f5-sales-demo.github.io/docs-icons/en/",
+    "status": 200,
+    "title": "Icons | Icons",
+    "headings": ["Icons"],
+    "opening": "Icons\nNPM icon packages providing uniform Iconify JSON icon sets with Astro `Icon` components for the F5 XC documentation build system. Every pack uses the same pattern: import the pack's `Icon.astro` component and reference icons by name.\nNext\nOverview",
+    "errors": []
+  },
+  {
+    "repo": "starlight-llms-txt",
+    "requested_url": "https://f5-sales-demo.github.io/starlight-llms-txt/en/",
+    "final_url": "https://f5-sales-demo.github.io/starlight-llms-txt/en/",
+    "status": 200,
+    "title": "Starlight llms.txt Plugin | Starlight llms.txt Plugin",
+    "headings": ["Starlight llms.txt Plugin", "Core Capabilities", "Architecture & Feed Pipeline", "Quick Start"],
+    "opening": "Starlight llms.txt Plugin\n\nThe starlight-llms-txt plugin integrates with Astro Starlight to generate standard-compliant llms.txt and llms-full.txt feeds. These endpoints provide large language model (LLM) agents, crawlers, and AI developer tools with structured, token-efficient, and federated documentation context.\n\nCore Capabilities\nSection titled \u201cCore Capabilities\u201d\n\nStandard Compliance\n\nGenerates structured /llms.txt files conforming to the emerging LLM context standard with curated link sections.\n\nFull Content Concatenation\n\nBuilds single-file /llms-full.txt feeds stripped of UI boilerplate, navigation bars, and HTML noise.\n\nMulti-Locale Routing\n\nAutomatically produces localized feeds (e.g., /ja/llms.txt, /ko/llms-full.txt) matching your Starlight locales.\n\nFederated Sites Integration\n\nAggregates remote documentation endpoints across modular multi-repo ecosystems via llms-federated-sites.json.\n\nArchitecture & Feed Pipeline\nSection titled \u201cArchitecture & Feed Pipeline\u201d\n+-------------------------------------------------------------------------+\n|                        Astro Starlight Build Engine                     |\n|                                                                         |\n|  +-----------------------+     +-------------------------------------+  |\n|  | Markdown/MDX Content  |     | starlight-llms-txt Integration Hook |  |\n|  +-----------+-----------+     +------------------+------------------+  |\n|              |                                    |                     |\n|              v                                    v                     |\n|  +-",
+    "errors": []
+  },
+  {
+    "repo": "docs-control",
+    "requested_url": "https://f5-sales-demo.github.io/docs-control/en/",
+    "final_url": "https://f5-sales-demo.github.io/docs-control/en/",
+    "status": 200,
+    "title": "Docs Control | Docs Control",
+    "headings": ["Docs Control"],
+    "opening": "Docs Control\nCentral governance hub and Antigravity AI automation engine for F5 Distributed Cloud downstream repositories\nNext\nArchitecture",
+    "errors": []
+  },
+  {
+    "repo": "starlight-mega-menu",
+    "requested_url": "https://f5-sales-demo.github.io/starlight-mega-menu/en/",
+    "final_url": "https://f5-sales-demo.github.io/starlight-mega-menu/en/",
+    "status": 200,
+    "title": "Starlight Mega Menu Plugin | Starlight Mega Menu Plugin",
+    "headings": ["Starlight Mega Menu Plugin", "Features", "Installation", "Quick Configuration"],
+    "opening": "Starlight Mega Menu Plugin\n\nThe starlight-mega-menu plugin replaces or enhances the standard top-level header navigation in Astro Starlight with a responsive, multi-column mega-menu dropdown. It allows documentation sites across the ecosystem to organize complex multi-tier navigation hierarchies with icon support, category columns, and footers.\n\nFeatures\nSection titled \u201cFeatures\u201d\n\nMulti-Column Grid Layouts\n\nConfigure flexible column spans with organized categories and link groups.\n\nRich Iconography\n\nSerializable SVG descriptors preserve branded artwork and theme-aware monochrome icons.\n\nInternationalization Ready\n\nFull multi-locale translation support for labels, descriptions, and footer links.\n\nKeyboard Accessible\n\nFull WAI-ARIA compliance with Esc key handling, tab trapping, and screen reader labels.\n\nInstallation\nSection titled \u201cInstallation\u201d\nTerminal window\nnpm install @f5-sales-demo/starlight-mega-menu\nQuick Configuration\nSection titled \u201cQuick Configuration\u201d\n\nAdd the plugin to your astro.config.mjs:\n\nimport { defineConfig } from 'astro/config';\nimport starlight from '@astrojs/starlight';\nimport starlightMegaMenu from '@f5-sales-demo/starlight-mega-menu';\n\n\nexport default defineConfig({\n  integrations: [\n    starlight({\n      title: 'Example Documentation',\n      plugins: [\n        starlightMegaMenu({\n          items: [\n            {\n              label: 'Solutions',\n              content: {\n                layout: 'grid',\n                columns: 2,\n                categories: [\n                  {\n                    title: 'Security',\n                    items: [\n   ",
+    "errors": []
+  },
+  {
+    "repo": "i18n-core",
+    "requested_url": "https://f5-sales-demo.github.io/i18n-core/en/",
+    "final_url": "https://f5-sales-demo.github.io/i18n-core/en/",
+    "status": 200,
+    "title": "i18n Core Registry & Utilities | i18n Core Registry & Utilities",
+    "headings": ["i18n Core Registry & Utilities", "Core Modules", "Supported Locales"],
+    "opening": "i18n Core Registry & Utilities\n\nThe @f5-sales-demo/i18n-core TypeScript package provides the single source of truth for locale registry definitions, BCP-47 / ISO-639 conversions, path normalization, and Astro Starlight internationalization configuration across the fleet.\n\nCore Modules\nSection titled \u201cCore Modules\u201d\n\nCanonical Registry\n\nRegistry of 13 supported languages including localized display names, writing directions (LTR/RTL), and BCP-47 codes.\n\nSlug & Path Resolution\n\nBi-directional slug transformation between root English paths and localized routes.\n\nStarlight Adapter\n\nPre-configured Starlight locales configuration builder for astro.config.mjs.\n\nSupported Locales\nSection titled \u201cSupported Locales\u201d\nLocale Code\tLanguage\tNative Name\tDirection\nen\tEnglish\tEnglish\tLTR\nja\tJapanese\t\u65e5\u672c\u8a9e\tLTR\nko\tKorean\t\ud55c\uad6d\uc5b4\tLTR\nzh-cn\tSimplified Chinese\t\u7b80\u4f53\u4e2d\u6587\tLTR\nzh-tw\tTraditional Chinese\t\u7e41\u9ad4\u4e2d\u6587\tLTR\nes\tSpanish\tEspa\u00f1ol\tLTR\npt-br\tBrazilian Portuguese\tPortugu\u00eas (Brasil)\tLTR\nfr\tFrench\tFran\u00e7ais\tLTR\nde\tGerman\tDeutsch\tLTR\nit\tItalian\tItaliano\tLTR\nar\tArabic\t\u0627\u0644\u0639\u0631\u0628\u064a\u0629\tRTL\nhi\tHindi\t\u0939\u093f\u0928\u094d\u0926\u0940\tLTR\nth\tThai\t\u0e44\u0e17\u0e22\tLTR",
+    "errors": []
+  },
+  {
+    "repo": "f5-sales-demo.github.io",
+    "requested_url": "https://github.com/f5-sales-demo/f5-sales-demo.github.io",
+    "final_url": "https://github.com/f5-sales-demo/f5-sales-demo.github.io",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/f5-sales-demo.github.io \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "F5 XC Docs",
+      "Documentation",
+      "Contributing",
+      "License",
+      "About"
+    ],
+    "opening": "f5-sales-demo\nf5-sales-demo.github.io\nRepository navigation\nCode\nIssues\n1\n\u00a0(1)\nPull requests\nActions\nSecurity and quality\nInsights\nf5-sales-demo.github.io\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n1 Branch\n0 Tags\nCode\nLatest commit\nrobinmordasiewicz\nfix: fit Statistics description inside mobile landing card (#1166)\n2715267\n\u00a0\u00b7\u00a0\nHistory\n368 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.agents/skills/demo-components\n\t\nchore: sync managed files from governance template (#946)\n\t\n\n\n.claude\n\t\nchore: reconcile governed files @ 0b58d1c8fa72 (#1139)\n\t\n\n\n.github\n\t\nci: pin verified Statistics navigation builder (#1164)\n\t\n\n\ndocs\n\t\nfix: fit Statistics description inside mobile landing card (#1166)\n\t\n\n\nscripts\n\t\nchore: reconcile governed files @ e721e14d3b53 (#1161)\n\t\n\n\ntests\n\t\nchore: reconcile governed files @ e721e14d3b53 (#1161)\n\t\n\n\n.checkov.yaml\n\t\nchore: reconcile governed files @ c48ff4a0bd06 (#1044)\n\t\n\n\n.codespellrc\n\t\nchore: reconcile governed files @ c3559c6edb2f (#1121)\n\t\n\n\n.editorconfig\n\t\nchore: sync managed files from governance template (#384)\n\t\n\n\n.editorconfig-checker.json\n\t\nchore: sync managed files from docs-control (#276) (#280)\n\t\n\n\n.gitignore\n\t\nchore: reconcile governed files @ c3559c6edb2f (#1121)\n\t\n\n\n.gitleaks.toml\n\t\nchore: reconcile governed files @ 8ba655a5fc16 (#1055)\n\t\n\n\n.isort.cfg\n\t\nchore: sync managed files from docs-control (#276) (#280)\n\t\n\n\n.jscpd.json\n\t\nchore: reconcile governed files @ c3559c6edb2f (#1121)\n\t\n\n\n.markdownlint.json\n\t\nchore: sync managed files from governance template (#815)\n\t\n\n\n.mypy.ini\n\t\nchore: sync managed files fr",
+    "errors": []
+  },
+  {
+    "repo": "demo-resource-template",
+    "requested_url": "https://github.com/f5-sales-demo/demo-resource-template",
+    "final_url": "https://github.com/f5-sales-demo/demo-resource-template",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/demo-resource-template: Template repository for f5-sales-demo demo resources following the Demo Resource Standard \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "Demo Resource Template",
+      "Documentation",
+      "Contributing",
+      "License",
+      "About"
+    ],
+    "opening": "f5-sales-demo\ndemo-resource-template\nRepository navigation\nCode\nIssues\nPull requests\nActions\nSecurity and quality\nInsights\ndemo-resource-template\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n1 Branch\n0 Tags\nCode\nLatest commit\nrobinmordasiewicz\nchore: reconcile governed files @ 31288f6bb788 (#505)\n7dc8363\n\u00a0\u00b7\u00a0\nHistory\n208 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.agents/skills/demo-components\n\t\nchore: sync managed files from governance template (#393)\n\t\n\n\n.claude\n\t\nchore: reconcile governed files @ de8d6e94e804 (#493)\n\t\n\n\n.github\n\t\nchore: reconcile governed files @ 31288f6bb788 (#505)\n\t\n\n\ndocs\n\t\ndocs: adopt canonical shared example fields (#501)\n\t\n\n\nscripts\n\t\nchore: reconcile governed files @ 2a0855e74113 (#503)\n\t\n\n\nterraform\n\t\nchore: use example- prefix for sample resource names (#39)\n\t\n\n\ntests\n\t\nchore: reconcile governed files @ 2a0855e74113 (#503)\n\t\n\n\nuat/sandbox\n\t\nuat: nit 1784595299 (#161)\n\t\n\n\n.checkov.yaml\n\t\nchore: reconcile governed files @ c48ff4a0bd06 (#456)\n\t\n\n\n.codespellrc\n\t\nchore: reconcile governed files @ 2ac2069fb143 (#489)\n\t\n\n\n.editorconfig\n\t\nchore: bootstrap governance managed files from docs-control (#2)\n\t\n\n\n.editorconfig-checker.json\n\t\nchore: bootstrap governance managed files from docs-control (#2)\n\t\n\n\n.gitignore\n\t\nchore: reconcile governed files @ 2ac2069fb143 (#489)\n\t\n\n\n.gitleaks.toml\n\t\nchore: reconcile governed files @ 8ba655a5fc16 (#467)\n\t\n\n\n.isort.cfg\n\t\nchore: bootstrap governance managed files from docs-control (#2)\n\t\n\n\n.jscpd.json\n\t\nchore: reconcile governed files @ 2ac2069fb143 (#489)\n\t\n\n\n.markdownlint.json\n\t\nchore: s",
+    "errors": []
+  },
+  {
+    "repo": "certificate-management",
+    "requested_url": "https://github.com/f5-sales-demo/certificate-management",
+    "final_url": "https://github.com/f5-sales-demo/certificate-management",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/certificate-management: Certificate management for F5 Distributed Cloud \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "Certificate Management",
+      "About",
+      "Releases",
+      "Contributors1\u00a0(1)",
+      "Languages"
+    ],
+    "opening": "f5-sales-demo\ncertificate-management\nRepository navigation\nCode\nIssues\n1\n\u00a0(1)\nPull requests\n1\n\u00a0(1)\nActions\nSecurity and quality\nInsights\ncertificate-management\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n2 Branches\n0 Tags\nCode\nLatest commit\nrobinmordasiewicz\nchore: hydrate canonical certificate management governance (#2)\n8f9097b\n\u00a0\u00b7\u00a0\nHistory\n2 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.agents/skills/demo-components\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.claude\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.github\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\ndocs/en\n\t\ndocs: initialize certificate management placeholder\n\t\n\n\nscripts\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\ntests\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.checkov.yaml\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.codespellrc\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.editorconfig\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.editorconfig-checker.json\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.gitignore\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.gitleaks.toml\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.isort.cfg\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.jscpd.json\n\t\nchore: hydrate canonical certificate management governance (#2)\n\t\n\n\n.markdownlint.json\n\t\nchore: ",
+    "errors": []
+  },
+  {
+    "repo": "self-hosted-runner",
+    "requested_url": "https://github.com/f5-sales-demo/self-hosted-runner",
+    "final_url": "https://github.com/f5-sales-demo/self-hosted-runner",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/self-hosted-runner: Immutable Docker-only self-hosted GitHub Actions runner images \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "Immutable self-hosted runner images",
+      "What is pinned",
+      "Setup-action cache contract",
+      "Local commands",
+      "Upstream update detection"
+    ],
+    "opening": "f5-sales-demo\nself-hosted-runner\nRepository navigation\nCode\nIssues\n11\n\u00a0(11)\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nself-hosted-runner\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n38 Branches\n0 Tags\nCode\nLatest commit\nrobinmordasiewicz\nfix: align complete runner enrollment inventory (#234)\n7a8babc\n\u00a0\u00b7\u00a0\nHistory\n167 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github\n\t\nfeat(arc): seed immutable Super-Linter layers (#205)\n\t\n\n\narc\n\t\nfeat: add certificate management ARC runners (#232)\n\t\n\n\ncatalog\n\t\nfeat: add certificate management ARC runners (#232)\n\t\n\n\nconfig\n\t\nfeat: add certificate management ARC runners (#232)\n\t\n\n\ndocs\n\t\nfeat: add measured xcsh runner candidates (#147)\n\t\n\n\nrenovate-system\n\t\nfix: align complete runner enrollment inventory (#234)\n\t\n\n\nschemas\n\t\nfix(seed): verify loaded image content across stores (#210)\n\t\n\n\nscripts\n\t\nfix: align complete runner enrollment inventory (#234)\n\t\n\n\nterraform\n\t\nfix(runners): rebalance AWS build capacity without quota growth (#225)\n\t\n\n\ntests\n\t\nfix: align complete runner enrollment inventory (#234)\n\t\n\n\n.gitignore\n\t\nfeat(arc): seed immutable Super-Linter layers (#205)\n\t\n\n\nDockerfile\n\t\nfeat(arc): seed immutable Super-Linter layers (#205)\n\t\n\n\nREADME.md\n\t\nchore(arc): retire root publisher capacity (#212)\n\t\nRepository files navigation\nREADME\nImmutable self-hosted runner images\n\nThis repository is the sole image authority for the F5 Sales Demo ephemeral GitHub Actions runner fleet. It publishes three Linux/amd64 targets from digest-pinned sources:\n\nTarget\tPurpose\tDocker capability\nstandard\tGeneral",
+    "errors": []
+  },
+  {
+    "repo": "homebrew-tap",
+    "requested_url": "https://github.com/f5-sales-demo/homebrew-tap",
+    "final_url": "https://github.com/f5-sales-demo/homebrew-tap",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/homebrew-tap: Homebrew formulae for f5-sales-demo tools \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "homebrew-tap",
+      "Install",
+      "Ghostty desktop automation",
+      "About",
+      "Releases"
+    ],
+    "opening": "f5-sales-demo\nhomebrew-tap\nRepository navigation\nCode\nIssues\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nhomebrew-tap\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n4 Branches\n0 Tags\nCode\nLatest commit\ngithub-actions[bot]\nUpdate xcsh cask to v23.0.0\n365a746\n\u00a0\u00b7\u00a0\nHistory\n838 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\nCasks\n\t\nUpdate xcsh cask to v23.0.0\n\t\n\n\nbin\n\t\nScope Ghostty automation XCTest lane (#10)\n\t\n\n\ndocs\n\t\nScope Ghostty automation XCTest lane (#10)\n\t\n\n\nlibexec\n\t\nfix: harden MCP relay and process control\n\t\n\n\ntest\n\t\nScope Ghostty automation XCTest lane (#10)\n\t\n\n\nREADME.md\n\t\nFix Peekaboo MCP browser support via signed daemon (#8)\n\t\n\n\nclaude-office.rb\n\t\nUpdate claude-office to v0.2.0\n\t\n\n\nghostty-automation.rb\n\t\nScope Ghostty automation XCTest lane (#10)\n\t\n\n\nherdr.rb\n\t\nherdr: update to v0.19.4\n\t\n\n\npeekaboo.rb\n\t\nCodify the certified Peekaboo 4.3.2 pin (#9)\n\t\nRepository files navigation\nREADME\nhomebrew-tap\n\nHomebrew formulae for f5-sales-demo.\n\nInstall\nbrew install f5-sales-demo/tap/opencode\n\nGhostty desktop automation\n\nInstall and configure the pinned Peekaboo automation stack with:\n\nbrew install f5-sales-demo/tap/ghostty-automation\nghostty-automation setup\n\nFor Peekaboo 4.3.2, the managed Codex entry uses its signed on-demand daemon so native desktop tools and the browser tool are available together.\n\nAbout\n\nHomebrew formulae for f5-sales-demo tools\n\nResources\nReadme\nActivity\nCustom properties\nStars\n0 stars\nWatchers\n0 watching\nForks\n0 forks\nReport repository\nReleases\nNo releases published\nContributors\n3\n\u00a0(3)\ngithub-actions[bot]\n",
+    "errors": []
+  },
+  {
+    "repo": "herdr",
+    "requested_url": "https://github.com/f5-sales-demo/herdr",
+    "final_url": "https://github.com/f5-sales-demo/herdr",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/herdr: agent multiplexer that lives in your terminal. \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "herdr",
+      "install",
+      "docs",
+      "thanks",
+      "agent instructions"
+    ],
+    "opening": "f5-sales-demo\nherdr\nRepository navigation\nCode\nIssues\n3\n\u00a0(3)\nPull requests\n3\n\u00a0(3)\nActions\nProjects\nSecurity and quality\nInsights\nherdr\nPublic\nforked from herdrdev/herdr\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nbuild-xcsh\n75 Branches\n114 Tags\nCode\nThis branch is 229 commits ahead of and 138 commits behind herdrdev/herdr:master.\nLatest commit\ngithub-actions[bot]\nchore(release): publish v0.19.4 stable manifest and docs\n665f81f\n\u00a0\u00b7\u00a0\nHistory\n1,915 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.agents/skills\n\t\ndocs: enable nesting in throwaway repro setup\n\t\n\n\n.cargo\n\t\nfix: statically link the Windows CRT (herdrdev#3594)\n\t\n\n\n.githooks\n\t\nfix: keep agent skill aligned with stable releases\n\t\n\n\n.github\n\t\nci(downstream): admit green push CI for release planning\n\t\n\n\n.pi\n\t\nrefactor: separate website presentation from runtime\n\t\n\n\n.zed\n\t\nchore: enable zed lsp\n\t\n\n\nassets\n\t\ndocs: lean readme, add terminal trove gold sponsor\n\t\n\n\ncontrib/control-manager\n\t\nfeat: add native interaction tool policy (#112)\n\t\n\n\ndistribution\n\t\nchore(release): publish v0.19.4 stable manifest and docs\n\t\n\n\ndocs\n\t\nchore(release): publish v0.19.4 stable manifest and docs\n\t\n\n\nnix\n\t\nfeat: install windows remote host packages (herdrdev#3687)\n\t\n\n\npackaging/windows\n\t\nfix: bundle modern ConPTY on Windows (herdrdev#1828)\n\t\n\n\nscripts\n\t\nci(downstream): admit green push CI for release planning\n\t\n\n\nskills/herdr\n\t\nfix(context): allow pairing from moved pane callers (#120)\n\t\n\n\nsrc\n\t\nfix: preserve empty and partial waiting answers (#137)\n\t\n\n\ntests\n\t\nfix: restore Kitty graphics capability propagation\n\t\n\n\nvendor\n\t\nfeat:",
+    "errors": []
+  },
+  {
+    "repo": ".github",
+    "requested_url": "https://github.com/f5-sales-demo/.github",
+    "final_url": "https://github.com/f5-sales-demo/.github",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/.github: Pre-packaged F5 Distributed Cloud sales demos and supporting collateral \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "F5 Distributed Cloud Sales Demos",
+      "Scripts",
+      "About",
+      "Releases",
+      "Contributors5\u00a0(5)"
+    ],
+    "opening": "f5-sales-demo\n.github\nRepository navigation\nCode\nIssues\nPull requests\nActions\nSecurity and quality\nInsights\n.github\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n1 Branch\n0 Tags\nCode\nLatest commit\nrobinmordasiewicz\nfeat(issues): provide organization default templates (#20)\n276cd8e\n\u00a0\u00b7\u00a0\nHistory\n29 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github\n\t\nfeat(issues): provide organization default templates (#20)\n\t\n\n\ndocs\n\t\nfix(profile): consolidate protection repository identity (#18)\n\t\n\n\nprofile\n\t\ndocs(profile): link organization root portal (#16)\n\t\n\n\nCLAUDE.md\n\t\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#2)\n\t\n\n\nREADME.md\n\t\ndocs(profile): link organization root portal (#16)\n\t\n\n\nTEAM.md\n\t\nfix(profile): consolidate protection repository identity (#18)\n\t\n\n\nclone-all-repos.md\n\t\nfeat: scope the clone to one class of repository (#9)\n\t\n\n\nclone-all-repos.sh\n\t\nfeat: scope the clone to one class of repository (#9)\n\t\n\n\nclone-all-repos.test.sh\n\t\nfix(profile): consolidate protection repository identity (#18)\n\t\n\n\nstart_session.sh\n\t\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#2)\n\t\nRepository files navigation\nREADME\nF5 Distributed Cloud Sales Demos\n\nf5-sales-demo\n\nScripts\nclone-all-repos.sh \u2014 clone and refresh a local copy of every repo in the ecosystem (design & reference).\nAbout\n\nPre-packaged F5 Distributed Cloud sales demos and supporting collateral\n\nResources\nReadme\nActivity\nCustom properties\nStars\n0 stars\nWatchers\n0 watching\nForks\n0 forks\nReport repository\nReleases\nNo releases published\nContributors\n5\n\u00a0(5)\nLanguages\nShell\n10",
+    "errors": []
+  },
+  {
+    "repo": "xcsh-office-pane",
+    "requested_url": "https://github.com/f5-sales-demo/xcsh-office-pane",
+    "final_url": "https://github.com/f5-sales-demo/xcsh-office-pane",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/xcsh-office-pane: Cloud-hosted xcsh Office task pane (GitHub Pages) \u2014 static build output deployed by xcsh CI on each release \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "About",
+      "Releases",
+      "Contributors2\u00a0(2)",
+      "Languages",
+      "Footer"
+    ],
+    "opening": "f5-sales-demo\nxcsh-office-pane\nRepository navigation\nCode\nIssues\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nxcsh-office-pane\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n1 Branch\n0 Tags\nCode\nLatest commit\ngithub-actions[bot]\ndeploy: office-pane from xcsh v20.19.5\n00be7de\n\u00a0\u00b7\u00a0\nHistory\n22 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\nassets\n\t\nicons: add 192x192 marketplace listing icon\n\t\n\n\nfonts\n\t\ninitial: office-pane build from xcsh vv19.85.x\n\t\n\n\n.nojekyll\n\t\ninitial: office-pane build from xcsh vv19.85.x\n\t\n\n\nmanifest.json\n\t\nharden: cloud URLs, privacy policy, terms of use, requirement sets, A\u2026\n\t\n\n\nprivacy.html\n\t\nharden: cloud URLs, privacy policy, terms of use, requirement sets, A\u2026\n\t\n\n\ntaskpane.html\n\t\ndeploy: office-pane from xcsh v20.4.1\n\t\n\n\ntaskpane.js\n\t\ndeploy: office-pane from xcsh v20.19.5\n\t\n\n\nterms.html\n\t\nharden: cloud URLs, privacy policy, terms of use, requirement sets, A\u2026\n\t\nAbout\n\nCloud-hosted xcsh Office task pane (GitHub Pages) \u2014 static build output deployed by xcsh CI on each release\n\nActivity\nCustom properties\nStars\n0 stars\nWatchers\n0 watching\nForks\n0 forks\nReport repository\nReleases\nNo releases published\nContributors\n2\n\u00a0(2)\ngithub-actions[bot]\nrobinmordasiewiczRobin Mordasiewicz\nLanguages\nHTML\n100%",
+    "errors": []
+  },
+  {
+    "repo": "codex-plugin-cc",
+    "requested_url": "https://github.com/f5-sales-demo/codex-plugin-cc",
+    "final_url": "https://github.com/f5-sales-demo/codex-plugin-cc",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/codex-plugin-cc: Use Codex from Claude Code to review code or delegate tasks. \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "Codex delegation plugin for Claude Code",
+      "What You Get",
+      "Requirements",
+      "Install",
+      "Usage"
+    ],
+    "opening": "f5-sales-demo\ncodex-plugin-cc\nRepository navigation\nCode\nIssues\n1\n\u00a0(1)\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\ncodex-plugin-cc\nPublic\nforked from openai/codex-plugin-cc\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n8 Branches\n3 Tags\nCode\nThis branch is 8 commits ahead of and 18 commits behind openai/codex-plugin-cc:main.\nLatest commit\nrobinmordasiewicz\nrefactor: remove Codex review surfaces (#15)\nee6a444\n\u00a0\u00b7\u00a0\nHistory\n19 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.claude-plugin\n\t\nrefactor: remove Codex review surfaces (#15)\n\t\n\n\n.github/workflows\n\t\nci: add pull request workflow for tests and build (openai#73)\n\t\n\n\nplugins/codex\n\t\nrefactor: remove Codex review surfaces (#15)\n\t\n\n\nscripts\n\t\nrefactor: remove Codex review surfaces (#15)\n\t\n\n\ntests\n\t\nrefactor: remove Codex review surfaces (#15)\n\t\n\n\n.gitignore\n\t\nfix: untrack the node_modules symlink committed to the repository root (\n\t\n\n\nLICENSE\n\t\nInitial commit\n\t\n\n\nNOTICE\n\t\nInitial commit\n\t\n\n\nREADME.md\n\t\nrefactor: remove Codex review surfaces (#15)\n\t\n\n\npackage-lock.json\n\t\nrefactor: remove Codex review surfaces (#15)\n\t\n\n\npackage.json\n\t\nrefactor: remove Codex review surfaces (#15)\n\t\n\n\ntsconfig.app-server.json\n\t\nInitial commit\n\t\nRepository files navigation\nREADME\nLicense\nCodex delegation plugin for Claude Code\n\nUse Codex from Claude Code for complex implementation, debugging, investigation, and session handoff.\n\nThis plugin intentionally does not provide code-review commands, review hooks, or review skills. The F5 sales-demo fleet routes semantic code review to Antigravity instead of Claude or Co",
+    "errors": []
+  },
+  {
+    "repo": "claude-office",
+    "requested_url": "https://github.com/f5-sales-demo/claude-office",
+    "final_url": "https://github.com/f5-sales-demo/claude-office",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/claude-office: Local CORS proxy so the Claude for Office add-in can use a self-hosted, Anthropic-compatible LLM gateway \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "claude-office",
+      "The problem it solves",
+      "The proper fix (and why this proxy exists)",
+      "Install",
+      "Configure & run"
+    ],
+    "opening": "f5-sales-demo\nclaude-office\nRepository navigation\nCode\nIssues\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nclaude-office\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n1 Branch\n4 Tags\nCode\nLatest commit\nrobinmordasiewicz\nchore(main): release 0.2.0 (#15)\n1217fc5\n\u00a0\u00b7\u00a0\nHistory\n12 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\nci: pin release-please-action to commit SHA (v4)\n\t\n\n\n.gitignore\n\t\nclaude-office: local CORS proxy for the Claude for Office add-in\n\t\n\n\n.release-please-manifest.json\n\t\nchore(main): release 0.2.0 (#15)\n\t\n\n\nCHANGELOG.md\n\t\nchore(main): release 0.2.0 (#15)\n\t\n\n\nLICENSE\n\t\nclaude-office: local CORS proxy for the Claude for Office add-in\n\t\n\n\nREADME.md\n\t\nAuto-(re)start the service on set-upstream (#10)\n\t\n\n\nentitlements.plist\n\t\nNotarize and Developer ID-sign macOS release binaries (#4)\n\t\n\n\npackage.json\n\t\nchore(main): release 0.2.0 (#15)\n\t\n\n\nproxy.mjs\n\t\nchore(main): release 0.2.0 (#15)\n\t\n\n\nrelease-please-config.json\n\t\nchore: add release-please semantic-release automation (#12)\n\t\nRepository files navigation\nREADME\nMIT license\nclaude-office\n\nA tiny local reverse proxy that lets the Claude for Office add-in (PowerPoint, Word, Excel) talk to a self-hosted, Anthropic-compatible LLM gateway whose CORS policy would otherwise reject the add-in.\n\nThe problem it solves\n\nThe Claude for Office add-in is an Office.js web add-in whose task pane runs inside a WebView served from https://pivot.claude.ai. When you point its Gateway connection at an internal gateway (e.g. a LiteLLM / Open WebUI deployment behind a WAF) that onl",
+    "errors": []
+  },
+  {
+    "repo": "xc-cc-exercise",
+    "requested_url": "https://github.com/f5-sales-demo/xc-cc-exercise",
+    "final_url": "https://github.com/f5-sales-demo/xc-cc-exercise",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/xc-cc-exercise: XC Onsite apps/exercises for Digital and Select SEs \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "F5 XC Demo Environment",
+      "Local Development",
+      "Architecture",
+      "Services",
+      "Demo Applications"
+    ],
+    "opening": "f5-sales-demo\nxc-cc-exercise\nRepository navigation\nCode\nIssues\n3\n\u00a0(3)\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nxc-cc-exercise\nPublic\nNotifications\nFork2\n\u00a0(2)\nStar0\n\u00a0(0)\nmain\n2 Branches\n0 Tags\nCode\nLatest commit\nrobinmordasiewicz\nand\nclaude\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#6)\n00fc131\n\u00a0\u00b7\u00a0\nHistory\n112 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#6)\n\t\n\n\ncapsule-info\n\t\nfix: sanitize FQDN input, remove east/west label, add refresh script\n\t\n\n\ncapsule-store\n\t\nfeat: add favicons, fix UI issues, improve Swagger theme\n\t\n\n\ncatalog\n\t\nfeat: add favicons, fix UI issues, improve Swagger theme\n\t\n\n\ndocs/plans\n\t\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#6)\n\t\n\n\ndragon-radar-api\n\t\nfeat: add favicons, fix UI issues, improve Swagger theme\n\t\n\n\ngateway\n\t\nfeat(gateway): create nginx gateway container\n\t\n\n\ngravity-chamber\n\t\nOAS test\n\t\n\n\ngravity-viewer\n\t\nfeat: add favicons, fix UI issues, improve Swagger theme\n\t\n\n\nscouter-app\n\t\nfix: sanitize FQDN input, remove east/west label, add refresh script\n\t\n\n\nsystemd\n\t\nfeat: add systemd service to pull and start lab on every boot\n\t\n\n\n.gitignore\n\t\nchore: add .worktrees to gitignore\n\t\n\n\nDigital_SE_Onsite_1-27.md\n\t\nInitial commit: F5 XC Demo Environment\n\t\n\n\nLAB_SUMMARY.md\n\t\ndocs: streamline lab summary for UDF environment\n\t\n\n\nREADME.md\n\t\nincremental improvement\n\t\n\n\ncc_logo.png\n\t\nfix: remove rectangular glow from logo, use drop-shadow only\n\t\n\n\ncc_logo_small.png\n\t\nassets: add small Capsule Co",
+    "errors": []
+  },
+  {
+    "repo": "mvp",
+    "requested_url": "https://github.com/f5-sales-demo/mvp",
+    "final_url": "https://github.com/f5-sales-demo/mvp",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/mvp: MVP plan (executive briefing) \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "About",
+      "Releases",
+      "Contributors2\u00a0(2)",
+      "Footer"
+    ],
+    "opening": "f5-sales-demo\nmvp\nRepository navigation\nCode\nIssues\n1\n\u00a0(1)\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nmvp\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n1 Branch\n0 Tags\nCode\nLatest commit\nrobinmordasiewicz\nand\nclaude\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#2)\n341c3e0\n\u00a0\u00b7\u00a0\nHistory\n10 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github/workflows\n\t\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#2)\n\t\n\n\ndocs\n\t\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#2)\n\t\nAbout\n\nMVP plan (executive briefing)\n\nf5-sales-demo.github.io/mvp/\nActivity\nCustom properties\nStars\n0 stars\nWatchers\n0 watching\nForks\n0 forks\nReport repository\nReleases\nNo releases published\nContributors\n2\n\u00a0(2)\nclaudeClaude\nrobinmordasiewiczRobin Mordasiewicz",
+    "errors": []
+  },
+  {
+    "repo": "f5-voice-assistant",
+    "requested_url": "https://github.com/f5-sales-demo/f5-voice-assistant",
+    "final_url": "https://github.com/f5-sales-demo/f5-voice-assistant",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/f5-voice-assistant: F5 Voice Assistant: Fine-tuned PersonaPlex + RAG knowledge base for F5 Distributed Cloud \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "About",
+      "Releases",
+      "Contributors2\u00a0(2)",
+      "Languages",
+      "Footer"
+    ],
+    "opening": "f5-sales-demo\nf5-voice-assistant\nRepository navigation\nCode\nIssues\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nf5-voice-assistant\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmaster\n1 Branch\n0 Tags\nCode\nLatest commit\nrobinmordasiewicz\nand\nclaude\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#2)\ne57627a\n\u00a0\u00b7\u00a0\nHistory\n11 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\ncrawl\n\t\nfeat: deep crawl pipeline + 47 additional F5 doc pages\n\t\n\n\nfine-tune\n\t\nfeat: initial modular scaffold for F5 voice assistant\n\t\n\n\norchestrator\n\t\nfeat: keyword-based lookup triggers with greeting cooldown\n\t\n\n\npersona\n\t\nfeat: initial modular scaffold for F5 voice assistant\n\t\n\n\nrag\n\t\nfeat: complete crawl pipeline, Dockerfiles, tests, docker-compose\n\t\n\n\nscripts\n\t\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#2)\n\t\n\n\ntests\n\t\nfeat: benchmark results \u2014 speed + quality matrix across 3 models\n\t\n\n\n.gitignore\n\t\nfeat: initial modular scaffold for F5 voice assistant\n\t\n\n\ndocker-compose.yml\n\t\nfeat: complete crawl pipeline, Dockerfiles, tests, docker-compose\n\t\nAbout\n\nF5 Voice Assistant: Fine-tuned PersonaPlex + RAG knowledge base for F5 Distributed Cloud\n\nActivity\nCustom properties\nStars\n0 stars\nWatchers\n0 watching\nForks\n0 forks\nReport repository\nReleases\nNo releases published\nContributors\n2\n\u00a0(2)\nclaudeClaude\nrobinmordasiewiczRobin Mordasiewicz\nLanguages\nPython\n96.3%\nShell\n2.7%\nDockerfile\n1%",
+    "errors": []
+  },
+  {
+    "repo": "azure-llm",
+    "requested_url": "https://github.com/f5-sales-demo/azure-llm",
+    "final_url": "https://github.com/f5-sales-demo/azure-llm",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/azure-llm: On-demand Azure GPU VM (4x V100) for local LLM inference - Terraform managed \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "Azure GPU VM for Local LLM Inference",
+      "VM Specifications",
+      "Prerequisites",
+      "Quick Start",
+      "Configuration"
+    ],
+    "opening": "f5-sales-demo\nazure-llm\nRepository navigation\nCode\nIssues\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nazure-llm\nPublic\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n2 Branches\n0 Tags\nCode\nLatest commit\nrobinmordasiewicz\nand\nclaude\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#3)\n058fdb3\n\u00a0\u00b7\u00a0\nHistory\n122 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.githooks\n\t\nsecurity: remove leaked HF token from README, add secret-detection hook\n\t\n\n\n.opencode\n\t\nfeat: replace xLAM with Devstral-Small-2-24B, add f5xc-api subagent s\u2026\n\t\n\n\nbenchmarks\n\t\nfeat: Qwen 3.6-35B-A3B support with consolidated single-model deploym\u2026\n\t\n\n\ndocs/superpowers/specs\n\t\nfeat: add LLM content processing to web_fetch proxy\n\t\n\n\nscripts\n\t\nchore: update org name from f5xc-salesdemos to f5-sales-demo (#3)\n\t\n\n\nsetup\n\t\nfeat: three-VM architecture with optimized Gemma 4x A100 256K context\n\t\n\n\n.gitignore\n\t\nInject HF_TOKEN at build time via Terraform variables\n\t\n\n\nREADME.md\n\t\nsecurity: remove leaked HF token from README, add secret-detection hook\n\t\n\n\nazuredeploy.json\n\t\nInitial Terraform + ARM template for Azure GPU VM (4x V100)\n\t\n\n\nazuredeploy.parameters.json\n\t\nInitial Terraform + ARM template for Azure GPU VM (4x V100)\n\t\n\n\nbackend.tf\n\t\nfeat: auto-unique resource naming from Azure identity\n\t\n\n\ncloud-init-llm01.yaml\n\t\nfeat: 2-server deploy \u2014 Qwen 3.6 + Phi-4-mini on 4xA100, workstation \u2026\n\t\n\n\ncloud-init-llm02.yaml\n\t\nfeat: 2-server deploy \u2014 Qwen 3.6 + Phi-4-mini on 4xA100, workstation \u2026\n\t\n\n\ncloud-init-llm03.yaml\n\t\nfeat: per-VM deploy toggles, llm03 H100 config, PersonaPlex clo",
+    "errors": []
+  },
+  {
+    "repo": "docs-template",
+    "requested_url": "https://github.com/f5-sales-demo/docs-template",
+    "final_url": "https://github.com/f5-sales-demo/docs-template",
+    "status": 200,
+    "title": "f5-sales-demo/docs-template \u00b7 GitHub",
+    "headings": ["Navigation Menu", "Repository navigation", "Footer"],
+    "opening": "f5-sales-demo\ndocs-template\nRepository navigation\nCode\nIssues\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nThis repository is empty.\n\nCare to check out the GitHub Channel on YouTube while you wait?",
+    "errors": []
+  },
+  {
+    "repo": "xcsh-subagent",
+    "requested_url": "https://github.com/f5-sales-demo/xcsh-subagent",
+    "final_url": "https://github.com/f5-sales-demo/xcsh-subagent",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/xcsh-subagent: A lightweight subagent extension for the pi coding agent \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "Pi Subagent",
+      "Why Pi Subagent",
+      "Install",
+      "Configuration",
+      "How Communication Works"
+    ],
+    "opening": "f5-sales-demo\nxcsh-subagent\nRepository navigation\nCode\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nxcsh-subagent\nPublic\nforked from mjakl/pi-subagent\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n1 Branch\n0 Tags\nCode\nThis branch is 87 commits behind mjakl/pi-subagent:main.\nLatest commit\nmjakl\nAdd note how to detect subagents in other extensions\nf386f10\n\u00a0\u00b7\u00a0\nHistory\n52 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\nagents\n\t\nFix agent discovery to always load user and project agents\n\t\n\n\nrepro\n\t\nFix missing subagent output on tool failure\n\t\n\n\ntest\n\t\nSettle subagents after final semantic completion\n\t\n\n\n.gitignore\n\t\nAdd tickets folder to gitignore\n\t\n\n\nAGENTS.md\n\t\nAdd AGENTS.md for coding agent guidance\n\t\n\n\nLICENSE\n\t\nAdd LICENSE\n\t\n\n\nREADME.md\n\t\nAdd note how to detect subagents in other extensions\n\t\n\n\nagents.ts\n\t\nAlign config override and child CLI path handling\n\t\n\n\nindex.ts\n\t\nSettle subagents after final semantic completion\n\t\n\n\npackage.json\n\t\nBump version to 1.4.1\n\t\n\n\nrender.ts\n\t\nSettle subagents after final semantic completion\n\t\n\n\nrunner-cli.js\n\t\nAlign config override and child CLI path handling\n\t\n\n\nrunner-events.js\n\t\nSettle subagents after final semantic completion\n\t\n\n\nrunner.ts\n\t\nSettle subagents after final semantic completion\n\t\n\n\ntypes.ts\n\t\nSettle subagents after final semantic completion\n\t\nRepository files navigation\nREADME\nLicense\nPi Subagent\n\nDelegate tasks to specialized subagents with configurable context modes (spawn / fork).\n\nThere are many subagent extensions for pi, this one is mine.\n\nWhy Pi Subagent\n\nSpecialization \u2014 Use tailored ag",
+    "errors": []
+  },
+  {
+    "repo": "open-responses-server",
+    "requested_url": "https://github.com/f5-sales-demo/open-responses-server",
+    "final_url": "https://github.com/f5-sales-demo/open-responses-server",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/open-responses-server: Wraps any OpenAI API interface as Responses with MCPs support so it supports Codex. Adding any missing stateful features. Ollama and Vllm compliant. \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "\ud83d\ude80 open-responses-server",
+      "\u2728 Why use this?",
+      "\ud83c\udfd7\ufe0f Quick Install",
+      "\ud83d\udee0\ufe0f Configure",
+      "\ud83d\udcac We\u2019d love your support!"
+    ],
+    "opening": "f5-sales-demo\nopen-responses-server\nRepository navigation\nCode\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nopen-responses-server\nPublic\nforked from teabranch/open-responses-server\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n23 Branches\n24 Tags\nCode\nThis branch is 1 commit ahead of and 5 commits behind teabranch/open-responses-server:main.\nLatest commit\nrobinmordasiewicz\nand\nclaude\nfix: strip reasoning param and add /v1/responses route\n566e256\n\u00a0\u00b7\u00a0\nHistory\n157 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.claude/skills\n\t\ndocs: refresh architecture, event system docs, Jekyll cream theme, an\u2026\n\t\n\n\n.github\n\t\nfix: combine release and publish workflows for reliable PyPI deploys (t\u2026\n\t\n\n\n_sass\n\t\ndocs: refresh architecture, event system docs, Jekyll cream theme, an\u2026\n\t\n\n\ndemo\n\t\nchore(mcp): add demo scripts\n\t\n\n\ndocs\n\t\ndocs: refresh architecture, event system docs, Jekyll cream theme, an\u2026\n\t\n\n\nexamples/ollama-ors-codex\n\t\nchore(setup): example for docker, uv install\n\t\n\n\nresources\n\t\nfeat(tests): verify codex works\n\t\n\n\nsrc\n\t\nfix: strip reasoning param and add /v1/responses route\n\t\n\n\ntest_tools\n\t\nfix(readme): proxy for models and other passthrough calls\n\t\n\n\ntests\n\t\nfix: add content_index to streamed text deltas and improve stream rel\u2026\n\t\n\n\n.env.example\n\t\nfix: add content_index to streamed text deltas and improve stream rel\u2026\n\t\n\n\n.gitignore\n\t\nInitial commit\n\t\n\n\n.pre-commit-config.yaml\n\t\nci: Add security checks and code quality tools (teabranch#14)\n\t\n\n\n.pylintrc\n\t\nci: Add security checks and code quality tools (teabranch#14)\n\t\n\n\nCLAUDE.md\n\t\nfix: combine relea",
+    "errors": []
+  },
+  {
+    "repo": "ghostty-web",
+    "requested_url": "https://github.com/f5-sales-demo/ghostty-web",
+    "final_url": "https://github.com/f5-sales-demo/ghostty-web",
+    "status": 200,
+    "title": "GitHub - f5-sales-demo/ghostty-web: Ghostty for the web with xterm.js API compatibility \u00b7 GitHub",
+    "headings": [
+      "Navigation Menu",
+      "Repository navigation",
+      "About",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "Repository files navigation",
+      "ghostty-web",
+      "Try It",
+      "Comparison with xterm.js",
+      "Installation",
+      "Usage"
+    ],
+    "opening": "f5-sales-demo\nghostty-web\nRepository navigation\nCode\nPull requests\nActions\nProjects\nSecurity and quality\nInsights\nghostty-web\nPublic\nforked from anomalyco/ghostty-web\nNotifications\nFork0\n\u00a0(0)\nStar0\n\u00a0(0)\nmain\n1 Branch\n0 Tags\nCode\nThis branch is 10 commits behind anomalyco/ghostty-web:main.\nLatest commit\nadamdotdevin\nbuild: commit dist artifacts for git dependency installs\n4af877d\n\u00a0\u00b7\u00a0\nHistory\n118 Commits\nFolders and files\nName\tLast commit message\tLast commit date\n\n.github\n\t\nchore: simplify publishing flow for new tags (coder#96)\n\t\n\n\nbench\n\t\nfeat: migrate to use RenderState (coder#75)\n\t\n\n\ndemo\n\t\nfeat: Unify HTTP/WebSocket demo server for reverse proxy compatibility (\n\t\n\n\ndist\n\t\nbuild: commit dist artifacts for git dependency installs\n\t\n\n\nghostty @ 5714ed0\n\t\nfeat: migrate to use RenderState (coder#75)\n\t\n\n\nlib\n\t\ntest: add viewport row-merge corruption regression tests\n\t\n\n\npatches\n\t\nfix: always clear new row cells during scroll to prevent stale data\n\t\n\n\nscripts\n\t\nfeat: add hyperlink parsing (coder#35)\n\t\n\n\n.gitignore\n\t\nfeat: build WASM from ghostty-org/ghostty submodule with patches (cod\u2026\n\t\n\n\n.gitmodules\n\t\nfeat: build WASM from ghostty-org/ghostty submodule with patches (cod\u2026\n\t\n\n\n.npmignore\n\t\nchore: configure package for npm publishing as @coder/ghostty-web (co\u2026\n\t\n\n\n.prettierignore\n\t\nfeat: build WASM from ghostty-org/ghostty submodule with patches (cod\u2026\n\t\n\n\n.prettierrc\n\t\nfeat: add CI pipeline with fmt, lint, typecheck, test, and build jobs (\u2026\n\t\n\n\nAGENTS.md\n\t\nchore: rm stale files (coder#18)\n\t\n\n\nLICENSE\n\t\nchore: update README (coder#49)\n\t\n\n\nREADME.md\n\t\nRemove JavaScript approximati",
+    "errors": []
+  },
+  {
+    "repo": "official-docs",
+    "requested_url": "https://docs.cloud.f5.com",
+    "final_url": "https://docs.cloud.f5.com/docs-v2",
+    "status": 200,
+    "title": "Home | F5 Distributed Cloud Technical Knowledge",
+    "headings": [
+      "Technical Knowledge for F5 Distributed Cloud Services",
+      "Platform Concepts",
+      "Changelogs",
+      "Purchasing and Billing",
+      "FAQs",
+      "References",
+      "Administration",
+      "Support"
+    ],
+    "opening": "Technical Knowledge for F5 Distributed Cloud Services\n\nF5 Distributed Cloud delivers security, networking, and application management services to enable customers to deploy, secure, and operate their applications in a cloud-native environment across data centers, multi-cloud, and network or enterprise edges.\n\nPlatform Concepts\n\nPlatform-wide, shared concepts and configurations.\n\nChangelogs\n\nDetails on features, bugs, fixes, and caveats for platform and service functions.\n\nPurchasing and Billing\n\nPurchasing options and Billing details.\n\nFAQs\n\nPlatform and general FAQs\n\nReferences\n\nSupporting content for Security, API, Node, Network, DNS, Logs and more\n\nAdministration\n\nManage tenant, account and user settings.\n\nSupport\n\nEngage Support Services, Guides and Tools\n\nFeatured Content\n\nManage Mobile Endpoint Protection\n\nExport Vulnerabilities to BIG-IP Advanced WAF\n\nF5 Distributed Cloud Load Balancing Use Cases\n\nMost Popular\nTop Trending\nNext refresh : 18 Hour(s)\n\nMulti-port support for HTTP/TCP load balancers in F5 Distributed Cloud\n\nHow do I enable only traffic from specific REs to my site?\n\nF5 Distributed Cloud Site Concept\n\nF5 Services (Workspaces)\nAll\nApp Security\nSecure Multi-Cloud Networking\nApp Performance\nDistributed Apps\nPlatform\n\nWeb App & API Protection\n\nMulti-Cloud Network Connect\n\nMulti-Cloud App Connect\n\nDistributed Apps\n\nDNS Management\n\nBot Defense\n\nData Intelligence\n\nMobile App Shield\n\nClient-Side Defense\n\nWeb App Scanning\n\nNGINX One\n\nBIG-IP Utilities\n\nContent Delivery Network\n\nRouted DDoS\n\nObservability\n\nBIG-IP APM\n\nApplication Traffic Insight\n\nVoltShare\n\nDelegate",
+    "errors": []
+  },
+  {
+    "repo": "console-service",
+    "requested_url": "https://console.ves.volterra.io",
+    "final_url": "https://login.ves.volterra.io/auth/realms/volterra/protocol/openid-connect/auth?state=d9a841b0-0786-43c5-b8ab-b4ca14dbcdc7&nonce=201397ef-5ef9-4dcf-82e2-662db2ed33d6&response_type=code&client_id=ves-oidc-volterra&scope=openid%20profile&redirect_uri=https%3A%2F%2Fconsole.ves.volterra.io%2F",
+    "status": 200,
+    "title": "Log in and get to work",
+    "headings": [],
+    "opening": "Log in and get to work\n For Free or Individual accounts\n I'm a member of a Team account\n\u00a9 2026 F5, Inc. All Rights Reserved.\nPolicies\nTrademarks\nF5 CA Privacy Summary\nDo Not Sell My Personal Information",
+    "errors": []
+  },
+  {
+    "repo": "support-service",
+    "requested_url": "https://my.f5.com/manage/s/",
+    "final_url": "https://my.f5.com/manage/s/",
+    "status": 200,
+    "title": "MyF5 | Support & Knowledge Base",
+    "headings": ["Try F5 Products", "Support Resources", "Deliver and Secure Every App"],
+    "opening": "Skip to content\nShow\nF5 Sites\nMenu\nShow\nContact F5\nMenu\nShow\nFREE TRIALS\nMenu\nUnder Attack ?\nMyF5\nShow\nSUPPORT\nMenu\nShow\nMY PRODUCTS & PLANS\nMenu\nShow\nRESOURCES\nMenu\nSIGN IN\nSearch...\nSearch...\nSearch Tips\nIP addresses for callhome.f5.com and api.f5.com are changing October 2. Review the knowledge article and update your allowlists.\nSep 3, 2026\n\nOn September 2, 2026, F5 released Hardened Release 2 (HR2). F5 urges you to deploy these releases as quickly as you are able. For details, see K000162252: Overview of F5 Hardened Releases and K000163032: What are the releases for Hardened Release 2 (HR2).\n\nTry F5 Products\n\nExperience F5 in action by testing our products in your own environment, for free.\n\nRegister Today\nItem 1 of 1\nCreate a case\nManage products and plans\nSign up for security alerts\nSupport Resources\niHealth>\n\nVerify the proper operation of your BIG-IP or BIG-IQ system.\n\nBug Tracker>\n\nSearch the Bug Tracker.\n\nMyF5 FAQs>\n\nAnswers to common questions about MyF5.\n\nManuals and Release Notes>\n\nFind the latest product information about your F5 BIG-IP or BIG-IQ.\n\nXC Technical Knowledge>\n\nFind the latest product information about your cloud-native environment.\n\nXC Console>\n\nTransition to a cloud-native environment and simplify deployment, security, and operations of your apps and infrastructure.\n\nEducation>\n\nLearn about F5 products with self-paced courses.\n\nCertifications>\n\nAdvance your career with F5 Certification.\n\nLicensing>\n\nActivate an BIG-IP product registration key.\n\nNew and Updated Articles>\n\nGet the latest published and updated articles, and set up an RSS feed.\n\nDow",
+    "errors": []
+  }
+]
