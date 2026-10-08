@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
+      - 'shared/**'
   workflow_dispatch:
 
 permissions: {}
@@ -18,7 +19,7 @@ concurrency:
 
 jobs:
   docs:
-    uses: f5-sales-demo/docs-control/.github/workflows/github-pages-deploy.yml@ef85630aee69f170da1b20f3ded4c759e88860b2
+    uses: f5-sales-demo/docs-control/.github/workflows/github-pages-deploy.yml@3ffa6301e0b4852f1476886cbb72e0540ef58beb
     with:
       socketless_runner_label: docs-socketless
       container_build_runner_label: docs-container-build

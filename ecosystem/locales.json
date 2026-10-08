@@ -1,0 +1,5 @@
+{
+  "locales": ["en", "fr", "es", "de", "pt-br", "ja", "ko", "zh-cn", "zh-tw", "ar", "it", "hi", "th"],
+  "unlocalized": ["terraform-provider-xcsh", "docs-control", "html-to-markdown", "mvp"],
+  "englishOnly": ["statistics", "canada"]
+}
