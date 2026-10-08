@@ -1,0 +1,562 @@
+[
+  {
+    "width": 320,
+    "controls": [
+      {
+        "label": "F5 Distributed Cloud sales demos",
+        "covered": false,
+        "rect": {
+          "x": 16,
+          "y": 11.5,
+          "width": 129.03125,
+          "height": 32
+        }
+      },
+      {
+        "label": "Search",
+        "covered": false,
+        "rect": {
+          "x": 161.03125,
+          "y": 7.5,
+          "width": 32,
+          "height": 40
+        }
+      },
+      {
+        "label": "Open navigation menu",
+        "covered": false,
+        "rect": {
+          "x": 209.03125,
+          "y": 9.5,
+          "width": 36,
+          "height": 36
+        }
+      },
+      {
+        "label": "Aa",
+        "covered": false,
+        "rect": {
+          "x": 261.03125,
+          "y": 1.5,
+          "width": 42.96875,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "controls": [
+      {
+        "label": "F5 Distributed Cloud sales demos",
+        "covered": false,
+        "rect": {
+          "x": 16,
+          "y": 11.5,
+          "width": 184.03125,
+          "height": 32
+        }
+      },
+      {
+        "label": "Search",
+        "covered": false,
+        "rect": {
+          "x": 216.03125,
+          "y": 7.5,
+          "width": 32,
+          "height": 40
+        }
+      },
+      {
+        "label": "Open navigation menu",
+        "covered": false,
+        "rect": {
+          "x": 264.03125,
+          "y": 9.5,
+          "width": 36,
+          "height": 36
+        }
+      },
+      {
+        "label": "Aa",
+        "covered": false,
+        "rect": {
+          "x": 316.03125,
+          "y": 1.5,
+          "width": 42.96875,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "controls": [
+      {
+        "label": "F5 Distributed Cloud sales demos",
+        "covered": false,
+        "rect": {
+          "x": 16,
+          "y": 11.5,
+          "width": 199.03125,
+          "height": 32
+        }
+      },
+      {
+        "label": "Search",
+        "covered": false,
+        "rect": {
+          "x": 231.03125,
+          "y": 7.5,
+          "width": 32,
+          "height": 40
+        }
+      },
+      {
+        "label": "Open navigation menu",
+        "covered": false,
+        "rect": {
+          "x": 279.03125,
+          "y": 9.5,
+          "width": 36,
+          "height": 36
+        }
+      },
+      {
+        "label": "Aa",
+        "covered": false,
+        "rect": {
+          "x": 331.03125,
+          "y": 1.5,
+          "width": 42.96875,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "controls": [
+      {
+        "label": "F5 Distributed Cloud sales demos",
+        "covered": false,
+        "rect": {
+          "x": 16,
+          "y": 11.5,
+          "width": 319.140625,
+          "height": 32
+        }
+      },
+      {
+        "label": "Search",
+        "covered": false,
+        "rect": {
+          "x": 437.109375,
+          "y": 7.5,
+          "width": 32,
+          "height": 40
+        }
+      },
+      {
+        "label": "Open navigation menu",
+        "covered": false,
+        "rect": {
+          "x": 571.0625,
+          "y": 9.5,
+          "width": 36,
+          "height": 36
+        }
+      },
+      {
+        "label": "Aa",
+        "covered": false,
+        "rect": {
+          "x": 709.03125,
+          "y": 1.5,
+          "width": 42.96875,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "controls": [
+      {
+        "label": "F5 Distributed Cloud sales demos",
+        "covered": false,
+        "rect": {
+          "x": 24,
+          "y": 11.5,
+          "width": 327.140625,
+          "height": 40
+        }
+      },
+      {
+        "label": "Search\n\u2318\nK",
+        "covered": false,
+        "rect": {
+          "x": 398.984375,
+          "y": 11.5,
+          "width": 128,
+          "height": 40
+        }
+      },
+      {
+        "label": "GitHub",
+        "covered": false,
+        "rect": {
+          "x": 566.84375,
+          "y": 15.5,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "label": "Dark\nLight\nAuto",
+        "covered": false,
+        "rect": {
+          "x": 615.84375,
+          "y": 9.25,
+          "width": 103.5,
+          "height": 44.5
+        }
+      },
+      {
+        "label": "English\nFran\u00e7ais\nEspa\u00f1ol\nDeutsch\nPortugu\u00eas (Brasil)\n\u65e5\u672c\u8a9e\n\ud55c\uad6d\uc5b4\n\u7b80\u4f53\u4e2d\u6587\n\u7e41\u9ad4\u4e2d\u6587\n\u0627\u0644\u0639\u0631\u0628\u064a\u0629\nItaliano\n\u0939\u093f\u0928\u094d\u0926\u0940\n\u0e44\u0e17\u0e22",
+        "covered": false,
+        "rect": {
+          "x": 719.34375,
+          "y": 9.25,
+          "width": 114,
+          "height": 44.5
+        }
+      },
+      {
+        "label": "Open navigation menu",
+        "covered": false,
+        "rect": {
+          "x": 873.1875,
+          "y": 13.5,
+          "width": 36,
+          "height": 36
+        }
+      },
+      {
+        "label": "Aa",
+        "covered": false,
+        "rect": {
+          "x": 957.03125,
+          "y": 5.5,
+          "width": 42.96875,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "controls": [
+      {
+        "label": "F5 Distributed Cloud sales demos",
+        "covered": false,
+        "rect": {
+          "x": 24,
+          "y": 11.5,
+          "width": 335.140625,
+          "height": 40
+        }
+      },
+      {
+        "label": "Search\n\u2318\nK",
+        "covered": false,
+        "rect": {
+          "x": 468.984375,
+          "y": 11.5,
+          "width": 128,
+          "height": 40
+        }
+      },
+      {
+        "label": "GitHub",
+        "covered": false,
+        "rect": {
+          "x": 698.84375,
+          "y": 15.5,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "label": "Dark\nLight\nAuto",
+        "covered": false,
+        "rect": {
+          "x": 747.84375,
+          "y": 9.25,
+          "width": 103.5,
+          "height": 44.5
+        }
+      },
+      {
+        "label": "English\nFran\u00e7ais\nEspa\u00f1ol\nDeutsch\nPortugu\u00eas (Brasil)\n\u65e5\u672c\u8a9e\n\ud55c\uad6d\uc5b4\n\u7b80\u4f53\u4e2d\u6587\n\u7e41\u9ad4\u4e2d\u6587\n\u0627\u0644\u0639\u0631\u0628\u064a\u0629\nItaliano\n\u0939\u093f\u0928\u094d\u0926\u0940\n\u0e44\u0e17\u0e22",
+        "covered": false,
+        "rect": {
+          "x": 851.34375,
+          "y": 9.25,
+          "width": 114,
+          "height": 44.5
+        }
+      },
+      {
+        "label": "Open navigation menu",
+        "covered": false,
+        "rect": {
+          "x": 1067.1875,
+          "y": 13.5,
+          "width": 36,
+          "height": 36
+        }
+      },
+      {
+        "label": "Aa",
+        "covered": false,
+        "rect": {
+          "x": 1213.03125,
+          "y": 5.5,
+          "width": 42.96875,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "controls": [
+      {
+        "label": "F5 Distributed Cloud sales demos",
+        "covered": false,
+        "rect": {
+          "x": 24,
+          "y": 11.5,
+          "width": 225.09375,
+          "height": 40
+        }
+      },
+      {
+        "label": "Demos",
+        "covered": false,
+        "rect": {
+          "x": 273.09375,
+          "y": 16.5,
+          "width": 83.75,
+          "height": 30
+        }
+      },
+      {
+        "label": "Demo environment",
+        "covered": false,
+        "rect": {
+          "x": 358.84375,
+          "y": 16.5,
+          "width": 158.703125,
+          "height": 30
+        }
+      },
+      {
+        "label": "Operations",
+        "covered": false,
+        "rect": {
+          "x": 519.546875,
+          "y": 16.5,
+          "width": 108.75,
+          "height": 30
+        }
+      },
+      {
+        "label": "Developer tools",
+        "covered": false,
+        "rect": {
+          "x": 630.296875,
+          "y": 16.5,
+          "width": 138.15625,
+          "height": 30
+        }
+      },
+      {
+        "label": "Ecosystem",
+        "covered": false,
+        "rect": {
+          "x": 770.453125,
+          "y": 16.5,
+          "width": 106.640625,
+          "height": 30
+        }
+      },
+      {
+        "label": "F5 services",
+        "covered": false,
+        "rect": {
+          "x": 879.09375,
+          "y": 16.5,
+          "width": 110.40625,
+          "height": 30
+        }
+      },
+      {
+        "label": "Search\n\u2318\nK",
+        "covered": false,
+        "rect": {
+          "x": 1013.5,
+          "y": 11.5,
+          "width": 128,
+          "height": 40
+        }
+      },
+      {
+        "label": "GitHub",
+        "covered": false,
+        "rect": {
+          "x": 1157.5,
+          "y": 15.5,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "label": "Dark\nLight\nAuto",
+        "covered": false,
+        "rect": {
+          "x": 1206.5,
+          "y": 9.25,
+          "width": 103.5,
+          "height": 44.5
+        }
+      },
+      {
+        "label": "English\nFran\u00e7ais\nEspa\u00f1ol\nDeutsch\nPortugu\u00eas (Brasil)\n\u65e5\u672c\u8a9e\n\ud55c\uad6d\uc5b4\n\u7b80\u4f53\u4e2d\u6587\n\u7e41\u9ad4\u4e2d\u6587\n\u0627\u0644\u0639\u0631\u0628\u064a\u0629\nItaliano\n\u0939\u093f\u0928\u094d\u0926\u0940\n\u0e44\u0e17\u0e22",
+        "covered": false,
+        "rect": {
+          "x": 1310,
+          "y": 9.25,
+          "width": 114,
+          "height": 44.5
+        }
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "controls": [
+      {
+        "label": "F5 Distributed Cloud sales demos",
+        "covered": false,
+        "rect": {
+          "x": 24,
+          "y": 11.5,
+          "width": 335.140625,
+          "height": 40
+        }
+      },
+      {
+        "label": "Demos",
+        "covered": false,
+        "rect": {
+          "x": 753.09375,
+          "y": 16.5,
+          "width": 83.75,
+          "height": 30
+        }
+      },
+      {
+        "label": "Demo environment",
+        "covered": false,
+        "rect": {
+          "x": 838.84375,
+          "y": 16.5,
+          "width": 158.703125,
+          "height": 30
+        }
+      },
+      {
+        "label": "Operations",
+        "covered": false,
+        "rect": {
+          "x": 999.546875,
+          "y": 16.5,
+          "width": 108.75,
+          "height": 30
+        }
+      },
+      {
+        "label": "Developer tools",
+        "covered": false,
+        "rect": {
+          "x": 1110.296875,
+          "y": 16.5,
+          "width": 138.15625,
+          "height": 30
+        }
+      },
+      {
+        "label": "Ecosystem",
+        "covered": false,
+        "rect": {
+          "x": 1250.453125,
+          "y": 16.5,
+          "width": 106.640625,
+          "height": 30
+        }
+      },
+      {
+        "label": "F5 services",
+        "covered": false,
+        "rect": {
+          "x": 1359.09375,
+          "y": 16.5,
+          "width": 110.40625,
+          "height": 30
+        }
+      },
+      {
+        "label": "Search\n\u2318\nK",
+        "covered": false,
+        "rect": {
+          "x": 1493.5,
+          "y": 11.5,
+          "width": 128,
+          "height": 40
+        }
+      },
+      {
+        "label": "GitHub",
+        "covered": false,
+        "rect": {
+          "x": 1637.5,
+          "y": 15.5,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "label": "Dark\nLight\nAuto",
+        "covered": false,
+        "rect": {
+          "x": 1686.5,
+          "y": 9.25,
+          "width": 103.5,
+          "height": 44.5
+        }
+      },
+      {
+        "label": "English\nFran\u00e7ais\nEspa\u00f1ol\nDeutsch\nPortugu\u00eas (Brasil)\n\u65e5\u672c\u8a9e\n\ud55c\uad6d\uc5b4\n\u7b80\u4f53\u4e2d\u6587\n\u7e41\u9ad4\u4e2d\u6587\n\u0627\u0644\u0639\u0631\u0628\u064a\u0629\nItaliano\n\u0939\u093f\u0928\u094d\u0926\u0940\n\u0e44\u0e17\u0e22",
+        "covered": false,
+        "rect": {
+          "x": 1790,
+          "y": 9.25,
+          "width": 114,
+          "height": 44.5
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,391 @@
+[
+  {
+    "url": "https://github.com/f5-sales-demo",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo",
+    "redirects": []
+  },
+  {
+    "url": "https://docs.cloud.f5.com/",
+    "status": 200,
+    "final_url": "https://docs.cloud.f5.com/docs-v2",
+    "redirects": [
+      {
+        "url": "https://docs.cloud.f5.com/",
+        "status": 308
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/f5-sales-demo.github.io",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/f5-sales-demo.github.io",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/console/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/console/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/api-protection/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/api-protection/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/certificate-management",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/certificate-management",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/starlight-llms-txt/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/starlight-llms-txt/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/docs-control/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/docs-control/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/starlight-mega-menu/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/starlight-mega-menu/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/self-hosted-runner",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/self-hosted-runner",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/cdn-simulator/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/cdn-simulator/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/xcsh-office-pane",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/xcsh-office-pane",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/codex-plugin-cc",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/codex-plugin-cc",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/f5-voice-assistant",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/f5-voice-assistant",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/terraform-provider-xcsh/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/terraform-provider-xcsh/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/xcsh/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/xcsh/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/apt-repo/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/apt-repo/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/nginx/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/nginx/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/webapp-api-protection/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/webapp-api-protection/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/bot-standard/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/bot-standard/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/en/ecosystem/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/.github",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/.github",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/en/demos/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/en/demos/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/xcsh-chrome-extension/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/xcsh-chrome-extension/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/docs-theme/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/docs-theme/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/marketplace/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/marketplace/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/statistics/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/statistics/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/homebrew-tap",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/homebrew-tap",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/bot-advanced/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/bot-advanced/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/docs-icons/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/docs-icons/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/api-specs/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/api-specs/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/docs-template",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/docs-template",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/cdn/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/cdn/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/vscode-xcsh/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/vscode-xcsh/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/ghostty-web",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/ghostty-web",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/was/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/was/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/xc-cc-exercise",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/xc-cc-exercise",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/csd/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/csd/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/claude-office",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/claude-office",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/docs-builder/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/docs-builder/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/dns/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/dns/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/claude-code-proxy/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/claude-code-proxy/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/i18n-core/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/i18n-core/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/demo-resource-template",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/demo-resource-template",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/ddos/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/ddos/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/herdr",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/herdr",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/demo-resources/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/html-to-markdown/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/html-to-markdown/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/mvp",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/mvp",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/xcsh-subagent",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/xcsh-subagent",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/marketplace-claude-code/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/marketplace-claude-code/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/administration/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/administration/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/open-responses-server",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/open-responses-server",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/observability/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/observability/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/xcsh-action/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/xcsh-action/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/custom-responses/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/custom-responses/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/api-specs-enriched/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/api-specs-enriched/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://github.com/f5-sales-demo/azure-llm",
+    "status": 200,
+    "final_url": "https://github.com/f5-sales-demo/azure-llm",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/canada/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/canada/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/origin-server/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/origin-server/en/",
+    "redirects": []
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/traffic-generator/en/",
+    "status": 200,
+    "final_url": "https://f5-sales-demo.github.io/traffic-generator/en/",
+    "redirects": []
+  }
+]

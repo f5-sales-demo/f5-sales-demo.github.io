@@ -1,0 +1,92 @@
+{
+  "resources": [
+    {
+      "name": "http://127.0.0.1:8766/_astro/common.BFKLPJw1.css",
+      "transferSize": 105766,
+      "decodedBodySize": 105466
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/page.CU4qfdRF.js",
+      "transferSize": 11632,
+      "decodedBodySize": 11332
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/ImageZoom.astro_astro_type_script_index_0_lang.CNfBy0nv.js",
+      "transferSize": 4830,
+      "decodedBodySize": 4530
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/f5-distributed-cloud.DU1WOej7.svg",
+      "transferSize": 2594,
+      "decodedBodySize": 2294
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/Search.astro_astro_type_script_index_0_lang.DH_BeEEj.js",
+      "transferSize": 8112,
+      "decodedBodySize": 7812
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/print.ehPL0gv-.css",
+      "transferSize": 3618,
+      "decodedBodySize": 3318
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/proximaNova-400.CkhgEd8d.woff2",
+      "transferSize": 18308,
+      "decodedBodySize": 18008
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/proximaNova-600.BkbQn5Vt.woff2",
+      "transferSize": 18444,
+      "decodedBodySize": 18144
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/SharedMegaMenu.DitlKrGV.js",
+      "transferSize": 40095,
+      "decodedBodySize": 39795
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/client.adyk5-kv.js",
+      "transferSize": 180925,
+      "decodedBodySize": 180625
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/SharedMegaMenuMobile.BXs68Xgp.js",
+      "transferSize": 4353,
+      "decodedBodySize": 4053
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/neusaNextProWide-700.BgBg6v2a.woff2",
+      "transferSize": 24108,
+      "decodedBodySize": 23808
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/neusaNextProWide-500.Dvofy17s.woff2",
+      "transferSize": 24824,
+      "decodedBodySize": 24524
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/react.OrosJ8bI.js",
+      "transferSize": 8358,
+      "decodedBodySize": 8058
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/react-dom.DxLCm4-U.js",
+      "transferSize": 3836,
+      "decodedBodySize": 3536
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/MegaMenuIcon.NNRhNcx2.js",
+      "transferSize": 158336,
+      "decodedBodySize": 158036
+    },
+    {
+      "name": "http://127.0.0.1:8766/_astro/ui-core.CCedE8D4.js",
+      "transferSize": 94123,
+      "decodedBodySize": 93823
+    }
+  ],
+  "title": "F5 Distributed Cloud sales demos",
+  "canonical": "https://f5-sales-demo.github.io/en/",
+  "description": "Demonstration guides, environment resources, and technical tools for F5 Distributed Cloud sales engineers and solution architects."
+}

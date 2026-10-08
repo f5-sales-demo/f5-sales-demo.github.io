@@ -1,0 +1,800 @@
+[
+  {
+    "label": "Skip to content",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/#_top",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "F5 Distributed Cloud sales demos",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/",
+    "purpose": "destination"
+  },
+  {
+    "label": "GitHub",
+    "location": "en",
+    "url": "https://github.com/f5-sales-demo/f5-sales-demo.github.io",
+    "purpose": "destination"
+  },
+  {
+    "label": "Demo catalog",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/demos/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Demo environment",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cDemos\u201d",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/#demos",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Section titled \u201cSecurity\u201d",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/#security",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Web App & API Protection",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/webapp-api-protection/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "API Protection",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/api-protection/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Bot Defense Advanced",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/bot-advanced/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Client-Side Defense",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/csd/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cNetworking and performance\u201d",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/#networking-and-performance",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Multi-Cloud Networking",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Content Delivery Network",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/cdn/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Canada topology",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/canada/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Demo catalog",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/demos/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cDemo environment\u201d",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/#demo-environment",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Demo resource catalog",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Origin server",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/origin-server/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Traffic generator",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/traffic-generator/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "CDN simulator",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/cdn-simulator/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cOperations\u201d",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/#operations",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Statistics",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/statistics/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Observability",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/observability/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Administration",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/administration/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cDeveloper tools\u201d",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/#developer-tools",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "xcsh",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/xcsh/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Terraform provider",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/terraform-provider-xcsh/",
+    "purpose": "destination"
+  },
+  {
+    "label": "VS Code extension",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/vscode-xcsh/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "xcsh GitHub Action",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/xcsh-action/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Enriched API specifications",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/api-specs-enriched/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "xcsh marketplace",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/marketplace/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cEcosystem directory\u201d",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/#ecosystem-directory",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Ecosystem directory",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/",
+    "purpose": "destination"
+  },
+  {
+    "label": "official F5 documentation",
+    "location": "en",
+    "url": "https://docs.cloud.f5.com/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Ecosystem directory",
+    "location": "en",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Project sources",
+    "location": "en",
+    "url": "https://github.com/f5-sales-demo",
+    "purpose": "destination"
+  },
+  {
+    "label": "Official F5 documentation",
+    "location": "en",
+    "url": "https://docs.cloud.f5.com/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Skip to content",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/en/demos/#_top",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "F5 Distributed Cloud sales demos",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/",
+    "purpose": "destination"
+  },
+  {
+    "label": "GitHub",
+    "location": "en/demos",
+    "url": "https://github.com/f5-sales-demo/f5-sales-demo.github.io",
+    "purpose": "destination"
+  },
+  {
+    "label": "Demo environment",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Ecosystem directory",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cSecurity\u201d",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/en/demos/#security",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Web App & API Protection",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/webapp-api-protection/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "API Protection",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/api-protection/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Bot Defense Advanced",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/bot-advanced/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Bot Defense Standard",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/bot-standard/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Client-Side Defense",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/csd/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "DDoS Mitigation",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/ddos/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Web App Scanning",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/was/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Custom responses",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/custom-responses/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cNetworking and performance\u201d",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/en/demos/#networking-and-performance",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Multi-Cloud Networking",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Content Delivery Network",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/cdn/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "DNS Management",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/dns/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "NGINX One",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/nginx/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Canada topology",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/canada/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Ecosystem directory",
+    "location": "en/demos",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Project sources",
+    "location": "en/demos",
+    "url": "https://github.com/f5-sales-demo",
+    "purpose": "destination"
+  },
+  {
+    "label": "Official F5 documentation",
+    "location": "en/demos",
+    "url": "https://docs.cloud.f5.com/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Skip to content",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/#_top",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "F5 Distributed Cloud sales demos",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/",
+    "purpose": "destination"
+  },
+  {
+    "label": "GitHub",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/f5-sales-demo.github.io",
+    "purpose": "destination"
+  },
+  {
+    "label": "Demo catalog",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/en/demos/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cSecurity\u201d",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/#security",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Web App & API Protection",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/webapp-api-protection/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "API Protection",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/api-protection/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Bot Defense Advanced",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/bot-advanced/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Bot Defense Standard",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/bot-standard/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Client-Side Defense",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/csd/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "DDoS Mitigation",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/ddos/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Web App Scanning",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/was/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Custom responses",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/custom-responses/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cNetworking and performance\u201d",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/#networking-and-performance",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Multi-Cloud Networking",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Content Delivery Network",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/cdn/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "DNS Management",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/dns/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "NGINX One",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/nginx/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Canada topology",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/canada/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cDemo environment\u201d",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/#demo-environment",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Demo resource catalog",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Origin server",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/origin-server/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Traffic generator",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/traffic-generator/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "CDN simulator",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/cdn-simulator/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cOperations\u201d",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/#operations",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Statistics",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/statistics/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Observability",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/observability/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Administration",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/administration/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cDeveloper tools\u201d",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/#developer-tools",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "xcsh",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/xcsh/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Terraform provider",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/terraform-provider-xcsh/",
+    "purpose": "destination"
+  },
+  {
+    "label": "xcsh GitHub Action",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/xcsh-action/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "VS Code extension",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/vscode-xcsh/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "xcsh Chrome extension",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/xcsh-chrome-extension/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "xcsh marketplace",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/marketplace/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Marketplace for Claude Code",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/marketplace-claude-code/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Console catalog",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/console/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "API specifications",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/api-specs/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Enriched API specifications",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/api-specs-enriched/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "APT repository",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/apt-repo/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Claude Code proxy",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/claude-code-proxy/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cDocumentation platform\u201d",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/#documentation-platform",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "F5 documentation corpus",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/html-to-markdown/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Documentation builder",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/docs-builder/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Shared documentation theme",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/docs-theme/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Icon packages",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/docs-icons/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Starlight llms.txt",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/starlight-llms-txt/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Starlight mega menu",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/starlight-mega-menu/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Localization utilities",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/i18n-core/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Documentation governance",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/docs-control/en/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Section titled \u201cProject sources\u201d",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/#project-sources",
+    "purpose": "heading permalink"
+  },
+  {
+    "label": "Sales demo portal",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/f5-sales-demo.github.io",
+    "purpose": "destination"
+  },
+  {
+    "label": "Demo resource template",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/demo-resource-template",
+    "purpose": "destination"
+  },
+  {
+    "label": "Certificate management",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/certificate-management",
+    "purpose": "destination"
+  },
+  {
+    "label": "self-hosted-runner",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/self-hosted-runner",
+    "purpose": "destination"
+  },
+  {
+    "label": "Homebrew tap",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/homebrew-tap",
+    "purpose": "destination"
+  },
+  {
+    "label": "Herdr",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/herdr",
+    "purpose": "destination"
+  },
+  {
+    "label": "Organization profile",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/.github",
+    "purpose": "destination"
+  },
+  {
+    "label": "xcsh-office-pane",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/xcsh-office-pane",
+    "purpose": "destination"
+  },
+  {
+    "label": "codex-plugin-cc",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/codex-plugin-cc",
+    "purpose": "destination"
+  },
+  {
+    "label": "claude-office",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/claude-office",
+    "purpose": "destination"
+  },
+  {
+    "label": "xc-cc-exercise",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/xc-cc-exercise",
+    "purpose": "destination"
+  },
+  {
+    "label": "mvp",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/mvp",
+    "purpose": "destination"
+  },
+  {
+    "label": "f5-voice-assistant",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/f5-voice-assistant",
+    "purpose": "destination"
+  },
+  {
+    "label": "azure-llm",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/azure-llm",
+    "purpose": "destination"
+  },
+  {
+    "label": "xcsh-subagent",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/xcsh-subagent",
+    "purpose": "destination"
+  },
+  {
+    "label": "open-responses-server",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/open-responses-server",
+    "purpose": "destination"
+  },
+  {
+    "label": "ghostty-web",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/ghostty-web",
+    "purpose": "destination"
+  },
+  {
+    "label": "Documentation template",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo/docs-template",
+    "purpose": "destination"
+  },
+  {
+    "label": "Ecosystem directory",
+    "location": "en/ecosystem",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/",
+    "purpose": "destination"
+  },
+  {
+    "label": "Project sources",
+    "location": "en/ecosystem",
+    "url": "https://github.com/f5-sales-demo",
+    "purpose": "destination"
+  },
+  {
+    "label": "Official F5 documentation",
+    "location": "en/ecosystem",
+    "url": "https://docs.cloud.f5.com/",
+    "purpose": "destination"
+  }
+]
