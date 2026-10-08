@@ -272,7 +272,7 @@ export const items = [
             },
             {
               label: 'Ecosystem directory',
-              description: 'Documentation, tools, and public project sources',
+              description: 'Browse documentation, tools, and public project sources',
               href: 'https://f5-sales-demo.github.io/en/ecosystem/',
               icon: icon('f5xc:doc'),
             },
