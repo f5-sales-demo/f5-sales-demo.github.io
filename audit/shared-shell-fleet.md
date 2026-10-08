@@ -21,5 +21,6 @@ bytes, including removal of ten local fonts totaling 269,348 bytes. This sample
 compares the previous 4.11.6 theme with the qualified 4.12.0 consumer and includes
 that version delta. It is not a fleet transfer estimate.
 
-Managed-file convergence is still pending. Final acceptance requires every
-applicable canonical blob and required-absent path to match the current manifest.
+Managed-file convergence passed all 3,134 applicable canonical file and
+required-absent checks across 41 active governed repositories. The receipt binds
+the manifest blob, its source commit and every audited repository commit.
