@@ -86,3 +86,5 @@ request was observed before opening search. Federated search loads remote indice
 These are local cold-load measurements, not a production performance score.
 
 Final link inventory: 133 content links, 64 unique destinations, all returned the expected public page. `all-content-links.json` records labels and locations; `link-status-results.json` records final URLs and HTTP redirects. Meta-refresh locale roots were resolved before assessing content.
+
+Pilot screenshots in `screenshots/` show the root at 375 and 1440 CSS pixels in light and dark themes. `screenshot-receipts.json` records SHA-256, browser versions, candidate source and baseline image. Screenshots contain only public portal content and were visually inspected.

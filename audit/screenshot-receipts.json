@@ -1,0 +1,41 @@
+{
+  "date_utc": "2026-10-08",
+  "landing_source": "a9a8d63",
+  "theme_source": "d72cd7ef",
+  "baseline_builder": "sha256:028e44347401ab5d4ae3ce782f5da11907e04b3f90ad22723e8fd04f56968d28",
+  "browsers": {
+    "chromium": "153.0.8010.12",
+    "firefox": "155.0",
+    "webkit": "26.6"
+  },
+  "screenshots": [
+    {
+      "file": "screenshots/root-light-375.png",
+      "sha256": "6e8fcedb0efc00823c2376a40b7444aa85416173a1fa3abfa1603204cc6aded6",
+      "stage": "pilot",
+      "theme": "light",
+      "width": 375
+    },
+    {
+      "file": "screenshots/root-light-1440.png",
+      "sha256": "687340238343e0417216727b8e88949e8ee1d6b5a78a7a2e25486cc1ea1f9cfc",
+      "stage": "pilot",
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "file": "screenshots/root-dark-375.png",
+      "sha256": "01ebcaccefc886dad83962fe2e9e6c5959ffe0dcf400c1136769522bc090f4dd",
+      "stage": "pilot",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "file": "screenshots/root-dark-1440.png",
+      "sha256": "fae24f448ab964c0479b1dbdea9f3f71313b391c5a4f653872b31208bfa63e8c",
+      "stage": "pilot",
+      "theme": "dark",
+      "width": 1440
+    }
+  ]
+}
