@@ -1,0 +1,292 @@
+{
+  "scope": "local candidate verification; published fleet acceptance pending",
+  "tests": {
+    "themeUnit": 94,
+    "bootstrapFailure": 12,
+    "browserMatrix": 21
+  },
+  "sharedAssetBytes": 751473,
+  "buildReceipts": [
+    {
+      "contract": "v1",
+      "mode": "publish",
+      "repository": "f5-sales-demo/f5-sales-demo.github.io",
+      "pages": 40,
+      "localAssetBytes": 408235,
+      "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+    },
+    {
+      "contract": "v1",
+      "mode": "consume",
+      "repository": "f5-sales-demo/api-specs",
+      "pages": 118,
+      "localAssetBytes": 408372,
+      "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+    },
+    {
+      "contract": "v1",
+      "mode": "consume",
+      "repository": "f5-sales-demo/canada",
+      "pages": 15,
+      "localAssetBytes": 411409,
+      "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+    },
+    {
+      "contract": "v1",
+      "mode": "consume",
+      "repository": "f5-sales-demo/statistics",
+      "pages": 15,
+      "localAssetBytes": 435633,
+      "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+    },
+    {
+      "contract": "v1",
+      "mode": "consume",
+      "repository": "f5-sales-demo/webapp-api-protection",
+      "pages": 40,
+      "localAssetBytes": 435027,
+      "activeManifest": "https://f5-sales-demo.github.io/shared/v1/current.json"
+    }
+  ],
+  "browserTraversals": [
+    {
+      "browser": "chromium",
+      "repository": "f5-sales-demo.github.io",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "F5 Distributed Cloud sales demos",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "repository": "canada",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "Canada Topology",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "repository": "statistics",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "Statistics",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "repository": "webapp-api-protection",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "Web Application & API Protection (WAAP)",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "repository": "api-specs",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "F5 XC API Specs",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "repository": "f5-sales-demo.github.io",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "F5 Distributed Cloud sales demos",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "repository": "canada",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "Canada Topology",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "repository": "statistics",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "Statistics",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "repository": "webapp-api-protection",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "Web Application & API Protection (WAAP)",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "repository": "api-specs",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "F5 XC API Specs",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "repository": "f5-sales-demo.github.io",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "F5 Distributed Cloud sales demos",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "repository": "canada",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "Canada Topology",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "repository": "statistics",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "Statistics",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "repository": "webapp-api-protection",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "Web Application & API Protection (WAAP)",
+      "localSidebar": true,
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "repository": "api-specs",
+      "overflow": false,
+      "focused": "smm-mobile-button",
+      "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+      "h1": "F5 XC API Specs",
+      "localSidebar": true,
+      "errors": []
+    }
+  ],
+  "provider": {
+    "routes": 17015,
+    "pages": 17017,
+    "propertyDestinations": 36075,
+    "localAssetBytes": 417622,
+    "browserTraversals": [
+      {
+        "browser": "chromium",
+        "repository": "provider",
+        "overflow": false,
+        "focused": "smm-mobile-button",
+        "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+        "h1": "xcsh provider documentation",
+        "localSidebar": true,
+        "errors": []
+      },
+      {
+        "browser": "firefox",
+        "repository": "provider",
+        "overflow": false,
+        "focused": "smm-mobile-button",
+        "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+        "h1": "xcsh provider documentation",
+        "localSidebar": true,
+        "errors": []
+      },
+      {
+        "browser": "webkit",
+        "repository": "provider",
+        "overflow": false,
+        "focused": "smm-mobile-button",
+        "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+        "h1": "xcsh provider documentation",
+        "localSidebar": true,
+        "errors": []
+      }
+    ],
+    "finalHeaderBrowsers": [
+      {
+        "browser": "chromium",
+        "repository": "provider-header",
+        "overflow": false,
+        "focused": "",
+        "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+        "h1": "Provider navigation acceptance",
+        "localSidebar": true,
+        "errors": []
+      },
+      {
+        "browser": "firefox",
+        "repository": "provider-header",
+        "overflow": false,
+        "focused": "",
+        "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+        "h1": "Provider navigation acceptance",
+        "localSidebar": true,
+        "errors": []
+      },
+      {
+        "browser": "webkit",
+        "repository": "provider-header",
+        "overflow": false,
+        "focused": "",
+        "release": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+        "h1": "Provider navigation acceptance",
+        "localSidebar": true,
+        "errors": []
+      }
+    ]
+  },
+  "rootPublication": {
+    "commit": "e6cb8a795d73d0e1e893e15bc5875ed0efec48da",
+    "run": "https://github.com/f5-sales-demo/f5-sales-demo.github.io/actions/runs/37764759467",
+    "pointer": {
+      "contract": "v1",
+      "release": {
+        "url": "https://f5-sales-demo.github.io/shared/v1/releases/6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade.json",
+        "sha256": "6f48319b8aa31adfca044ce332d9828154f4b78ad0db059a820f748c0c7a8ade",
+        "bytes": 5766
+      }
+    },
+    "assetsVerified": 19
+  },
+  "accessibility": {
+    "scope": "closed header in five built pilots across three browsers",
+    "violations": 0,
+    "traversals": 15,
+    "tags": ["wcag2a", "wcag2aa", "wcag21aa"]
+  }
+}
