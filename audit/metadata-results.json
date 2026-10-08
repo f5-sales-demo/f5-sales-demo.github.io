@@ -1,0 +1,47 @@
+[
+  {
+    "route": "en",
+    "title": "F5 Distributed Cloud sales demos",
+    "canonical": "https://f5-sales-demo.github.io/en/",
+    "metadata": {
+      "og:title": "F5 Distributed Cloud sales demos",
+      "og:type": "article",
+      "og:url": "https://f5-sales-demo.github.io/en/",
+      "og:locale": "en",
+      "og:description": "Demonstration guides, environment resources, and technical tools for F5 Distributed Cloud sales engineers and solution architects.",
+      "og:site_name": "F5 Distributed Cloud sales demos",
+      "twitter:card": "summary_large_image",
+      "description": "Demonstration guides, environment resources, and technical tools for F5 Distributed Cloud sales engineers and solution architects."
+    }
+  },
+  {
+    "route": "en/demos",
+    "title": "Demo catalog | F5 Distributed Cloud sales demos",
+    "canonical": "https://f5-sales-demo.github.io/en/demos/",
+    "metadata": {
+      "og:title": "Demo catalog",
+      "og:type": "article",
+      "og:url": "https://f5-sales-demo.github.io/en/demos/",
+      "og:locale": "en",
+      "og:description": "Security, networking, and performance demonstration guides for F5 Distributed Cloud.",
+      "og:site_name": "F5 Distributed Cloud sales demos",
+      "twitter:card": "summary_large_image",
+      "description": "Security, networking, and performance demonstration guides for F5 Distributed Cloud."
+    }
+  },
+  {
+    "route": "en/ecosystem",
+    "title": "Ecosystem directory | F5 Distributed Cloud sales demos",
+    "canonical": "https://f5-sales-demo.github.io/en/ecosystem/",
+    "metadata": {
+      "og:title": "Ecosystem directory",
+      "og:type": "article",
+      "og:url": "https://f5-sales-demo.github.io/en/ecosystem/",
+      "og:locale": "en",
+      "og:description": "Public demonstration projects, environment resources, operations guides, developer tools, and documentation sources.",
+      "og:site_name": "F5 Distributed Cloud sales demos",
+      "twitter:card": "summary_large_image",
+      "description": "Public demonstration projects, environment resources, operations guides, developer tools, and documentation sources."
+    }
+  }
+]

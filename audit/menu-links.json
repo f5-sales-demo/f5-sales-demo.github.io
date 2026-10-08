@@ -1,18 +1,82 @@
 [
   {
-    "label": "Origin serverCompare the Azure full-origin stack with the separate AWS Juice Shop deployment.",
-    "url": "https://f5-sales-demo.github.io/origin-server/en/"
+    "label": "Web App & API Protection\nDeploy an application security demo with Terraform and follow its protection walkthroughs.",
+    "url": "https://f5-sales-demo.github.io/webapp-api-protection/en/"
   },
   {
-    "label": "Traffic generatorChoose Azure or AWS deployment guides for controlled security traffic and browser scenarios.",
-    "url": "https://f5-sales-demo.github.io/traffic-generator/en/"
+    "label": "API Protection\nFind guides to API discovery, schema validation, and request controls.",
+    "url": "https://f5-sales-demo.github.io/api-protection/en/"
   },
   {
-    "label": "CDN simulatorDeploy an Azure proxy that adds CDN headers to origin requests.",
-    "url": "https://f5-sales-demo.github.io/cdn-simulator/en/"
+    "label": "Bot Defense Advanced\nReview behavioral bot detection and mitigation scenarios.",
+    "url": "https://f5-sales-demo.github.io/bot-advanced/en/"
   },
   {
-    "label": "Demo resource catalogAzure and AWS offerings vary by component",
-    "url": "https://f5-sales-demo.github.io/demo-resources/en/"
+    "label": "Bot Defense Standard\nReview bot classification, verified crawlers, and blocking policies.",
+    "url": "https://f5-sales-demo.github.io/bot-standard/en/"
+  },
+  {
+    "label": "Client-Side Defense\nDeploy browser script monitoring with an API or Terraform workflow.",
+    "url": "https://f5-sales-demo.github.io/csd/en/"
+  },
+  {
+    "label": "DDoS Mitigation\nReview distributed denial-of-service defenses and demo scenarios.",
+    "url": "https://f5-sales-demo.github.io/ddos/en/"
+  },
+  {
+    "label": "Web App Scanning\nFind web application vulnerability scanning guides.",
+    "url": "https://f5-sales-demo.github.io/was/en/"
+  },
+  {
+    "label": "Custom responses\nConfigure application replies, redirects, and security response pages.",
+    "url": "https://f5-sales-demo.github.io/custom-responses/en/"
+  },
+  {
+    "label": "Multi-Cloud Networking\nFind site deployment and cross-cloud connectivity guides.",
+    "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/"
+  },
+  {
+    "label": "Canada topology\nDeploy Canadian application hosting and demonstrate regional access controls.",
+    "url": "https://f5-sales-demo.github.io/canada/en/"
+  },
+  {
+    "label": "Content Delivery Network\nReview content delivery network (CDN) caching and origin configuration.",
+    "url": "https://f5-sales-demo.github.io/cdn/en/"
+  },
+  {
+    "label": "DNS Management\nFind Domain Name System (DNS) zone and load balancing guides.",
+    "url": "https://f5-sales-demo.github.io/dns/en/"
+  },
+  {
+    "label": "NGINX One\nReview NGINX instance visibility and configuration management.",
+    "url": "https://f5-sales-demo.github.io/nginx/en/"
+  },
+  {
+    "label": "Demo catalog\nAll demonstration and capability guides",
+    "url": "https://f5-sales-demo.github.io/en/demos/"
+  },
+  {
+    "label": "Statistics\nQuery access logs, application metrics, and security telemetry through the API.",
+    "url": "https://f5-sales-demo.github.io/statistics/en/"
+  },
+  {
+    "label": "Observability\nFind monitoring, metrics, tracing, and alerting guides.",
+    "url": "https://f5-sales-demo.github.io/observability/en/"
+  },
+  {
+    "label": "Administration\nFind tenant, namespace, and role management guides.",
+    "url": "https://f5-sales-demo.github.io/administration/en/"
+  },
+  {
+    "label": "F5 documentation corpus\nBrowse curated F5 documentation and its Markdown sources.",
+    "url": "https://f5-sales-demo.github.io/html-to-markdown/"
+  },
+  {
+    "label": "Ecosystem directory\nDocumentation, tools, and public project sources",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/"
+  },
+  {
+    "label": "Project sources\nPublic repositories in the community organization",
+    "url": "https://github.com/f5-sales-demo"
   }
 ]

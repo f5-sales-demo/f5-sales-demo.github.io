@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/",
+    "opening": "Demo resource catalog\nChoose the infrastructure and workloads for your F5 Distributed Cloud demonstration.\n\nOrigin Server and Traffic Generator offer separate Azure and Amazon Web Services (AWS) deployments. Their workloads, runtimes, and verification differ. CDN Simulator uses Azure. Compare the offerings before choosing a deployment guide.\n\nComponents\nSection titled \u201cComponents\u201d\nOrigin server\nCompare the Azure full-origin stack with the separate AWS Juice Shop deployment.\nTraffic generator\nChoose Azure or AWS guides for controlled traffic and browser scenarios.\nCDN simulator\nDeploy an Azure proxy that adds content delivery network (CDN) headers to origin requests.\n\nEnvironment overview explains component selection and deployment order.\n\nNext\nCDN Simulator"
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/origin-server/",
+    "opening": "Home\nDemo resource catalog\nOrigin server\nEdit\nOrigin server\n\nOrigin Server offers an Azure full-origin stack and a separate Amazon Web Services (AWS) Juice Shop deployment. Choose the workload your demonstration requires.\n\nDeployment choices\nSection titled \u201cDeployment choices\u201d\nOffering\tWorkload\tRuntime\nAzure full-origin\tMultiple vulnerable applications and mock APIs\tContainers with nginx routing on an Ubuntu virtual machine\nAWS Juice Shop\tJuice Shop\tPrivate Fargate tasks behind an Application Load Balancer\n\nThe AWS offering does not reproduce the Azure application stack. Review ingress, access, and integration requirements in the Origin Server deployment comparison.\n\nUse the selected application behind F5 Distributed Cloud to demonstrate web application firewall (WAF), API Protection, Bot Defense, or Client-Side Defense scenarios. The scenario and policy determine the evidence you need t"
+  },
+  {
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/traffic-generator/",
+    "opening": "Home\nDemo resource catalog\nTraffic generator\nEdit\nTraffic generator\n\nTraffic Generator produces controlled security traffic and browser scenarios against an authorized F5 Distributed Cloud demonstration endpoint. Choose the Azure deployment or the independent Amazon Web Services (AWS) worker deployment.\n\nDeployment choices\nSection titled \u201cDeployment choices\u201d\n\nThe Azure offering installs its toolset on a virtual machine through cloud-init. The AWS offering uses a worker with explicit network access controls, pinned runtime inputs, and browser evidence capture. Their cloud configuration, runtime, and detection evidence differ.\n\nSuites include web application firewall (WAF) payloads, bot simulation, API abuse, and Client-Side Defense browser scenarios. A completed scenario proves execution; verify the relevant F5 Distributed Cloud event before claiming detection or mitigation.\n\nTraffic Gene"
+  }
+]

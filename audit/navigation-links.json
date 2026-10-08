@@ -1,0 +1,268 @@
+[
+  {
+    "label": "Web App & API Protection",
+    "url": "https://f5-sales-demo.github.io/webapp-api-protection/en/",
+    "purpose": "Deploy an application security demo with Terraform and follow its protection walkthroughs.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "API Protection",
+    "url": "https://f5-sales-demo.github.io/api-protection/en/",
+    "purpose": "Find guides to API discovery, schema validation, and request controls.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Bot Defense Advanced",
+    "url": "https://f5-sales-demo.github.io/bot-advanced/en/",
+    "purpose": "Review behavioral bot detection and mitigation scenarios.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Bot Defense Standard",
+    "url": "https://f5-sales-demo.github.io/bot-standard/en/",
+    "purpose": "Review bot classification, verified crawlers, and blocking policies.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Client-Side Defense",
+    "url": "https://f5-sales-demo.github.io/csd/en/",
+    "purpose": "Deploy browser script monitoring with an API or Terraform workflow.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "DDoS Mitigation",
+    "url": "https://f5-sales-demo.github.io/ddos/en/",
+    "purpose": "Review distributed denial-of-service defenses and demo scenarios.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Web App Scanning",
+    "url": "https://f5-sales-demo.github.io/was/en/",
+    "purpose": "Find web application vulnerability scanning guides.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Custom responses",
+    "url": "https://f5-sales-demo.github.io/custom-responses/en/",
+    "purpose": "Configure application replies, redirects, and security response pages.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Multi-Cloud Networking",
+    "url": "https://f5-sales-demo.github.io/multi-cloud-networking/en/",
+    "purpose": "Find site deployment and cross-cloud connectivity guides.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Canada topology",
+    "url": "https://f5-sales-demo.github.io/canada/en/",
+    "purpose": "Deploy Canadian application hosting and demonstrate regional access controls.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Content Delivery Network",
+    "url": "https://f5-sales-demo.github.io/cdn/en/",
+    "purpose": "Review content delivery network (CDN) caching and origin configuration.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "DNS Management",
+    "url": "https://f5-sales-demo.github.io/dns/en/",
+    "purpose": "Find Domain Name System (DNS) zone and load balancing guides.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "NGINX One",
+    "url": "https://f5-sales-demo.github.io/nginx/en/",
+    "purpose": "Review NGINX instance visibility and configuration management.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Demo catalog",
+    "url": "https://f5-sales-demo.github.io/en/demos/",
+    "purpose": "Review NGINX instance visibility and configuration management.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Origin server",
+    "url": "https://f5-sales-demo.github.io/origin-server/en/",
+    "purpose": "Compare the Azure full-origin stack with the separate AWS Juice Shop deployment.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Traffic generator",
+    "url": "https://f5-sales-demo.github.io/traffic-generator/en/",
+    "purpose": "Compare the Azure full-origin stack with the separate AWS Juice Shop deployment.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "CDN simulator",
+    "url": "https://f5-sales-demo.github.io/cdn-simulator/en/",
+    "purpose": "Deploy an Azure proxy that adds CDN headers to origin requests.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Demo resource catalog",
+    "url": "https://f5-sales-demo.github.io/demo-resources/en/",
+    "purpose": "Deploy an Azure proxy that adds CDN headers to origin requests.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Statistics",
+    "url": "https://f5-sales-demo.github.io/statistics/en/",
+    "purpose": "Query access logs, application metrics, and security telemetry through the API.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Observability",
+    "url": "https://f5-sales-demo.github.io/observability/en/",
+    "purpose": "Find monitoring, metrics, tracing, and alerting guides.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Administration",
+    "url": "https://f5-sales-demo.github.io/administration/en/",
+    "purpose": "Find tenant, namespace, and role management guides.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "xcsh",
+    "url": "https://f5-sales-demo.github.io/xcsh/en/",
+    "purpose": "Find tenant, namespace, and role management guides.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Terraform provider",
+    "url": "https://f5-sales-demo.github.io/terraform-provider-xcsh/",
+    "purpose": "Configure F5 Distributed Cloud resources with Terraform.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "xcsh GitHub Action",
+    "url": "https://f5-sales-demo.github.io/xcsh-action/en/",
+    "purpose": "Run pinned xcsh manifest operations in GitHub Actions.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "VS Code extension",
+    "url": "https://f5-sales-demo.github.io/vscode-xcsh/en/",
+    "purpose": "Author manifests and manage F5 Distributed Cloud resources in Visual Studio Code.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "xcsh Chrome extension",
+    "url": "https://f5-sales-demo.github.io/xcsh-chrome-extension/en/",
+    "purpose": "Connect xcsh to the F5 Distributed Cloud console through a local browser bridge.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "APT repository",
+    "url": "https://f5-sales-demo.github.io/apt-repo/en/",
+    "purpose": "Install signed Debian and Ubuntu packages for xcsh and supporting tools.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "API specifications",
+    "url": "https://f5-sales-demo.github.io/api-specs/en/",
+    "purpose": "Find validated OpenAPI specifications and the specification update pipeline.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Enriched API specifications",
+    "url": "https://f5-sales-demo.github.io/api-specs-enriched/en/",
+    "purpose": "Browse OpenAPI schemas with additional constraints and examples.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "xcsh marketplace",
+    "url": "https://f5-sales-demo.github.io/marketplace/en/",
+    "purpose": "Find xcsh plugins for documentation, sales, cloud, security, and desktop work.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Marketplace for Claude Code",
+    "url": "https://f5-sales-demo.github.io/marketplace-claude-code/en/",
+    "purpose": "Find Language Server Protocol integrations and developer tools for Claude Code.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Console catalog",
+    "url": "https://f5-sales-demo.github.io/console/en/",
+    "purpose": "Browse documented console routes and browser automation workflows.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "F5 documentation corpus",
+    "url": "https://f5-sales-demo.github.io/html-to-markdown/",
+    "purpose": "Browse curated F5 documentation and its Markdown sources.",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Ecosystem directory",
+    "url": "https://f5-sales-demo.github.io/en/ecosystem/",
+    "purpose": "Documentation, tools, and public project sources",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "Project sources",
+    "url": "https://github.com/f5-sales-demo",
+    "purpose": "Documentation, tools, and public project sources",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "F5 Distributed Cloud console",
+    "url": "https://console.ves.volterra.io",
+    "purpose": "Management service; sign-in required",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "F5 Distributed Cloud documentation",
+    "url": "https://docs.cloud.f5.com",
+    "purpose": "Official public product documentation",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  },
+  {
+    "label": "MyF5 support",
+    "url": "https://my.f5.com/manage/s/",
+    "purpose": "Support portal; sign-in required for account services",
+    "owner": "docs-theme",
+    "status": "rendered destination verified"
+  }
+]
