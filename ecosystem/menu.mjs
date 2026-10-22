@@ -180,6 +180,12 @@ export const items = [
           title: 'Tools and automation',
           items: [
             {
+              label: 'Prompt Charity',
+              description: 'Choose categorized prompts for reviewable plans in your preferred AI harness.',
+              href: 'https://f5-sales-demo.github.io/prompt-charity/en/',
+              icon: icon('carbon:idea'),
+            },
+            {
               label: 'xcsh',
               description:
                 'Install the independent terminal assistant for engineering and F5 Distributed Cloud workflows.',

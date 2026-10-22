@@ -238,5 +238,11 @@
     "url": "https://f5-sales-demo.github.io/custom-responses/llms.txt",
     "description": "Configure application replies, redirects, and security response pages.",
     "category": "product-features"
+  },
+  {
+    "label": "Prompt Charity",
+    "url": "https://f5-sales-demo.github.io/prompt-charity/llms.txt",
+    "description": "Categorized, harness-agnostic prompts for reviewable plans before implementation.",
+    "category": "developer-tools"
   }
 ]
