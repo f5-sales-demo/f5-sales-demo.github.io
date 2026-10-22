@@ -160,6 +160,14 @@
     "url": "https://f5-sales-demo.github.io/administration/en/"
   },
   {
+    "repo": "certificate-management",
+    "label": "Certificate Management",
+    "description": "Manage TLS certificates, client mTLS, and encrypted application keys with xcsh and Terraform.",
+    "group": "Operations",
+    "kind": "Documentation",
+    "url": "https://f5-sales-demo.github.io/certificate-management/en/"
+  },
+  {
     "repo": "xcsh",
     "label": "xcsh",
     "description": "Install the independent terminal assistant for engineering and F5 Distributed Cloud workflows.",
@@ -334,14 +342,6 @@
     "group": "Project sources",
     "kind": "Template repository",
     "url": "https://github.com/f5-sales-demo/demo-resource-template"
-  },
-  {
-    "repo": "certificate-management",
-    "label": "Certificate management",
-    "description": "Planned documentation; the current published page is a placeholder.",
-    "group": "Project sources",
-    "kind": "Planned documentation",
-    "url": "https://github.com/f5-sales-demo/certificate-management"
   },
   {
     "repo": "self-hosted-runner",

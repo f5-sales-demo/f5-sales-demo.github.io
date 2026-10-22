@@ -4,6 +4,7 @@ export const searchSources = [
   { repo: 'docs-theme', label: 'Shared documentation theme' },
   { repo: 'f5-sales-demo.github.io', label: 'Sales demo portal' },
   { repo: 'administration', label: 'Administration' },
+  { repo: 'certificate-management', label: 'Certificate Management' },
   { repo: 'nginx', label: 'NGINX One' },
   { repo: 'observability', label: 'Observability' },
   { repo: 'statistics', label: 'Statistics' },
