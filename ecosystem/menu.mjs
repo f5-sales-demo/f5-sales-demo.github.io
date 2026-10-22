@@ -165,6 +165,13 @@ export const items = [
               href: 'https://f5-sales-demo.github.io/administration/en/',
               icon: icon('f5xc:administration'),
             },
+            {
+              label: 'Certificate Management',
+              description:
+                'Manage TLS certificates, client mTLS, and encrypted application keys with xcsh and Terraform.',
+              href: 'https://f5-sales-demo.github.io/certificate-management/en/',
+              icon: icon('f5xc:doc'),
+            },
           ],
         },
       ],
