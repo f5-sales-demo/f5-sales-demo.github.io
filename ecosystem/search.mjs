@@ -1,4 +1,5 @@
 export const searchSources = [
+  { repo: 'prompt-charity', label: 'Prompt Charity' },
   { repo: 'docs-builder', label: 'Documentation builder' },
   { repo: 'docs-theme', label: 'Shared documentation theme' },
   { repo: 'f5-sales-demo.github.io', label: 'Sales demo portal' },
