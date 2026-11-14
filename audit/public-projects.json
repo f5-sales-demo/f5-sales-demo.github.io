@@ -32,12 +32,12 @@
     "url": "https://f5-sales-demo.github.io/bot-standard/en/"
   },
   {
-    "repo": "csd",
+    "repo": "client-side-defense",
     "label": "Client-Side Defense",
     "description": "Deploy browser script monitoring with an API or Terraform workflow.",
     "group": "Security",
     "kind": "Demo guide",
-    "url": "https://f5-sales-demo.github.io/csd/en/"
+    "url": "https://f5-sales-demo.github.io/client-side-defense/en/"
   },
   {
     "repo": "ddos",
