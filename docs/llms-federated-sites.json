@@ -145,7 +145,7 @@
   },
   {
     "label": "Client-Side Defense",
-    "url": "https://f5-sales-demo.github.io/csd/llms.txt",
+    "url": "https://f5-sales-demo.github.io/client-side-defense/llms.txt",
     "description": "Deploy browser script monitoring with an API or Terraform workflow.",
     "category": "product-features"
   },

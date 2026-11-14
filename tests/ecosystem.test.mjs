@@ -11,6 +11,7 @@ it('preserves audience taxonomy and canonical project destinations', () => {
   );
   assert.equal(new Set(links.map((item) => item.href)).size, links.length);
   for (const repo of [
+    'client-side-defense',
     'canada',
     'statistics',
     'multi-cloud-networking',
@@ -32,4 +33,11 @@ it('preserves audience taxonomy and canonical project destinations', () => {
   assert.equal(canada.label, 'Canada topology');
   assert.equal(canada.icon.asset, 'canada-flag.svg');
   assert.ok(links.find((item) => item.href.includes('/html-to-markdown/')));
+});
+
+it('uses the renamed repository in navigation and federated search', () => {
+  const old = 'c' + 'sd';
+  assert.ok(!links.some((item) => item.href.includes(`/${old}/`)));
+  assert.ok(!federatedSearchSites.some((item) => item.repo === old));
+  assert.ok(federatedSearchSites.some((item) => item.repo === 'client-side-defense'));
 });
