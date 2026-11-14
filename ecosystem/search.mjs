@@ -20,7 +20,7 @@ export const searchSources = [
   { repo: 'api-protection', label: 'API Protection' },
   { repo: 'xcsh', label: 'xcsh' },
   { repo: 'xcsh-action', label: 'xcsh GitHub Action' },
-  { repo: 'csd', label: 'Client-Side Defense' },
+  { repo: 'client-side-defense', label: 'Client-Side Defense' },
   { repo: 'docs-icons', label: 'Icon packages' },
   { repo: 'marketplace', label: 'xcsh marketplace' },
   { repo: 'api-specs', label: 'API specifications' },

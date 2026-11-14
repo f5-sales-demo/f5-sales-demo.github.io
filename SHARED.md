@@ -11,6 +11,14 @@ node scripts/generate-shared.mjs /path/to/docs-theme
 node --test tests/ecosystem.test.mjs
 ```
 
+For menu or repository URL changes, retain the exact deployed CSS, runtime, fonts and branding:
+
+```sh
+node scripts/generate-shared.mjs /path/to/docs-theme --data-only
+```
+
+This mode verifies the current manifest identity before reusing its immutable assets.
+
 The generator resolves menu icons, bundles the existing React/Radix renderer, rewrites font URLs, and
 validates configuration, hashes and every retained manifest reference. It writes identical bytes only once.
 Commit `shared/` with the configuration change. Never delete or overwrite content-addressed assets or retained

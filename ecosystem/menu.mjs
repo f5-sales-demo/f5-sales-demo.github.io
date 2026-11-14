@@ -36,7 +36,7 @@ export const items = [
             {
               label: 'Client-Side Defense',
               description: 'Deploy browser script monitoring with an API or Terraform workflow.',
-              href: 'https://f5-sales-demo.github.io/csd/en/',
+              href: 'https://f5-sales-demo.github.io/client-side-defense/en/',
               icon: icon('f5xc:client-side-defense'),
             },
             {

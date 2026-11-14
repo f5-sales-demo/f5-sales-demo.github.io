@@ -4,6 +4,7 @@ import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { items } from '../ecosystem/menu.mjs';
 import { searchSources } from '../ecosystem/search.mjs';
+import { readCurrentAssets } from './retained-shared-assets.mjs';
 
 const theme = resolve(process.argv[2] || '../docs-theme');
 const output = resolve('shared');
@@ -46,60 +47,65 @@ async function icons(value) {
 await icons(menu);
 const routing = JSON.parse(await readFile('ecosystem/locales.json'));
 const data = validateData({ menu, searchSources, routing });
-const assets = {};
-let fonts = await readFile(join(theme, 'fonts/font-face.css'), 'utf8');
-for (const match of [...fonts.matchAll(/url\("\.\/(.*?)"\)/g)]) {
-  const receipt = await asset(await readFile(join(theme, 'fonts', match[1])), 'woff2');
-  assets[`font:${match[1]}`] = receipt;
-  fonts = fonts.replace(match[0], `url("${receipt.url}")`);
-}
-for (const file of [
-  'f5-distributed-cloud.svg',
-  'f5-logo.svg',
-  'canada-flag.svg',
-  'canada-favicon.svg',
-  'github-avatar.png',
-  'flag-icons-LICENSE.txt',
-]) {
-  assets[file === 'f5-distributed-cloud.svg' ? 'logo' : file === 'f5-logo.svg' ? 'favicon' : file] = await asset(
-    await readFile(join(theme, 'assets', file)),
-    file.split('.').at(-1),
+const dataOnly = process.argv.includes('--data-only');
+const assets = dataOnly ? await readCurrentAssets(output, validatePointer, validateManifest) : {};
+if (!dataOnly) {
+  let fonts = await readFile(join(theme, 'fonts/font-face.css'), 'utf8');
+  for (const match of [...fonts.matchAll(/url\("\.\/(.*?)"\)/g)]) {
+    const receipt = await asset(await readFile(join(theme, 'fonts', match[1])), 'woff2');
+    assets[`font:${match[1]}`] = receipt;
+    fonts = fonts.replace(match[0], `url("${receipt.url}")`);
+  }
+  for (const file of [
+    'f5-distributed-cloud.svg',
+    'f5-logo.svg',
+    'canada-flag.svg',
+    'canada-favicon.svg',
+    'github-avatar.png',
+    'flag-icons-LICENSE.txt',
+  ]) {
+    assets[file === 'f5-distributed-cloud.svg' ? 'logo' : file === 'f5-logo.svg' ? 'favicon' : file] = await asset(
+      await readFile(join(theme, 'assets', file)),
+      file.split('.').at(-1),
+    );
+  }
+  const menuCss = await readFile(
+    join(theme, 'node_modules/@f5-sales-demo/starlight-mega-menu/components/mega-menu.css'),
   );
-}
-const menuCss = await readFile(join(theme, 'node_modules/@f5-sales-demo/starlight-mega-menu/components/mega-menu.css'));
-assets.css = await asset(
-  Buffer.concat([
-    Buffer.from(fonts),
-    menuCss,
-    await readFile(join(theme, 'styles/custom.css')),
-    await readFile(join(theme, 'styles/shell.css')),
-    await readFile('ecosystem/shell.css'),
-  ]),
-  'css',
-);
-const { build } = await fromTheme('node_modules/esbuild/lib/main.js');
-const result = await build({
-  entryPoints: [join(theme, 'src/shared/runtime.tsx')],
-  bundle: true,
-  write: false,
-  format: 'esm',
-  platform: 'browser',
-  target: 'es2022',
-  minify: true,
-  jsx: 'automatic',
-  define: { 'process.env.NODE_ENV': '"production"' },
-  plugins: [
-    {
-      name: 'root-locale-routing',
-      setup(builder) {
-        builder.onResolve({ filter: /localize-ecosystem-href(?:\.ts)?$/ }, (args) =>
-          args.importer.includes('starlight-mega-menu') ? { path: join(theme, 'src/shared/localize.mjs') } : null,
-        );
+  assets.css = await asset(
+    Buffer.concat([
+      Buffer.from(fonts),
+      menuCss,
+      await readFile(join(theme, 'styles/custom.css')),
+      await readFile(join(theme, 'styles/shell.css')),
+      await readFile('ecosystem/shell.css'),
+    ]),
+    'css',
+  );
+  const { build } = await fromTheme('node_modules/esbuild/lib/main.js');
+  const result = await build({
+    entryPoints: [join(theme, 'src/shared/runtime.tsx')],
+    bundle: true,
+    write: false,
+    format: 'esm',
+    platform: 'browser',
+    target: 'es2022',
+    minify: true,
+    jsx: 'automatic',
+    define: { 'process.env.NODE_ENV': '"production"' },
+    plugins: [
+      {
+        name: 'root-locale-routing',
+        setup(builder) {
+          builder.onResolve({ filter: /localize-ecosystem-href(?:\.ts)?$/ }, (args) =>
+            args.importer.includes('starlight-mega-menu') ? { path: join(theme, 'src/shared/localize.mjs') } : null,
+          );
+        },
       },
-    },
-  ],
-});
-assets.runtime = await asset(result.outputFiles[0].contents, 'js');
+    ],
+  });
+  assets.runtime = await asset(result.outputFiles[0].contents, 'js');
+}
 assets.data = await asset(json(data), 'json');
 const manifest = validateManifest({ contract: 'v1', assets });
 const bytes = json(manifest);
